@@ -163,10 +163,10 @@ Page {
                 }
 
                 menu: ContextMenu {
-                    MenuItem { text: "Quiet"; property real value: 0.2 }
-                    MenuItem { text: "Modest"; property real value: 0.4 }
-                    MenuItem { text: "Medium"; property real value: 0.8 }
-                    MenuItem { text: "Strong"; property real value: 1.0 }
+                    MenuItem { text: qsTr("Quiet"); property real value: 0.2 }
+                    MenuItem { text: qsTr("Modest"); property real value: 0.4 }
+                    MenuItem { text: qsTr("Medium"); property real value: 0.8 }
+                    MenuItem { text: qsTr("Strong"); property real value: 1.0 }
                 }
             }
 
