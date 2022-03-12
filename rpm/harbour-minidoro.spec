@@ -13,8 +13,8 @@ Summary:    Minimalist Pomodoro® Technique timer
 Version:    1.0.0
 Release:    1
 Group:      Qt/Qt
-License:    LICENSE
-URL:        http://example.org/
+License:    GPL-3.0-or-later
+URL:        https://github.com/ichthyosaurus/harbour-minidoro
 Source0:    %{name}-%{version}.tar.bz2
 Source100:  harbour-minidoro.yaml
 Requires:   sailfishsilica-qt5 >= 0.10.9
@@ -25,7 +25,8 @@ BuildRequires:  pkgconfig(Qt5Quick)
 BuildRequires:  desktop-file-utils
 
 %description
-Short description of my Sailfish OS Application
+Minidoro is a very minimalist Pomodoro® Technique timer, helping with
+efficient time management to get things done.
 
 
 %prep
@@ -38,7 +39,9 @@ Short description of my Sailfish OS Application
 # >> build pre
 # << build pre
 
-%qmake5 
+%qmake5  \
+    VERSION=%{version} \
+    RELEASE=%{release}
 
 make %{?_smp_mflags}
 
