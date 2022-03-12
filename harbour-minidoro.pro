@@ -1,3 +1,7 @@
+# This file is part of harbour-minidoro.
+# SPDX-FileCopyrightText: 2022 Mirian Margiani
+# SPDX-License-Identifier: GPL-3.0-or-later
+
 # NOTICE:
 #
 # Application name defined in TARGET has a corresponding QML filename.
@@ -13,6 +17,11 @@
 TARGET = harbour-minidoro
 
 CONFIG += sailfishapp
+
+# Note: version number is configured in yaml
+DEFINES += APP_VERSION=\\\"$$VERSION\\\"
+DEFINES += APP_RELEASE=\\\"$$RELEASE\\\"
+include(libs/opal-cached-defines.pri)
 
 SOURCES += src/harbour-minidoro.cpp
 

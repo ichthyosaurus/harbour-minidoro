@@ -1,3 +1,7 @@
+# This file is part of harbour-minidoro.
+# SPDX-FileCopyrightText: 2022 Mirian Margiani
+# SPDX-License-Identifier: GPL-3.0-or-later
+
 Name: harbour-minidoro
 Summary: Minimalist Pomodoro® Technique timer
 Version: 1.0.0
@@ -14,6 +18,10 @@ Sources:
 Description: |
   Short description of my Sailfish OS Application
 Builder: qmake5
+
+QMakeOptions:
+    - VERSION=%{version}
+    - RELEASE=%{release}
 
 # This section specifies build dependencies that are resolved using pkgconfig.
 # This is the preferred way of specifying build dependencies for your package.

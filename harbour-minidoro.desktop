@@ -1,12 +1,23 @@
+# This file is part of harbour-minidoro.
+# SPDX-FileCopyrightText: 2022 Mirian Margiani
+# SPDX-License-Identifier: GPL-3.0-or-later
+
 [Desktop Entry]
 Type=Application
 X-Nemo-Application-Type=silica-qt5
 Icon=harbour-minidoro
 Exec=harbour-minidoro
 Name=harbour-minidoro
-# translation example:
-# your app name in German locale (de)
-#
-# Remember to comment out the following line, if you do not want to use
-# a different app name in German locale (de).
-Name[de]=harbour-minidoro
+
+# TRANSLATORS
+# Please add a new line for your locale below, and translate the name. This is
+# the name shown in the launcher menu. The name has to be short enough not to be
+# abbreviated by the system. As a rule-of-thumb, around 15 Latin characters
+# should be the limit. If your language uses a different script than Latin,
+# please test it before submitting your translation.
+Name[en]=Minidoro
+Name[de]=Minidoro
+
+[X-HarbourBackup]
+BackupPathList=.local/share/harbour-minidoro/
+BackupConfigList=/apps/harbour-minidoro/
