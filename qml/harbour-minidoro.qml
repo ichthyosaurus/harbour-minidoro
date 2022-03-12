@@ -15,7 +15,6 @@ ApplicationWindow {
     id: appWindow
 
     // TODO: implement notifications
-    // TODO: cover page
     // TODO: finish about page, update description, update acknowledgments
     // FIXME: don't run rumbleDemo() immediately when entering the settings page
 
