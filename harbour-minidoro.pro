@@ -23,12 +23,19 @@ DEFINES += APP_VERSION=\\\"$$VERSION\\\"
 DEFINES += APP_RELEASE=\\\"$$RELEASE\\\"
 include(libs/opal-cached-defines.pri)
 
+QML_IMPORT_PATH += qml/modules
+
 SOURCES += src/harbour-minidoro.cpp
 
 DISTFILES += qml/harbour-minidoro.qml \
     qml/cover/CoverPage.qml \
     qml/pages/FirstPage.qml \
-    qml/pages/SecondPage.qml \
+    qml/pages/SettingsPage.qml \
+    qml/pages/AboutPage.qml \
+    qml/images/*.png \
+    qml/modules/Opal/About/*.qml \
+    qml/modules/Opal/About/private/*.qml \
+    qml/modules/Opal/About/private/*.js \
     rpm/harbour-minidoro.changes.in \
     rpm/harbour-minidoro.changes.run.in \
     rpm/harbour-minidoro.spec \
