@@ -29,7 +29,7 @@ SOURCES += src/harbour-minidoro.cpp
 
 DISTFILES += qml/harbour-minidoro.qml \
     qml/cover/CoverPage.qml \
-    qml/pages/FirstPage.qml \
+    qml/pages/MainPage.qml \
     qml/pages/SettingsPage.qml \
     qml/pages/AboutPage.qml \
     qml/images/*.png \

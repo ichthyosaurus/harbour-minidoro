@@ -17,7 +17,6 @@ ApplicationWindow {
     // TODO: implement notifications
     // TODO: cover page
     // TODO: finish about page, update description, update acknowledgments
-    // TODO: rename FirstPage.qml to MainPage.qml
     // FIXME: don't run rumbleDemo() immediately when entering the settings page
 
     function notifyStart() {
@@ -166,7 +165,7 @@ ApplicationWindow {
     property QtObject wallClock
     readonly property string appName: qsTr("Minidoro")
 
-    initialPage: Component { FirstPage { } }
+    initialPage: Component { MainPage { } }
     cover: Qt.resolvedUrl("cover/CoverPage.qml")
     allowedOrientations: Orientation.All
 
