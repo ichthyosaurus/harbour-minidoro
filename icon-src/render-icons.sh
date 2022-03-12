@@ -24,11 +24,11 @@ cRESOLUTIONS=(86 108 128 172)
 cTARGETS=(../icons/RESXxRESY)
 render_batch
 
-# cNAME="status icons"
-# cITEMS=({icon-todo,icon-ignored,icon-done}@112
-#         {icon-todo,icon-ignored,icon-done}@24++-small
-#         harbour-todolist@256
-# )
-# cRESOLUTIONS=(F1)
-# cTARGETS=(../qml/images)
-# render_batch
+cNAME="status icons"
+cITEMS=({icon-tomato,icon-circle,icon-star}@112
+        {icon-tomato,icon-circle,icon-star}@24++-small
+        harbour-minidoro@256
+)
+cRESOLUTIONS=(F1)
+cTARGETS=(../qml/images)
+render_batch

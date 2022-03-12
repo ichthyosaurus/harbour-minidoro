@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg8" width="128" height="128" version="1.1" viewBox="0 0 33.867 33.867" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata id="metadata5">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Mirian Margiani</dc:title>
+     </cc:Agent>
+    </dc:creator>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+    <dc:date>2022</dc:date>
+    <dc:rights>
+     <cc:Agent>
+      <dc:title>CC-BY-SA 4.0</dc:title>
+     </cc:Agent>
+    </dc:rights>
+    <dc:description>Based on a clipart by Improulx from https://www.openclipart.org/detail/29175/timer-minuterie (public domain).</dc:description>
+   </cc:Work>
+   <cc:License rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+   </cc:License>
+  </rdf:RDF>
+ </metadata>
+ <g id="layer1" transform="translate(0 -263.13)">
+  <path id="path1222" d="m20.184 263.14c-1.1038 0.2456-1.26 1.5531-1.7239 2.4013-0.4336 0.99375-0.85805 2.0221-1.3414 2.9386-0.84614-0.66507-0.89779-1.8596-1.4839-2.6902-0.71338-0.47857-1.3349 0.41206-1.7619 0.8818-0.38607 0.51807-0.60566 1.1533-0.65429 1.7955-1.5491-1.1682-2.612-2.9206-4.0141-4.2973-0.93239-0.63809-2.2627 0.59569-1.6715 1.5685 0.61462 1.943 1.1941 3.975 2.4971 5.5881-4.206 2.0956-7.1789 6.5314-7.3035 11.257-0.15868 3.837 1.5724 7.5803 4.281 10.245 3.37 3.3407 8.4116 4.7208 13.054 3.9674 2.8423-0.30983 5.2411-2.134 7.1563-4.1423 1.9752-2.1435 3.547-4.7953 3.8219-7.7484 0.23463-2.2725 0.10021-4.608-0.48514-6.8188-0.99139-3.2407-3.8313-5.5046-6.7966-6.8908-0.344-0.21561 0.56554-0.65988 0.67586-0.97576 0.98517-1.1054 1.867-2.2969 2.752-3.4825-0.65691-0.28423-0.94283-1.3752-1.791-1.1051-1.3217 0.75876-2.4035 1.8754-3.6978 2.681 0.24377-1.5685 0.01018-3.2082-0.47257-4.7-0.21811-0.33983-0.64161-0.53286-1.0408-0.47258zm-3.9111 7.5262c0.56832 0.29356 1.3599 0.53548 1.8995 0.27767 0.3276 0.52787 1.0247 0.48189 1.5648 0.4358-1.2495 0.94033-2.9087 1.315-4.4139 0.81687-0.77944-0.21275-1.5139-0.5794-2.1654-1.0559 0.90687 0.39198 1.9298 0.7704 2.9175 0.64864 0.49035-0.17119 0.4029-0.80886 0.14598-1.1525zm5.4429 2.1514c2.5512 1.0015 5.1972 2.6752 6.3817 5.2882 0.85319 2.1714 0.81616 4.5801 0.61998 6.8684-0.49272 3.3406-2.8025 6.1046-5.4213 8.0836-1.3571 1.0344-3.0412 1.5275-4.734 1.5773-1.6226 0.17337-3.4151-0.0457-5.0275-0.55065-2.4459-0.71297-4.6132-2.2477-6.1225-4.2947-1.8697-2.3339-2.7699-5.5516-2.2494-8.4363 0.50453-3.4702 2.8702-6.5233 6.0133-8.032 0.3922-0.2767 0.77374-0.33784 1.1249 0.0374 2.4263 1.5584 5.8082 1.9197 8.2612 0.21888 0.39604-0.23146 0.77342-0.53076 1.1536-0.75996z"/>
+ </g>
+</svg>
