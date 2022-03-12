@@ -28,7 +28,8 @@
    </cc:License>
   </rdf:RDF>
  </metadata>
- <g id="layer1" transform="translate(0 -263.13)">
-  <circle id="path845" cx="16.933" cy="280.07" r="15.346" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.175"/>
+ <g id="layer1" transform="translate(0 -263.13)" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.175">
+  <circle id="path845" cx="16.933" cy="280.07" r="14.949" fill="none"/>
+  <circle id="path846" cx="16.933" cy="280.07" r="2.5065"/>
  </g>
 </svg>
