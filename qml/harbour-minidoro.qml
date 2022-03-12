@@ -18,6 +18,7 @@ ApplicationWindow {
     // TODO: cover page
     // TODO: finish about page, update description, update acknowledgments
     // TODO: rename FirstPage.qml to MainPage.qml
+    // FIXME: don't run rumbleDemo() immediately when entering the settings page
 
     function notifyStart() {
         if (_feedbackEffect && _rumbleCount > 1) _feedbackEffect.play()
