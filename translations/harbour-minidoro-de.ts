@@ -9,7 +9,7 @@
     </message>
     <message>
         <source>How it works</source>
-        <translation type="unfinished"></translation>
+        <translation>Wie es geht</translation>
     </message>
     <message>
         <source>The Pomodoro® Technique is an extremely simple but efficient time management technique developed by Francesco Cirillo. The basic idea is it&apos;s simpler to concentrate on work for a relatively short period, keeping in mind you can take a rest or switch to another activity afterwards.&lt;br&gt;&lt;li&gt;· Split your work for 25 minute intervals, separated by short break periods.&lt;/li&gt;&lt;li&gt;· In these 25 minute intervals try to focus on your work as much as possible, try to not distract yourself and to avoid other distractions.&lt;/li&gt;&lt;li&gt;· After a 25 minute interval take a 5 minute break. During this break do any other activities except for the previous work.&lt;/li&gt;&lt;li&gt;· Return to the work after the break.&lt;/li&gt;&lt;li&gt;· Take a long break of about 10–30 minutes after every 4 work intervals.&lt;/li&gt;&lt;br&gt;</source>
@@ -17,11 +17,11 @@
     </message>
     <message>
         <source>Website</source>
-        <translation type="unfinished"></translation>
+        <translation>Webseite</translation>
     </message>
     <message>
         <source>Acknowledgments</source>
-        <translation type="unfinished"></translation>
+        <translation>Danksagungen</translation>
     </message>
     <message>
         <source>This app is modelled after Minidoro for Android by Yury Pavlov.</source>
@@ -32,19 +32,19 @@
     <name>FirstPage</name>
     <message>
         <source>About</source>
-        <translation type="unfinished"></translation>
+        <translation>Über</translation>
     </message>
     <message>
         <source>Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Einstellungen</translation>
     </message>
     <message>
         <source>Reset</source>
-        <translation type="unfinished"></translation>
+        <translation>Zurücksetzen</translation>
     </message>
     <message>
         <source>Start</source>
-        <translation type="unfinished"></translation>
+        <translation>Starten</translation>
     </message>
 </context>
 <context>
@@ -118,37 +118,37 @@
     </message>
     <message>
         <source>About</source>
-        <translation type="unfinished"></translation>
+        <translation>Über</translation>
     </message>
     <message>
         <source>Version %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Version %1</translation>
     </message>
     <message>
         <source>Version %1 (%2)</source>
-        <translation type="unfinished"></translation>
+        <translation>Version %1 (%2)</translation>
     </message>
     <message>
         <source>show contributors</source>
-        <translation type="unfinished"></translation>
+        <translation>Mitwirkende zeigen</translation>
     </message>
     <message>
         <source>Translations</source>
-        <translation type="unfinished">Übersetzungen</translation>
+        <translation>Übersetzungen</translation>
     </message>
     <message>
         <source>Donations</source>
-        <translation type="unfinished"></translation>
+        <translation>Spenden</translation>
     </message>
     <message>
         <source>License</source>
-        <translation type="unfinished"></translation>
+        <translation>Lizenz</translation>
     </message>
     <message numerus="yes">
         <source>show license(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>Lizenz zeigen</numerusform>
+            <numerusform>Lizenzen zeigen</numerusform>
         </translation>
     </message>
 </context>
@@ -171,39 +171,39 @@
     <name>SettingsPage</name>
     <message>
         <source>Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Einstellungen</translation>
     </message>
     <message>
         <source>Intervals</source>
-        <translation type="unfinished"></translation>
+        <translation>Intervalle</translation>
     </message>
     <message>
         <source>%1 min</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 min</translation>
     </message>
     <message>
         <source>Work duration</source>
-        <translation type="unfinished"></translation>
+        <translation>Länge einer Arbeitseinheit</translation>
     </message>
     <message>
         <source>Break duration</source>
-        <translation type="unfinished"></translation>
+        <translation>Länge einer Pause</translation>
     </message>
     <message>
         <source>Long break duration</source>
-        <translation type="unfinished"></translation>
+        <translation>Länge einer langen Pause</translation>
     </message>
     <message>
         <source>Long break after ✦ intervals</source>
-        <translation type="unfinished"></translation>
+        <translation>Lange Pause nach ✦ Arbeitseinheiten</translation>
     </message>
     <message>
         <source>Notifications</source>
-        <translation type="unfinished"></translation>
+        <translation>Meldungen</translation>
     </message>
     <message>
         <source>Enable notifications</source>
-        <translation type="unfinished"></translation>
+        <translation>Benachrichtigungen aktivieren</translation>
     </message>
     <message>
         <source>Show notifications when the current interval is finished and you may start the next interval.</source>
@@ -211,7 +211,7 @@
     </message>
     <message>
         <source>Enable sounds</source>
-        <translation type="unfinished"></translation>
+        <translation>Klänge aktivieren</translation>
     </message>
     <message>
         <source>Play an alarm sound when the current interval is finished.</source>
@@ -219,7 +219,7 @@
     </message>
     <message>
         <source>Enable vibrations</source>
-        <translation type="unfinished"></translation>
+        <translation>Vibrationen aktivieren</translation>
     </message>
     <message>
         <source>Vibrate the device when an interval starts or the current interval is finished.</source>
@@ -227,7 +227,7 @@
     </message>
     <message>
         <source>Vibrations intensity</source>
-        <translation type="unfinished"></translation>
+        <translation>Stärke der Vibrationen</translation>
     </message>
     <message>
         <source>It is advised to choose a low setting in quiet areas. The medium setting is intended for busy environments and concentrated work.</source>
@@ -235,11 +235,11 @@
     </message>
     <message>
         <source>General</source>
-        <translation type="unfinished"></translation>
+        <translation>Allgemein</translation>
     </message>
     <message>
         <source>Keep the display on</source>
-        <translation type="unfinished"></translation>
+        <translation>Bildschirm nicht ausschalten</translation>
     </message>
     <message>
         <source>Make sure the display does not turn off while you are working.</source>
@@ -250,19 +250,19 @@
     <name>harbour-minidoro</name>
     <message>
         <source>Minidoro</source>
-        <translation type="unfinished"></translation>
+        <translation>Minidoro</translation>
     </message>
     <message>
         <source>Work</source>
-        <translation type="unfinished"></translation>
+        <translation>Arbeit</translation>
     </message>
     <message>
         <source>Break</source>
-        <translation type="unfinished"></translation>
+        <translation>Pause</translation>
     </message>
     <message>
         <source>Long Break</source>
-        <translation type="unfinished"></translation>
+        <translation>Lange Pause</translation>
     </message>
 </context>
 </TS>
