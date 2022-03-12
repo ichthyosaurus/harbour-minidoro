@@ -2,25 +2,49 @@
 <!DOCTYPE TS>
 <TS version="2.1" language="de_CH">
 <context>
-    <name>CoverPage</name>
+    <name>AboutPage</name>
     <message>
-        <source>My Cover</source>
-        <translation>Mein Cover</translation>
+        <source>Minidoro is a minimalist Pomodoro® Technique timer helping to get things done.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>How it works</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The Pomodoro® Technique is an extremely simple but efficient time management technique developed by Francesco Cirillo. The basic idea is it&apos;s simpler to concentrate on work for a relatively short period, keeping in mind you can take a rest or switch to another activity afterwards.&lt;br&gt;&lt;li&gt;· Split your work for 25 minute intervals, separated by short break periods.&lt;/li&gt;&lt;li&gt;· In these 25 minute intervals try to focus on your work as much as possible, try to not distract yourself and to avoid other distractions.&lt;/li&gt;&lt;li&gt;· After a 25 minute interval take a 5 minute break. During this break do any other activities except for the previous work.&lt;/li&gt;&lt;li&gt;· Return to the work after the break.&lt;/li&gt;&lt;li&gt;· Take a long break of about 10–30 minutes after every 4 work intervals.&lt;/li&gt;&lt;br&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Website</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Acknowledgments</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This app is modelled after Minidoro for Android by Yury Pavlov.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>FirstPage</name>
     <message>
-        <source>Show Page 2</source>
-        <translation>Zur Seite 2</translation>
+        <source>About</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>UI Template</source>
-        <translation>UI-Vorlage</translation>
+        <source>Settings</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Hello Sailors</source>
-        <translation>Hallo Matrosen</translation>
+        <source>Reset</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Start</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -94,37 +118,37 @@
     </message>
     <message>
         <source>About</source>
-        <translation>Über</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Version %1</source>
-        <translation>Version %1</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Version %1 (%2)</source>
-        <translation>Version %1 (%2)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>show contributors</source>
-        <translation>Mitwirkende zeigen</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Translations</source>
-        <translation>Übersetzungen</translation>
+        <translation type="unfinished">Übersetzungen</translation>
     </message>
     <message>
         <source>Donations</source>
-        <translation>Spenden</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>License</source>
-        <translation>Lizenz</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
         <source>show license(s)</source>
-        <translation>
-            <numerusform>Lizenz zeigen</numerusform>
-            <numerusform>Lizenzen zeigen</numerusform>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+            <numerusform></numerusform>
         </translation>
     </message>
 </context>
@@ -142,157 +166,103 @@
         <source>Your contributions to translations or code would be most welcome.</source>
         <translation>Ihre Mitarbeit bei Übersetzungen oder der Programmierung wäre eine große Hilfe.</translation>
     </message>
+</context>
+<context>
+    <name>SettingsPage</name>
     <message>
-        <source>Author</source>
-        <translation type="vanished">Autor</translation>
-    </message>
-    <message numerus="yes">
-        <source>Author(s)</source>
-        <translation type="vanished">
-            <numerusform>Autor·in</numerusform>
-            <numerusform>Autor·innen</numerusform>
-        </translation>
+        <source>Settings</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Maintainer</source>
-        <translation type="vanished">Maintainer·in</translation>
-    </message>
-    <message numerus="yes">
-        <source>Maintainer(s)</source>
-        <translation type="vanished">
-            <numerusform>Maintainer·in</numerusform>
-            <numerusform>Maintainer·innen</numerusform>
-        </translation>
+        <source>Intervals</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Development</source>
-        <translation type="vanished">Entwicklung</translation>
+        <source>%1 min</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Programming</source>
-        <translation type="vanished">Programmierung</translation>
+        <source>Work duration</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Translations</source>
-        <translation type="vanished">Übersetzungen</translation>
+        <source>Break duration</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Icon Design</source>
-        <translation type="vanished">Icon-Design</translation>
+        <source>Long break duration</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Third-party libraries</source>
-        <translation type="vanished">Externe Bibliotheken</translation>
+        <source>Long break after ✦ intervals</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Data</source>
-        <translation type="vanished">Daten</translation>
+        <source>Notifications</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Data License</source>
-        <translation type="vanished">Daten-Lizenz</translation>
-    </message>
-    <message numerus="yes">
-        <source>Data License(s)</source>
-        <translation type="vanished">
-            <numerusform>Daten-Lizenz</numerusform>
-            <numerusform>Daten-Lizenzen</numerusform>
-        </translation>
+        <source>Enable notifications</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Terms of Use</source>
-        <translation type="vanished">Nutzungsbedingungen</translation>
+        <source>Show notifications when the current interval is finished and you may start the next interval.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Swedish</source>
-        <translation type="vanished">Schwedisch</translation>
+        <source>Enable sounds</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Polish</source>
-        <translation type="vanished">Polnisch</translation>
+        <source>Play an alarm sound when the current interval is finished.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>German</source>
-        <translation type="vanished">Deutsch</translation>
+        <source>Enable vibrations</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>French</source>
-        <translation type="vanished">Französisch</translation>
+        <source>Vibrate the device when an interval starts or the current interval is finished.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Chinese</source>
-        <translation type="vanished">Chinesisch</translation>
+        <source>Vibrations intensity</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>English</source>
-        <translation type="vanished">Englisch</translation>
+        <source>It is advised to choose a low setting in quiet areas. The medium setting is intended for busy environments and concentrated work.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Italian</source>
-        <translation type="vanished">Italienisch</translation>
+        <source>General</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Finnish</source>
-        <translation type="vanished">Finnisch</translation>
+        <source>Keep the display on</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Norwegian</source>
-        <translation type="vanished">Norwegisch</translation>
-    </message>
-    <message>
-        <source>Latvian</source>
-        <translation type="vanished">Lettisch</translation>
-    </message>
-    <message>
-        <source>Estonian</source>
-        <translation type="vanished">Estnisch</translation>
-    </message>
-    <message>
-        <source>Czech</source>
-        <translation type="vanished">Tschechisch</translation>
-    </message>
-    <message>
-        <source>Greek</source>
-        <translation type="vanished">Griechisch</translation>
-    </message>
-    <message>
-        <source>Spanish</source>
-        <translation type="vanished">Spanisch</translation>
-    </message>
-    <message>
-        <source>Hungarian</source>
-        <translation type="vanished">Ungarisch</translation>
-    </message>
-    <message>
-        <source>Indonesian</source>
-        <translation type="vanished">Indonesisch</translation>
-    </message>
-    <message>
-        <source>Russian</source>
-        <translation type="vanished">Russisch</translation>
-    </message>
-    <message>
-        <source>Dutch</source>
-        <translation type="vanished">Niederländisch</translation>
-    </message>
-    <message>
-        <source>Slovak</source>
-        <translation type="vanished">Slowakisch</translation>
-    </message>
-    <message>
-        <source>Turkish</source>
-        <translation type="vanished">Türkisch</translation>
+        <source>Make sure the display does not turn off while you are working.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
-    <name>SecondPage</name>
+    <name>harbour-minidoro</name>
     <message>
-        <source>Nested Page</source>
-        <translation>Unterseite</translation>
+        <source>Minidoro</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Item</source>
-        <translation>Element</translation>
+        <source>Work</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Break</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Long Break</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>
