@@ -60,6 +60,7 @@ Page {
                     height: header.height
 
                     Label {
+                        visible: appWindow.haveWallClock
                         anchors {
                             right: parent.right
                             verticalCenter: intervalRow.verticalCenter
