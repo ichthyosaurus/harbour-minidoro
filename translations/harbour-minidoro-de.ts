@@ -29,7 +29,7 @@
     </message>
 </context>
 <context>
-    <name>FirstPage</name>
+    <name>MainPage</name>
     <message>
         <source>About</source>
         <translation>Über</translation>
@@ -194,10 +194,6 @@
         <translation>Länge einer langen Pause</translation>
     </message>
     <message>
-        <source>Long break after ✦ intervals</source>
-        <translation>Lange Pause nach ✦ Arbeitseinheiten</translation>
-    </message>
-    <message>
         <source>Notifications</source>
         <translation>Meldungen</translation>
     </message>
@@ -243,6 +239,30 @@
     </message>
     <message>
         <source>Make sure the display does not turn off while you are working.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Quiet</source>
+        <translation>Still</translation>
+    </message>
+    <message>
+        <source>Modest</source>
+        <translation>Leise</translation>
+    </message>
+    <message>
+        <source>Medium</source>
+        <translation>Mittel</translation>
+    </message>
+    <message>
+        <source>Strong</source>
+        <translation>Stark</translation>
+    </message>
+    <message>
+        <source>Long break after %1 intervals</source>
+        <translation>Lange Pause nach %1 Arbeitseinheiten</translation>
+    </message>
+    <message>
+        <source>Note: the haptic feedback module could not be initialized. This should not happen and most probably is a bug. Please report this problem to the author.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
