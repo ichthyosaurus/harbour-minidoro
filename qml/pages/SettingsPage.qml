@@ -104,7 +104,7 @@ Page {
                 maximumValue: 10.0
                 stepSize: 1.0
                 valueText: "%1 🍅".arg(value)
-                label: qsTr("Long break after ✦ intervals")
+                label: qsTr("Long break after %1 intervals").arg(value)
                 value: appWindow.config.longBreakAfter
 
                 onSliderValueChanged: {
