@@ -159,7 +159,13 @@ Page {
                                   "The medium setting is intended for busy environments " +
                                   "and concentrated work.")
 
+                property bool isInitial: true
                 onCurrentItemChanged: {
+                    if (isInitial) {
+                        isInitial = false
+                        return
+                    }
+
                     appWindow.rumbleDemo(currentItem.value)
                     appWindow.config.hapticIntensity = currentItem.value
                 }
