@@ -134,6 +134,8 @@ Page {
             }
 
             TextSwitch {
+                id: switchEnableHaptic
+                enabled: appWindow.haveFeedbackEffect && appWindow.haveRumbleEffect
                 text: qsTr("Enable vibrations")
                 description: qsTr("Vibrate the device when an interval starts or the current " +
                                   "interval is finished.")
@@ -142,7 +144,7 @@ Page {
             }
 
             ComboBox {
-                enabled: appWindow.config.enableHapticFeedback
+                enabled: appWindow.config.enableHapticFeedback && switchEnableHaptic.enabled
                 width: parent.width
                 label: qsTr("Vibrations intensity")
                 currentIndex: {
@@ -168,6 +170,18 @@ Page {
                     MenuItem { text: qsTr("Medium"); property real value: 0.8 }
                     MenuItem { text: qsTr("Strong"); property real value: 1.0 }
                 }
+            }
+
+            Label {
+                visible: !appWindow.haveFeedbackEffect || !appWindow.haveRumbleEffect
+                x: Theme.horizontalPageMargin
+                width: page.width - 2*x
+                wrapMode: Text.Wrap
+                font.pixelSize: Theme.fontSizeExtraSmall
+                text: qsTr("Note: the haptic feedback module could not be initialized. " +
+                           "This should not happen and most probably is a bug. " +
+                           "Please report this problem to the author.")
+                color: Theme.secondaryColor
             }
 
             SectionHeader {
