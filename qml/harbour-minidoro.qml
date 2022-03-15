@@ -16,7 +16,7 @@ ApplicationWindow {
 
     // TODO: implement notifications
     // TODO: finish about page, update description, update acknowledgments
-    // FIXME: don't run rumbleDemo() immediately when entering the settings page
+    // TODO: remorse time on reset
 
     function notifyStart() {
         if (haveFeedbackEffect && _rumbleCount > 1) _feedbackEffect.play()
