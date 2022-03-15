@@ -19,7 +19,7 @@ ApplicationWindow {
     // FIXME: don't run rumbleDemo() immediately when entering the settings page
 
     function notifyStart() {
-        if (_feedbackEffect && _rumbleCount > 1) _feedbackEffect.play()
+        if (haveFeedbackEffect && _rumbleCount > 1) _feedbackEffect.play()
     }
 
     function rumbleDemo(intensity) {
@@ -27,9 +27,9 @@ ApplicationWindow {
         if (intensity > 1) count = 4
         else count = Math.round(intensity * 10 / 2.5)
 
-        if (count > 1 && _feedbackEffect) _feedbackEffect.play()
+        if (count > 1 && haveFeedbackEffect) _feedbackEffect.play()
 
-        if (_rumbleEffect) {
+        if (haveRumbleEffect) {
             _multiTimer.laps = count
             _multiTimer.callback = function() { _rumbleEffect.start() }
             _multiTimer.start()
@@ -125,7 +125,11 @@ ApplicationWindow {
     }
 
     property color breakTintColor: "#6000ff00"
+
     property bool isRunning: _supervisor.running
+    property bool haveWallClock: wallClock != null
+    property bool haveFeedbackEffect: _feedbackEffect != null
+    property bool haveRumbleEffect: _rumbleEffect != null
 
     readonly property int currentInterval: {
         var newInterval = 0
@@ -215,15 +219,24 @@ ApplicationWindow {
     }
 
     Component.onCompleted: {
-        // avoid hard dependency on Nemo.Time
+        // Extensions that are not crucial and are generally not allowed in
+        // Jolla's Harbour store are loaded dynamically. The app will handle
+        // it gracefully if loading fails.
+
+        // Avoid hard dependency on Nemo.Time and load it in a complicated
+        // way to make Jolla's validator script happy.
         wallClock = Qt.createQmlObject("
             import QtQuick 2.0
-            import Nemo.Time 1.0
+            import %1 1.0
             WallClock {
                 enabled: Qt.application.active
                 updateFrequency: WallClock.Minute
-            }", appWindow, 'WallClock')
+            }".arg("Nemo.Time"), appWindow, 'WallClock')
 
+        // As of 2022-03-13, QtFeedback is not declared stable but may be
+        // allowed in Harbour. Still, loading it dynamically may be safer because
+        // then breaking the API does not break the whole app.
+        // Cf. https://docs.sailfishos.org/Develop/Apps/Harbour/Allowed_APIs/#qtfeedback-hasnt-been-declared-stable-but-we-allow-a-restricted-part
         if (config.enableHapticFeedback) {
             _feedbackEffect = Qt.createQmlObject("
                 import QtQuick 2.0
