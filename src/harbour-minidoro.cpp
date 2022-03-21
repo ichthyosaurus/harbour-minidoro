@@ -14,6 +14,9 @@
 int main(int argc, char *argv[])
 {
     QScopedPointer<QGuiApplication> app(SailfishApp::application(argc, argv));
+    app->setOrganizationName("harbour-minidoro"); // needed for Sailjail
+    app->setApplicationName("harbour-minidoro");
+
     QScopedPointer<QQuickView> view(SailfishApp::createView());
 
     view->engine()->addImportPath(SailfishApp::pathTo("qml/modules").toString());

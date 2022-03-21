@@ -18,5 +18,10 @@ Name=harbour-minidoro
 Name[en]=Minidoro
 Name[de]=Minidoro
 
+[X-Sailjail]
+Permissions=
+OrganizationName=harbour-minidoro
+ApplicationName=harbour-minidoro
+
 [X-HarbourBackup]
 BackupConfigList=/apps/harbour-minidoro/
