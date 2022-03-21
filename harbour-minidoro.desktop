@@ -19,5 +19,4 @@ Name[en]=Minidoro
 Name[de]=Minidoro
 
 [X-HarbourBackup]
-BackupPathList=.local/share/harbour-minidoro/
 BackupConfigList=/apps/harbour-minidoro/
