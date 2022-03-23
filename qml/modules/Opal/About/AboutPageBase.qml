@@ -1,6 +1,6 @@
 //@ This file is part of opal-about.
 //@ https://github.com/Pretty-SFOS/opal-about
-//@ SPDX-FileCopyrightText: 2020-2021 Mirian Margiani
+//@ SPDX-FileCopyrightText: 2020-2022 Mirian Margiani
 //@ SPDX-License-Identifier: GPL-3.0-or-later
 import QtQuick 2.0
 import Sailfish.Silica 1.0
@@ -20,6 +20,7 @@ property string sourcesUrl:""
 property string translationsUrl:""
 property string homepageUrl:""
 property list<License>licenses
+property bool allowDownloadingLicenses:false
 property list<Attribution>attributions
 readonly property DonationsGroup donations:DonationsGroup{}
 property list<InfoSection>extraSections
@@ -30,6 +31,12 @@ property alias _iconItem:_icon
 property alias _develInfoSection:_develInfo
 property alias _licenseInfoSection:_licenseInfo
 property alias _donationsInfoSection:_donationsInfo
+readonly property Attribution _effectiveSelfAttribution:Attribution{name:appName
+entries:__effectiveMainAttribs
+licenses:page.licenses
+homepage:homepageUrl
+sources:sourcesUrl
+}
 function openOrCopyUrl(externalUrl,title){pageStack.push("private/ExternalUrlPage.qml",{"externalUrl":externalUrl,"title":title})
 }allowedOrientations:Orientation.All
 SilicaFlickable{id:_flickable
@@ -95,7 +102,7 @@ title:qsTranslate("Opal.About","Development")
 enabled:contributionSections.length>0||attributions.length>0
 text:__effectiveMainAttribs.join(", ")
 showMoreLabel:qsTranslate("Opal.About","show contributors")
-onClicked:{pageStack.animatorPush("private/ContributorsPage.qml",{"appName":appName,"sections":contributionSections,"attributions":attributions,"mainAttributions":__effectiveMainAttribs})
+onClicked:{pageStack.animatorPush("private/ContributorsPage.qml",{"appName":appName,"sections":contributionSections,"attributions":attributions,"mainAttributions":__effectiveMainAttribs,"allowDownloadingLicenses":allowDownloadingLicenses})
 }buttons:[InfoButton{text:qsTranslate("Opal.About","Homepage")
 onClicked:openOrCopyUrl(homepageUrl)
 enabled:homepageUrl!==""
@@ -119,7 +126,7 @@ __donationButtons:donations.services
 width:parent.width
 title:qsTranslate("Opal.About","License")
 enabled:licenses.length>0
-onClicked:pageStack.animatorPush("private/LicensePage.qml",{"appName":appName,"licenses":licenses,"attributions":attributions,"mainSources":sourcesUrl,"mainHomepage":homepageUrl})
+onClicked:pageStack.animatorPush("private/LicensePage.qml",{"mainAttribution":_effectiveSelfAttribution,"attributions":attributions,"allowDownloadingLicenses":allowDownloadingLicenses,"enableSourceHint":true})
 text:enabled===false?"This component has been improperly configured. Please report this bug.":((licenses[0].name!==""&&licenses[0].error!==true)?licenses[0].name:licenses[0].spdxId)
 smallPrint:licenses[0].customShortText
 showMoreLabel:qsTranslate("Opal.About","show license(s)","",licenses.length+attributions.length)

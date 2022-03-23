@@ -17,7 +17,6 @@ A.AboutPageBase {
     appRelease: APP_RELEASE
     description: qsTr("Minidoro is a minimalist Pomodoro® Technique timer helping to get things done.")
 
-    // note: don't use qsTr() for names in real applications
     mainAttributions: ["2022 Mirian Margiani"]
     sourcesUrl: "https://github.com/ichthyosaurus/harbour-minidoro"
     // translationsUrl: "https://weblate.com/"
@@ -40,15 +39,7 @@ A.AboutPageBase {
             homepage: "https://openrepos.net/content/osanwe/saildoro"
             sources: "https://github.com/osanwe/saildoro"
         },
-        A.Attribution {
-            // Opal modules and other GPL software must be listed here.
-            // All Opal modules provide an Attribution section to be copy-pasted.
-            name: "Opal.About"
-            entries: "2018-2022 Mirian Margiani"
-            licenses: A.License { spdxId: "GPL-3.0-or-later" }
-            sources: "https://github.com/Pretty-SFOS/opal-about"
-            homepage: "https://github.com/Pretty-SFOS/opal"
-        }
+        A.OpalAboutAttribution { }
     ]
 
     // donations.text: donations.defaultTextCoffee
