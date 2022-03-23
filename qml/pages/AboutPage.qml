@@ -73,6 +73,15 @@ A.AboutPageBase {
             ]
         },
         A.InfoSection {
+            title: qsTr("Counters")
+            smallPrint: qsTr("There are two counters at the bottom of the main page. " +
+                "For example, you can use the left counter (star) to count external interruptions, i.e. someone interrupting you. " +
+                "Then use the right counter (circle) to count internal interruptions, i.e. how often you interrupt yourself. " +
+                "You can also use one counter to keep track of ideas you have while working that are not relevant for your current task. " +
+                "In the break, you can then take a note for each idea you counted."
+            )
+        },
+        A.InfoSection {
             title: qsTr("Acknowledgments")
             smallPrint: qsTr("This app is modelled after Minidoro for Android by Yury Pavlov.")
         }
