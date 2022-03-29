@@ -6,8 +6,8 @@
 Name:       harbour-minidoro
 
 # >> macros
-%define __provides_exclude_from ^%{_datadir}/.*$
 # << macros
+%define __provides_exclude_from ^%{_datadir}/.*$
 
 Summary:    Minimalist Pomodoro® Technique timer
 Version:    1.0.0
