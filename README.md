@@ -50,7 +50,7 @@ the right counter. See also
 ## Help and support
 
 You are welcome to leave a comment on
-[OpenRepos](https://openrepos.net/content/ichthyosaurus/minidoro-timer) or
+[OpenRepos](https://openrepos.net/content/ichthyosaurus/minidoro) or
 in the Jolla store.
 
 ## Translations
