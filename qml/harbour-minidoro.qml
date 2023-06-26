@@ -125,16 +125,16 @@ ApplicationWindow {
 
             if (timeStatus === timeStatusType.pause) {
                 peptalk = qsTr("An interval has ended, get ready for " +
-                               "a break of %n minute(s).").
-                    arg(Math.round(config.breakDuration / 60))
+                               "a break of %n minute(s).", "",
+                               Math.round(config.breakDuration / 60))
             } else if (timeStatus === timeStatusType.longPause) {
                 peptalk = qsTr("An interval has ended, get ready for " +
-                               "a long break of %n minute(s).").
-                    arg(Math.round(config.longBreakDuration / 60))
+                               "a long break of %n minute(s).", "",
+                               Math.round(config.longBreakDuration / 60))
             } else {
                 peptalk = qsTr("An interval has ended, brace for another " +
-                               "%n minute(s) of work.").
-                    arg(Math.round(config.workDuration / 60))
+                               "%n minute(s) of work.", "",
+                               Math.round(config.workDuration / 60))
             }
 
             showMessage(qsTr("%1!", "as in “Pause!” or “Work!”").arg(timeStatusText),
