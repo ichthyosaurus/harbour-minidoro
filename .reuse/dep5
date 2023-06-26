@@ -33,3 +33,8 @@ Files: icon-src/*
 Copyright: Mirian Margiani
 License: CC-BY-SA-4.0
 Comment: These files contain proper Dublin Core licensing metadata.
+
+Files: icon-src/icon-tomato-*.svg
+Copyright: Google, adapted by Mirian Margiani
+License: SIL-1.1
+Comment: These files contain proper Dublin Core licensing metadata.

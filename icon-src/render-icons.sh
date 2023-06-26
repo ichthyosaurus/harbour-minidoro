@@ -29,7 +29,7 @@ cTARGETS=(../icons/RESXxRESY)
 render_batch
 
 cNAME="status icons"
-cITEMS=({icon-tomato,icon-circle,icon-star}@112
+cITEMS=({icon-tomato-mono,icon-tomato-color,icon-circle,icon-star}@112
         {icon-tomato,icon-circle,icon-star}@24++-small
         harbour-minidoro@256
 )
