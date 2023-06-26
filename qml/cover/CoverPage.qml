@@ -46,7 +46,7 @@ CoverBackground {
 
         CoverAction {
             iconSource: "image://theme/icon-cover-play"
-            onTriggered: appWindow.start()
+            onTriggered: appWindow.start(true)
         }
     }
 }
