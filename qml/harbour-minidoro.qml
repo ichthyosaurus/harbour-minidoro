@@ -89,6 +89,22 @@ ApplicationWindow {
         return formatTime(appWindow.currentInterval - appWindow.timer.elapsed)
     }
 
+    function formatAbsoluteInterval() {
+        // format the current interval as absolute times,
+        // e.g. ["10:00", "10:15"]
+
+        var now = new Date()
+        var then = new Date()
+        var timeFormat = qsTr("h:mm", "time format, as in “10:15” without “o'clock”")
+
+        then.setSeconds(then.getSeconds() + (currentInterval / 1000))
+
+        now = now.toLocaleTimeString(Qt.locale(), timeFormat)
+        then = then.toLocaleTimeString(Qt.locale(), timeFormat)
+
+        return [now, then]
+    }
+
     function _updateStatus() {
         if (config.enableAudioFeedback) {
             alarm.play()
@@ -117,24 +133,22 @@ ApplicationWindow {
         }
 
         if (config.enableNotifications) {
-            var peptalk = ""
+            var interval = formatAbsoluteInterval()
 
-            if (timeStatus === timeStatusType.pause) {
-                peptalk = qsTr("An interval has ended, get ready for " +
-                               "a break of %n minute(s).", "",
-                               Math.round(config.breakDuration / 60))
-            } else if (timeStatus === timeStatusType.longPause) {
-                peptalk = qsTr("An interval has ended, get ready for " +
-                               "a long break of %n minute(s).", "",
-                               Math.round(config.longBreakDuration / 60))
+            if (timeStatus === timeStatusType.pause ||
+                    timeStatus === timeStatusType.longPause) {
+                var minutes = (timeStatus === timeStatusType.pause
+                               ? config.breakDuration : config.longBreakDuration) / 60
+                showMessage(qsTr("%n minute(s) break", "",
+                                 Math.round(minutes)),
+                            qsTr("Take a break until %1 o'clock.").
+                            arg(interval[1]))
             } else {
-                peptalk = qsTr("An interval has ended, brace for another " +
-                               "%n minute(s) of work.", "",
-                               Math.round(config.workDuration / 60))
+                showMessage(qsTr("%n minute(s) of work", "",
+                                 Math.round(config.workDuration / 60)),
+                            qsTr("Work until %1 o'clock.").
+                            arg(interval[1]))
             }
-
-            showMessage(qsTr("%1!", "as in “Pause!” or “Work!”").arg(timeStatusText),
-                        peptalk)
         }
     }
 
@@ -185,7 +199,7 @@ ApplicationWindow {
             newInterval = config.longBreakDuration
         }
 
-        return newInterval * 1000 // minutes -> milliseconds
+        return newInterval * 1000 // seconds -> milliseconds
     }
 
     property int timeStatus: timeStatusType.work
