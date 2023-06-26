@@ -30,7 +30,6 @@ render_batch
 
 cNAME="status icons"
 cITEMS=({icon-tomato-mono,icon-tomato-color,icon-circle,icon-star}@112
-        {icon-tomato,icon-circle,icon-star}@24++-small
         harbour-minidoro@256
 )
 cRESOLUTIONS=(F1)
