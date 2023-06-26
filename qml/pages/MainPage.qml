@@ -26,7 +26,11 @@ Page {
             }
             MenuItem {
                 text: qsTr("Reset")
-                onDelayedClick: appWindow.reset()
+                onDelayedClick: {
+                    var app = appWindow
+                    Remorse.popupAction(page, qsTr("Reset all progress"),
+                                        function(){ app.reset() })
+                }
             }
         }
 

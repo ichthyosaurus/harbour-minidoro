@@ -16,7 +16,6 @@ ApplicationWindow {
     id: appWindow
 
     // TODO: finish about page, update description, update acknowledgments
-    // TODO: remorse time on reset
 
     function notifyStart() {
         if (haveFeedbackEffect && _rumbleCount > 1) _feedbackEffect.play()
