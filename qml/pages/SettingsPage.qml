@@ -6,6 +6,7 @@
 
 import QtQuick 2.0
 import Sailfish.Silica 1.0
+import Opal.LinkHandler 1.0
 
 Page {
     id: page
@@ -179,6 +180,25 @@ Page {
                     MenuItem { text: qsTr("Medium"); property real value: 0.8 }
                     MenuItem { text: qsTr("Strong"); property real value: 1.0 }
                 }
+            }
+
+            Label {
+                enabled: appWindow.config.enableHapticFeedback && switchEnableHaptic.enabled
+                opacity: enabled ? 1.0 : Theme.opacityLow
+                x: Theme.horizontalPageMargin
+                width: page.width - 2*x
+                wrapMode: Text.Wrap
+                font.pixelSize: Theme.fontSizeExtraSmall
+                text: qsTr("Note: since SailfishOS 4.3, vibrations only work if " +
+                           "the “Touchscreen vibration” setting in the system " +
+                           "settings is enabled. This is a " +
+                           '<a href="%1">known bug</a> and should hopefully be fixed ' +
+                           "in the next version after SailfishOS 4.5.").
+                    arg('https://forum.sailfishos.org/t/4-3-vibration-in-applications-' +
+                        'including-hardware-tests-does-not-work/8920/7')
+                color: Theme.secondaryHighlightColor
+                linkColor: Theme.secondaryColor
+                onLinkActivated: LinkHandler.openOrCopyUrl(link, qsTr("Bug report"))
             }
 
             Label {
