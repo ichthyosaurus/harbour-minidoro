@@ -10,12 +10,11 @@ import Nemo.Configuration 1.0
 import Nemo.Notifications 1.0
 import Nemo.KeepAlive 1.2
 import QtMultimedia 5.0
+import Opal.About 1.0 as A
 import "pages"
 
 ApplicationWindow {
     id: appWindow
-
-    // TODO: finish about page, update description, update acknowledgments
 
     function notifyStart() {
         if (haveFeedbackEffect && _rumbleCount > 1) _feedbackEffect.play()
@@ -279,6 +278,10 @@ ApplicationWindow {
     Audio {
         id: alarm
         source: "/usr/share/sounds/jolla-ringtones/stereo/jolla-calendar-alarm.ogg"
+    }
+
+    A.ChangelogNews {
+        changelogList: Qt.resolvedUrl("Changelog.qml")
     }
 
     Component.onCompleted: {
