@@ -100,8 +100,12 @@ Page {
                             delegate: HighlightImage {
                                 height: parent.height
                                 fillMode: Image.PreserveAspectFit
-                                source: "../images/icon-tomato.png"
-                                color: palette.highlightColor
+                                source: appWindow.config.useColorIcons ?
+                                            "../images/icon-tomato-color.png" :
+                                            "../images/icon-tomato-mono.png"
+                                color: appWindow.config.useColorIcons ?
+                                           undefined :
+                                           palette.highlightColor
                             }
                         }
                     }

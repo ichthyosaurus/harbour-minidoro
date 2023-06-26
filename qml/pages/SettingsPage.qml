@@ -201,6 +201,15 @@ Page {
                 onCheckedChanged: appWindow.config.keepDisplayOn = checked
             }
 
+            TextSwitch {
+                text: qsTr("Use color icons")
+                description: qsTr("Disable this option if you prefer " +
+                                  "icons that fit more into the system " +
+                                  "ambience.")
+                checked: appWindow.config.useColorIcons
+                onCheckedChanged: appWindow.config.useColorIcons = checked
+            }
+
             Item {
                 width: parent.width
                 height: Theme.horizontalPageMargin

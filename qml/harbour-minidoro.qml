@@ -107,6 +107,7 @@ ApplicationWindow {
         property bool enableNotifications: true
         property real hapticIntensity: 0.8
         property bool keepDisplayOn: true
+        property bool useColorIcons: true
     }
 
     property int finishedIntervals: 0
