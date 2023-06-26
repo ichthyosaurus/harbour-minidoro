@@ -19,10 +19,6 @@ ApplicationWindow {
 
     function notifyStart() {
         if (haveFeedbackEffect && _rumbleCount > 1) _feedbackEffect.play()
-        if (config.enableNotifications) {
-            showMessage(qsTr("%1!", "as in “Pause!” or “Work!”").arg(timeStatusText),
-                        qsTr("A new interval has started."))
-        }
     }
 
     function showMessage(msg, details, timeout) {
