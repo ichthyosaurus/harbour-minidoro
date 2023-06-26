@@ -7,6 +7,7 @@
 import QtQuick 2.0
 import Sailfish.Silica 1.0
 import Nemo.Configuration 1.0
+import Nemo.Notifications 1.0
 import Nemo.KeepAlive 1.2
 import QtMultimedia 5.0
 import "pages"
@@ -14,12 +15,34 @@ import "pages"
 ApplicationWindow {
     id: appWindow
 
-    // TODO: implement notifications
     // TODO: finish about page, update description, update acknowledgments
     // TODO: remorse time on reset
 
     function notifyStart() {
         if (haveFeedbackEffect && _rumbleCount > 1) _feedbackEffect.play()
+        if (config.enableNotifications) {
+            showMessage(qsTr("%1!", "as in “Pause!” or “Work!”").arg(timeStatusText),
+                        qsTr("A new interval has started."))
+        }
+    }
+
+    function showMessage(msg, details, timeout) {
+        if (!!details) {
+            notification.expireTimeout = (!!timeout ? timeout : 0)
+            notification.summary = msg
+            notification.body = details
+            notification.previewSummary = msg
+            notification.previewBody = details
+        } else {
+            notification.expireTimeout = (!!timeout ? timeout : 0)
+            notification.summary = ''
+            notification.body = ''
+            notification.previewSummary = ''
+            notification.previewBody = msg
+        }
+
+        notification.replacesId = -1
+        notification.publish()
     }
 
     function rumbleDemo(intensity) {
@@ -36,7 +59,11 @@ ApplicationWindow {
         }
     }
 
-    function start() {
+    function start(notify) {
+        if (!!notify) {
+            notifyStart()
+        }
+
         _supervisor.restart()
     }
 
@@ -92,6 +119,27 @@ ApplicationWindow {
             } else {
                 timeStatus = timeStatusType.pause
             }
+        }
+
+        if (config.enableNotifications) {
+            var peptalk = ""
+
+            if (timeStatus === timeStatusType.pause) {
+                peptalk = qsTr("An interval has ended, get ready for " +
+                               "a break of %n minute(s).").
+                    arg(Math.round(config.breakDuration / 60))
+            } else if (timeStatus === timeStatusType.longPause) {
+                peptalk = qsTr("An interval has ended, get ready for " +
+                               "a long break of %n minute(s).").
+                    arg(Math.round(config.longBreakDuration / 60))
+            } else {
+                peptalk = qsTr("An interval has ended, brace for another " +
+                               "%n minute(s) of work.").
+                    arg(Math.round(config.workDuration / 60))
+            }
+
+            showMessage(qsTr("%1!", "as in “Pause!” or “Work!”").arg(timeStatusText),
+                        peptalk)
         }
     }
 
@@ -203,6 +251,11 @@ ApplicationWindow {
                 callback()
             }
         }
+    }
+
+    Notification {
+        id: notification
+        expireTimeout: 4000
     }
 
     DisplayBlanking {

@@ -37,7 +37,7 @@ Page {
             MenuItem {
                 text: qsTr("Start")
                 onClicked: appWindow.notifyStart()
-                onDelayedClick: appWindow.start()
+                onDelayedClick: appWindow.start(false)
             }
         }
 
@@ -155,10 +155,7 @@ Page {
                 right: parent.right
             }
 
-            onClicked: {
-                appWindow.notifyStart()
-                appWindow.start()
-            }
+            onClicked: appWindow.start(true)
         }
 
         Label {
