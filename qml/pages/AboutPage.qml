@@ -24,7 +24,7 @@
 
 import QtQuick 2.0
 import Sailfish.Silica 1.0 as S
-import Opal.About as A
+import Opal.About 1.0 as A
 import Opal.LinkHandler 1.0 as L
 
 A.AboutPageBase {
