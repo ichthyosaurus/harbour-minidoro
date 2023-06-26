@@ -1,6 +1,6 @@
 /*
  * This file is part of harbour-minidoro.
- * SPDX-FileCopyrightText: 2022 Mirian Margiani
+ * SPDX-FileCopyrightText: 2022-2023 Mirian Margiani
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
@@ -120,7 +120,8 @@ Page {
 
             TextSwitch {
                 text: qsTr("Enable notifications")
-                description: qsTr("Show notifications when the current interval is finished " +
+                description: qsTr("Show notifications when the current " +
+                                  "interval is finished " +
                                   "and you may start the next interval.")
                 checked: appWindow.config.enableNotifications
                 onCheckedChanged: appWindow.config.enableNotifications = checked
@@ -128,7 +129,9 @@ Page {
 
             TextSwitch {
                 text: qsTr("Enable sounds")
-                description: qsTr("Play an alarm sound when the current interval is finished.")
+                description: qsTr("Play an alarm sound when the current " +
+                                  "interval is finished.") +
+                             " " + qsTr("Note: make sure the device is not set to “mute”.")
                 checked: appWindow.config.enableAudioFeedback
                 onCheckedChanged: appWindow.config.enableAudioFeedback = checked
             }
@@ -137,8 +140,8 @@ Page {
                 id: switchEnableHaptic
                 enabled: appWindow.haveFeedbackEffect && appWindow.haveRumbleEffect
                 text: qsTr("Enable vibrations")
-                description: qsTr("Vibrate the device when an interval starts or the current " +
-                                  "interval is finished.")
+                description: qsTr("Vibrate the device when an interval starts " +
+                                  "or the current interval is finished.")
                 checked: appWindow.config.enableHapticFeedback
                 onCheckedChanged: appWindow.config.enableHapticFeedback = checked
             }
@@ -196,7 +199,8 @@ Page {
 
             TextSwitch {
                 text: qsTr("Keep the display on")
-                description: qsTr("Make sure the display does not turn off while you are working.")
+                description: qsTr("Make sure the display does " +
+                                  "not turn off while you are working.")
                 checked: appWindow.config.keepDisplayOn
                 onCheckedChanged: appWindow.config.keepDisplayOn = checked
             }
