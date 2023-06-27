@@ -31,13 +31,9 @@ A.AboutPageBase {
     id: root
 
     appName: appWindow.appName
-    appIcon: Qt.resolvedUrl("../images/harbour-minidoro.png")
+    appIcon: Qt.resolvedUrl("../images/%1.png").arg(Qt.application.name)
     appVersion: APP_VERSION
     appRelease: APP_RELEASE
-    description: qsTr("Minidoro is a minimalist Pomodoro® Technique " +
-                      "timer helping to get things done.")
-
-    mainAttributions: ["2022-2023 Mirian Margiani"]
 
     allowDownloadingLicenses: false
     sourcesUrl: "https://github.com/ichthyosaurus/%1".arg(Qt.application.name)
@@ -45,6 +41,18 @@ A.AboutPageBase {
     translationsUrl: "https://hosted.weblate.org/projects/%1".arg(Qt.application.name)
     changelogList: Qt.resolvedUrl("../Changelog.qml")
     licenses: A.License { spdxId: "GPL-3.0-or-later" }
+
+    donations.text: donations.defaultTextCoffee
+    donations.services: [
+        A.DonationService {
+            name: "Liberapay"
+            url: "https://liberapay.com/ichthyosaurus"
+        }
+    ]
+
+    description: qsTr("Minidoro is a minimalist Pomodoro® Technique " +
+                      "timer helping to get things done.")
+    mainAttributions: ["2022-2023 Mirian Margiani"]
 
     attributions: [
         A.Attribution {
@@ -69,14 +77,6 @@ A.AboutPageBase {
         },
         L.OpalLinkHandlerAttribution {},
         A.OpalAboutAttribution {}
-    ]
-
-    donations.text: donations.defaultTextCoffee
-    donations.services: [
-        A.DonationService {
-            name: "Liberapay"
-            url: "https://liberapay.com/ichthyosaurus"
-        }
     ]
 
     extraSections: [
