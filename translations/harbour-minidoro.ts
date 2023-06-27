@@ -4,7 +4,7 @@
 <context>
     <name>AboutPage</name>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="37"/>
+        <location filename="../qml/pages/AboutPage.qml" line="53"/>
         <source>Minidoro is a minimalist Pomodoro® Technique timer helping to get things done.</source>
         <translation type="unfinished"></translation>
     </message>
