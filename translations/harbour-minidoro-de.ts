@@ -318,10 +318,6 @@
         <translation>Intervalle</translation>
     </message>
     <message>
-        <source>%1 min</source>
-        <translation type="vanished">%1 min</translation>
-    </message>
-    <message>
         <location filename="../qml/pages/SettingsPage.qml" line="60"/>
         <source>Work duration</source>
         <translation>Länge einer Arbeitseinheit</translation>
@@ -444,10 +440,6 @@
         <location filename="../qml/pages/SettingsPage.qml" line="181"/>
         <source>Strong</source>
         <translation>Stark</translation>
-    </message>
-    <message>
-        <source>Long break after %1 intervals</source>
-        <translation type="vanished">Lange Pause nach %1 Arbeitseinheiten</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="210"/>
