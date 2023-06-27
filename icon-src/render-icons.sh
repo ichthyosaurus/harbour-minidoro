@@ -9,7 +9,7 @@
 #
 # @@@ keep this line: based on template v0.3.0
 #
-c__FOR_RENDER_LIB__="0.3.0"
+c__FOR_RENDER_LIB__="1.0.0"
 
 # Run this script from the same directory where your icon sources are located,
 # e.g. <app>/icon-src.
@@ -22,16 +22,19 @@ for i in raw/*.svg; do
     fi
 done
 
+cMY_APP=harbour-minidoro
+
 cNAME="app icons"
-cITEMS=(harbour-minidoro)
+cITEMS=("$cMY_APP")
 cRESOLUTIONS=(86 108 128 172)
 cTARGETS=(../icons/RESXxRESY)
 render_batch
 
 cNAME="status icons"
 cITEMS=({icon-tomato-mono,icon-tomato-color,icon-circle,icon-star}@112
-        harbour-minidoro@256
+        "${cMY_APP}@256"
 )
 cRESOLUTIONS=(F1)
 cTARGETS=(../qml/images)
 render_batch
+

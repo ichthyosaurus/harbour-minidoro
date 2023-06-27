@@ -13,7 +13,7 @@
 #    }
 
 module: Opal.LinkHandler (opal-linkhandler)
-version: 1.0.0 (git:b2a326e)
+version: 1.0.0 (git:bc177fe)
 description: This module provides a link handler to open or copy external links.
 maintainers: ichthyosaurus
 attribution: 2020-2023 Mirian Margiani
