@@ -6,7 +6,7 @@
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="53"/>
         <source>Minidoro is a minimalist Pomodoro® Technique timer helping to get things done.</source>
-        <translation type="unfinished"></translation>
+        <translation>Minidoro ist eine einfache „Eieruhr“ nach dem Pomodoro®-Prinzip.</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="84"/>
@@ -16,7 +16,7 @@
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="85"/>
         <source>The Pomodoro® Technique is an extremely simple but efficient time management technique developed by Francesco Cirillo. The basic idea is it&apos;s simpler to concentrate on work for a relatively short period, keeping in mind you can take a rest or switch to another activity afterwards.&lt;br&gt;&lt;li&gt;· Split your work for 25 minute intervals, separated by short break periods.&lt;/li&gt;&lt;li&gt;· In these 25 minute intervals try to focus on your work as much as possible, try to not distract yourself and to avoid other distractions.&lt;/li&gt;&lt;li&gt;· After a 25 minute interval take a 5 minute break. During this break do any other activities except for the previous work.&lt;/li&gt;&lt;li&gt;· Return to the work after the break.&lt;/li&gt;&lt;li&gt;· Take a long break of about 10–30 minutes after every 4 work intervals.&lt;/li&gt;&lt;br&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Die Pomodoro®-Technik ist eine sehr einfach und effiziente Technik für eine bessere Zeiteinteilung. Sie wurde von Francesco Cirillo nach der grundlegenden Idee entwickelt, dass es einfacher ist, sich auf eine Aufgabe zu konzentrieren, wenn während der Arbeit ein klares Ende in Sicht ist.&lt;br&gt;&lt;li&gt;· Teilen Sie Ihre Arbeit in 25-minütige Abschnitte ein, die von kurzen Pausen unterbrochen werden.&lt;/li&gt;&lt;li&gt;· In diesen 25 Minuten konzentrieren Sie sich so gut es geht und vermeiden jede Ablenkung.&lt;/li&gt;&lt;li&gt;· Nach 25 Minuten gönnen Sie sich eine 5-minütige Pause, in der Sie alles außer der vorigen Arbeit tun dürfen.&lt;/li&gt;&lt;li&gt;· Arbeiten Sie nach der kurzen Pause weiter.&lt;/li&gt;&lt;li&gt;· Nach vier Arbeitsintervallen machen Sie eine längere Pause von 10-30 Minuten.&lt;/li&gt;&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="105"/>
@@ -31,7 +31,7 @@
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="126"/>
         <source>This app is modelled after Minidoro for Android by Yury Pavlov.</source>
-        <translation type="unfinished"></translation>
+        <translation>Diese App wurde von „Minidoro für Android“ von Yury Pavlov inspiriert.</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="133"/>
@@ -76,7 +76,7 @@
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="114"/>
         <source>There are two counters at the bottom of the main page. For example, you can use the left counter (star) to count external interruptions, i.e. someone interrupting you. Then use the right counter (circle) to count internal interruptions, i.e. how often you interrupt yourself. You can also use one counter to keep track of ideas you have while working that are not relevant for your current task. In the break, you can then take a note for each idea you counted.</source>
-        <translation type="unfinished"></translation>
+        <translation>Unten auf der Hauptseite gibt es zwei Zähler. Diese können verwendet werden, um Unterbrechungen zu zählen: Zählen Sie beispielsweise mit dem linken Zähler (Stern) äußere Ablenkungen, also wenn Sie jemand unterbricht. Mit dem rechten Zähler (Kreis) können dann die inneren Ablenkungen gezählt werden, also wenn Sie sich selbst unterbrechen. Sie können auch einen Zähler verwenden, um sich Ideen zu „notieren“, die nichts mit der aktuellen Aufgabe zu tun haben. In der Pause können Sie die Ideen dann richtig aufschreiben.</translation>
     </message>
 </context>
 <context>
@@ -339,9 +339,9 @@
     <message numerus="yes">
         <location filename="../qml/pages/SettingsPage.qml" line="108"/>
         <source>Long break after %n interval(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>Lange Pause nach %n Intervall</numerusform>
+            <numerusform>Lange Pause nach %n Intervallen</numerusform>
         </translation>
     </message>
     <message>
@@ -357,7 +357,7 @@
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="124"/>
         <source>Show notifications when the current interval is finished and you may start the next interval.</source>
-        <translation type="unfinished"></translation>
+        <translation>Benachrichtigungen anzeigen, wenn das aktuelle Intervall beendet ist und Sie das nächste Intervall starten können.</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="132"/>
@@ -367,7 +367,7 @@
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="133"/>
         <source>Play an alarm sound when the current interval is finished.</source>
-        <translation type="unfinished"></translation>
+        <translation>Einen Alarmton ausgeben, wenn das aktuelle Intervall beendet ist.</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="143"/>
@@ -377,7 +377,7 @@
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="144"/>
         <source>Vibrate the device when an interval starts or the current interval is finished.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vibrieren, wenn ein Intervall beginnt oder das aktuelle Intervall beendet ist.</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="153"/>
@@ -387,7 +387,7 @@
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="162"/>
         <source>It is advised to choose a low setting in quiet areas. The medium setting is intended for busy environments and concentrated work.</source>
-        <translation type="unfinished"></translation>
+        <translation>In ruhigen Bereichen sollte eine niedrige Einstellung gewählt werden. Die mittlere Einstellung ist für konzentrierte Arbeit in einem lauten Umfeld gedacht.</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="217"/>
@@ -402,7 +402,7 @@
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="222"/>
         <source>Make sure the display does not turn off while you are working.</source>
-        <translation type="unfinished"></translation>
+        <translation>Verhindert das automatische Ausschalten des Bildschirms während der Arbeit.</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="229"/>
@@ -412,7 +412,7 @@
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="230"/>
         <source>Disable this option if you prefer icons that fit more into the system ambience.</source>
-        <translation type="unfinished"></translation>
+        <translation>Deaktivieren, wenn Sie Icons bevorzugen, die sich besser in das Systemambiente einfügen.</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="178"/>
@@ -425,9 +425,9 @@
         <location filename="../qml/pages/SettingsPage.qml" line="90"/>
         <source>%n min</source>
         <comment>as in “x minutes”</comment>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n min</numerusform>
+            <numerusform>%n min</numerusform>
         </translation>
     </message>
     <message>
@@ -452,17 +452,17 @@
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="210"/>
         <source>Note: the haptic feedback module could not be initialized. This should not happen and most probably is a bug. Please report this problem to the author.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hinweis: Das Modul für haptisches Feedback konnte nicht initialisiert werden. Dies sollte nicht passieren und ist höchstwahrscheinlich ein Fehler. Bitte melden Sie dieses Problem dem Autor.</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="135"/>
         <source>Note: make sure the device is not set to “mute”.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hinweis: Vergewissern Sie sich, dass das Gerät nicht auf „stumm“ gestellt ist.</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="192"/>
         <source>Note: since SailfishOS 4.3, vibrations only work if the “Touchscreen vibration” setting in the system settings is enabled. This is a &lt;a href=&quot;%1&quot;&gt;known bug&lt;/a&gt; and should hopefully be fixed in the next version after SailfishOS 4.5.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hinweis: Seit SailfishOS 4.3 funktionieren die Vibrationen nur noch, wenn die Einstellung „Touchscreen-Vibration“ in den Systemeinstellungen aktiviert ist. Dies ist ein &lt;a href=&quot;%1&quot;&gt;bekannter Fehler&lt;/a&gt; und wird hoffentlich in der nächsten Version nach SailfishOS 4.5 behoben.</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="201"/>
