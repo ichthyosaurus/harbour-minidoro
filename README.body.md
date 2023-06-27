@@ -4,7 +4,7 @@ dnl/// SPDX-License-Identifier: GFDL-1.3-or-later
 ifdef(${__X_summary}, ${
 __name is a minimalist Pomodoro® Technique timer helping to get things done.
 })dnl
-
+ifdef(${__X_description}, ${
 ifdef(${__X_readme}, ${This app is modelled after [Minidoro for Android](https://github.com/ympavlov/minidoro)
 by Yury Pavlov. You can get it [from F-Droid](https://f-droid.org/en/packages/com.github.ympavlov.minidoro/)
 if you are using Android.
@@ -38,3 +38,4 @@ anything. For example, you can count external interruptions with the left
 counter, while counting internal interruptions (you interrupting yourself) with
 the right counter.ifdef(${__X_readme}, ${ See also
 [this issue](https://github.com/ympavlov/minidoro/issues/4#issuecomment-1032949886).})
+})
