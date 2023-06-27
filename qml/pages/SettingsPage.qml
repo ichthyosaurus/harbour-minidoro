@@ -55,7 +55,7 @@ Page {
                 width: parent.width
                 minimumValue: 1.0
                 maximumValue: 60.0
-                valueText: qsTr("%1 min").arg(value)
+                valueText: qsTr("%n min", "as in “x minutes”", value)
                 stepSize: 1.0
                 label: qsTr("Work duration")
                 value: appWindow.config.workDuration / 60
@@ -71,7 +71,7 @@ Page {
                 width: parent.width
                 minimumValue: 1.0
                 maximumValue: 30.0
-                valueText: qsTr("%1 min").arg(value)
+                valueText: qsTr("%n min", "as in “x minutes”", value)
                 stepSize: 1.0
                 label: qsTr("Break duration")
                 value: appWindow.config.breakDuration / 60
@@ -87,7 +87,7 @@ Page {
                 width: parent.width
                 minimumValue: 1.0
                 maximumValue: 60.0
-                valueText: qsTr("%1 min").arg(value)
+                valueText: qsTr("%n min", "as in “x minutes”", value)
                 stepSize: 1.0
                 label: qsTr("Long break duration")
                 value: appWindow.config.longBreakDuration / 60
@@ -105,7 +105,7 @@ Page {
                 maximumValue: 10.0
                 stepSize: 1.0
                 valueText: "%1 🍅".arg(value)
-                label: qsTr("Long break after %1 intervals").arg(value)
+                label: qsTr("Long break after %n interval(s)", "", value)
                 value: appWindow.config.longBreakAfter
 
                 onSliderValueChanged: {
