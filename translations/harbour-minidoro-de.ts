@@ -318,11 +318,8 @@
         <translation>Intervalle</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="58"/>
-        <location filename="../qml/pages/SettingsPage.qml" line="74"/>
-        <location filename="../qml/pages/SettingsPage.qml" line="90"/>
         <source>%1 min</source>
-        <translation>%1 min</translation>
+        <translation type="vanished">%1 min</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="60"/>
@@ -338,6 +335,14 @@
         <location filename="../qml/pages/SettingsPage.qml" line="92"/>
         <source>Long break duration</source>
         <translation>Länge einer langen Pause</translation>
+    </message>
+    <message numerus="yes">
+        <location filename="../qml/pages/SettingsPage.qml" line="108"/>
+        <source>Long break after %n interval(s)</source>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+            <numerusform></numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="119"/>
@@ -414,6 +419,17 @@
         <source>Quiet</source>
         <translation>Still</translation>
     </message>
+    <message numerus="yes">
+        <location filename="../qml/pages/SettingsPage.qml" line="58"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="74"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="90"/>
+        <source>%n min</source>
+        <comment>as in “x minutes”</comment>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+            <numerusform></numerusform>
+        </translation>
+    </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="179"/>
         <source>Modest</source>
@@ -430,9 +446,8 @@
         <translation>Stark</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="108"/>
         <source>Long break after %1 intervals</source>
-        <translation>Lange Pause nach %1 Arbeitseinheiten</translation>
+        <translation type="vanished">Lange Pause nach %1 Arbeitseinheiten</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="210"/>

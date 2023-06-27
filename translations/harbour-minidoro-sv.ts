@@ -318,11 +318,8 @@
         <translation>Intervall</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="58"/>
-        <location filename="../qml/pages/SettingsPage.qml" line="74"/>
-        <location filename="../qml/pages/SettingsPage.qml" line="90"/>
         <source>%1 min</source>
-        <translation>%1 min</translation>
+        <translation type="vanished">%1 min</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="60"/>
@@ -338,6 +335,14 @@
         <location filename="../qml/pages/SettingsPage.qml" line="92"/>
         <source>Long break duration</source>
         <translation>Långrastens varaktighet</translation>
+    </message>
+    <message numerus="yes">
+        <location filename="../qml/pages/SettingsPage.qml" line="108"/>
+        <source>Long break after %n interval(s)</source>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+            <numerusform></numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="119"/>
@@ -404,6 +409,17 @@
         <source>Vibrations intensity</source>
         <translation>Vibrationsintensitet</translation>
     </message>
+    <message numerus="yes">
+        <location filename="../qml/pages/SettingsPage.qml" line="58"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="74"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="90"/>
+        <source>%n min</source>
+        <comment>as in “x minutes”</comment>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+            <numerusform></numerusform>
+        </translation>
+    </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="162"/>
         <source>It is advised to choose a low setting in quiet areas. The medium setting is intended for busy environments and concentrated work.</source>
@@ -445,9 +461,8 @@
         <translation>Starkt</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="108"/>
         <source>Long break after %1 intervals</source>
-        <translation>Långrast efter %1 intervall</translation>
+        <translation type="vanished">Långrast efter %1 intervall</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="210"/>

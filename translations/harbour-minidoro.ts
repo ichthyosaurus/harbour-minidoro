@@ -316,13 +316,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="58"/>
-        <location filename="../qml/pages/SettingsPage.qml" line="74"/>
-        <location filename="../qml/pages/SettingsPage.qml" line="90"/>
-        <source>%1 min</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../qml/pages/SettingsPage.qml" line="60"/>
         <source>Work duration</source>
         <translation type="unfinished"></translation>
@@ -336,6 +329,13 @@
         <location filename="../qml/pages/SettingsPage.qml" line="92"/>
         <source>Long break duration</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message numerus="yes">
+        <location filename="../qml/pages/SettingsPage.qml" line="108"/>
+        <source>Long break after %n interval(s)</source>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="119"/>
@@ -412,6 +412,16 @@
         <source>Quiet</source>
         <translation type="unfinished"></translation>
     </message>
+    <message numerus="yes">
+        <location filename="../qml/pages/SettingsPage.qml" line="58"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="74"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="90"/>
+        <source>%n min</source>
+        <comment>as in “x minutes”</comment>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+        </translation>
+    </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="179"/>
         <source>Modest</source>
@@ -425,11 +435,6 @@
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="181"/>
         <source>Strong</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="108"/>
-        <source>Long break after %1 intervals</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
