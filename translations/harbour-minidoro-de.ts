@@ -295,6 +295,11 @@
         <translation>Im Browser öffnen</translation>
     </message>
     <message>
+        <location filename="../qml/modules/Opal/LinkHandler/private/ExternalUrlPage.qml" line="32"/>
+        <source>Open externally</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../qml/modules/Opal/LinkHandler/private/ExternalUrlPage.qml" line="36"/>
         <source>Copied to clipboard: %1</source>
         <translation>In die Zwischenablage kopiert: %1</translation>
