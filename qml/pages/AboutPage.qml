@@ -25,7 +25,7 @@
 import QtQuick 2.0
 import Sailfish.Silica 1.0 as S
 import Opal.About 1.0 as A
-import Opal.LinkHandler 1.0 as L
+import "../modules/Opal/Attributions"
 
 A.AboutPageBase {
     id: root
@@ -75,8 +75,8 @@ A.AboutPageBase {
             licenses: A.License { spdxId: "OFL-1.1" }
             homepage: "https://fonts.google.com/noto/specimen/Noto+Emoji"
         },
-        L.OpalLinkHandlerAttribution {},
-        A.OpalAboutAttribution {}
+        OpalLinkHandlerAttribution {},
+        OpalAboutAttribution {}
     ]
 
     extraSections: [
