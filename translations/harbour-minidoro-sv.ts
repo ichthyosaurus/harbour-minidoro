@@ -51,7 +51,7 @@
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="146"/>
         <source>Translations</source>
-        <translation type="unfinished">Översättning</translation>
+        <translation>Översättningar</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="149"/>
@@ -107,7 +107,7 @@
     <message>
         <location filename="../qml/pages/MainPage.qml" line="31"/>
         <source>Reset all progress</source>
-        <translation type="unfinished"></translation>
+        <translation>Återställ alla framsteg</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="42"/>
@@ -297,7 +297,7 @@
     <message>
         <location filename="../qml/modules/Opal/LinkHandler/private/ExternalUrlPage.qml" line="32"/>
         <source>Open externally</source>
-        <translation type="unfinished"></translation>
+        <translation>Öppna externt</translation>
     </message>
     <message>
         <location filename="../qml/modules/Opal/LinkHandler/private/ExternalUrlPage.qml" line="36"/>
@@ -344,9 +344,9 @@
     <message numerus="yes">
         <location filename="../qml/pages/SettingsPage.qml" line="108"/>
         <source>Long break after %n interval(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>Lång paus efter %n intervall</numerusform>
+            <numerusform>Långa pauser efter %n intervall</numerusform>
         </translation>
     </message>
     <message>
@@ -377,7 +377,7 @@
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="135"/>
         <source>Note: make sure the device is not set to “mute”.</source>
-        <translation type="unfinished"></translation>
+        <translation>Obs: se till att enheten inte är inställd på &quot;tyst läge&quot;.</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="143"/>
@@ -392,22 +392,22 @@
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="192"/>
         <source>Note: since SailfishOS 4.3, vibrations only work if the “Touchscreen vibration” setting in the system settings is enabled. This is a &lt;a href=&quot;%1&quot;&gt;known bug&lt;/a&gt; and should hopefully be fixed in the next version after SailfishOS 4.5.</source>
-        <translation type="unfinished"></translation>
+        <translation>Notera: sedan SailfishOS 4.3 fungerar vibrationer bara om inställningen &quot;Touchscreen vibration&quot; i systeminställningarna är aktiverad. Detta är en &lt;a href=&quot;%1&quot;&gt;känd bugg&lt;/a&gt; och bör förhoppningsvis åtgärdas i nästa version efter SailfishOS 4.5.</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="201"/>
         <source>Bug report</source>
-        <translation type="unfinished"></translation>
+        <translation>Buggrapport</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="229"/>
         <source>Use color icons</source>
-        <translation type="unfinished"></translation>
+        <translation>Använd färgikoner</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="230"/>
         <source>Disable this option if you prefer icons that fit more into the system ambience.</source>
-        <translation type="unfinished"></translation>
+        <translation>Inaktivera det här alternativet om du föredrar ikoner som passar mer in i systemets atmosfär.</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="153"/>
@@ -420,9 +420,9 @@
         <location filename="../qml/pages/SettingsPage.qml" line="90"/>
         <source>%n min</source>
         <comment>as in “x minutes”</comment>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n min</numerusform>
+            <numerusform>%n min</numerusform>
         </translation>
     </message>
     <message>
@@ -491,33 +491,33 @@
         <location filename="../qml/harbour-minidoro.qml" line="107"/>
         <source>h:mm</source>
         <comment>time format, as in “10:15” without “o&apos;clock”</comment>
-        <translation type="unfinished"></translation>
+        <translation>t:mm</translation>
     </message>
     <message numerus="yes">
         <location filename="../qml/harbour-minidoro.qml" line="151"/>
         <source>%n minute(s) break</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n minut paus</numerusform>
+            <numerusform>%n minuter paus</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../qml/harbour-minidoro.qml" line="153"/>
         <source>Take a break until %1 o&apos;clock.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta en paus till klockan %1.</translation>
     </message>
     <message numerus="yes">
         <location filename="../qml/harbour-minidoro.qml" line="156"/>
         <source>%n minute(s) of work</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n minut av jobb</numerusform>
+            <numerusform>%n minuter av jobb</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../qml/harbour-minidoro.qml" line="158"/>
         <source>Work until %1 o&apos;clock.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jobba till klockan %1.</translation>
     </message>
     <message>
         <location filename="../qml/harbour-minidoro.qml" line="217"/>
