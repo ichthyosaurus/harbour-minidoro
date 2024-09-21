@@ -1,82 +1,82 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="et">
+<TS version="2.1" language="zh_Hans">
 <context>
     <name>AboutPage</name>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="53"/>
         <source>Minidoro is a minimalist Pomodoro® Technique timer helping to get things done.</source>
-        <translation>Minidoro lihtne Pomodoro® tehnikat kasutav taimer, mis aitab sul vajalikuid tegevused ära teha.</translation>
+        <translation>Minidoro 是一个极简主义的 Pomodoro® 技术计时器，帮助你完成任务。</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="84"/>
         <source>How it works</source>
-        <translation>Kuidas see töötab</translation>
+        <translation>工作原理</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="85"/>
         <source>The Pomodoro® Technique is an extremely simple but efficient time management technique developed by Francesco Cirillo. The basic idea is it&apos;s simpler to concentrate on work for a relatively short period, keeping in mind you can take a rest or switch to another activity afterwards.&lt;br&gt;&lt;li&gt;· Split your work for 25 minute intervals, separated by short break periods.&lt;/li&gt;&lt;li&gt;· In these 25 minute intervals try to focus on your work as much as possible, try to not distract yourself and to avoid other distractions.&lt;/li&gt;&lt;li&gt;· After a 25 minute interval take a 5 minute break. During this break do any other activities except for the previous work.&lt;/li&gt;&lt;li&gt;· Return to the work after the break.&lt;/li&gt;&lt;li&gt;· Take a long break of about 10–30 minutes after every 4 work intervals.&lt;/li&gt;&lt;br&gt;</source>
-        <translation>Pomodoro® tehnika on äärmiselt lihtne, kuid tõhus ajajuhtimise tehnika, mille on välja töötanud Francesco Cirillo. Põhiidee on see, et on lihtsam keskenduda tööle suhteliselt lühikest aega, pidades silmas, et mõne aja pärast saad puhata või midagi muud ette võtta.&lt;br&gt;&lt;li&gt;· Jaota oma töö 25 minutilisteks lõikudeks, mida eraldavad lühikesed vaheajad.&lt;/li&gt;&lt;li&gt;· Nende 25 minuti jooksul püüa keskenduda oma tööle nii palju kui võimalik, väldi oma tähelepanu kõrvalejuhtimist nii enda, kui teiste poolt.&lt;/li&gt;&lt;li&gt;· Pärast 25-minutilist töölõiku tee 5-minutiline paus. Vaheaja kestel tee mida iganes muid, välja arvatud eelmine töö.&lt;/li&gt;&lt;li&gt;· Naase pärast vaheaega töö juurde.&lt;/li&gt;&lt;li&gt;· Võta umbes 10...30 minutit kestve pikem vaheaeg pärast iga 4 töölõiku.&lt;/li&gt;&lt;br&gt;</translation>
+        <translation>Pomodoro® Technique 是由 Francesco Cirillo 研发的一种极其简单但高效的时间管理技术。基本思想是：花相对较短的时间专注于工作上更简单，并记住你之后可以休息或者换做另一个活动。&lt;br&gt;&lt;li&gt;· 将你的工作分成 25 分钟的时间段，中间有短暂的休息时间。&lt;/li&gt;&lt;li&gt;· 在这 25 分钟的时间段里，尽量专注于你的工作，不要分心，并避免其他干扰。&lt;/li&gt;&lt;li&gt;· 在 25 分钟后休息 5 分钟。休息期间，除了之前的工作外，可以做任何其他活动。&lt;/li&gt;&lt;li&gt;· 休息后继续工作。&lt;/li&gt;&lt;li&gt;- 每 4 个工作间歇后，休息 10-30 分钟。&lt;/li&gt;&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="105"/>
         <source>Website</source>
-        <translation>Veebisait</translation>
+        <translation>网站</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="125"/>
         <source>Acknowledgments</source>
-        <translation>Tänuavaldused</translation>
+        <translation>致谢</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="126"/>
         <source>This app is modelled after Minidoro for Android by Yury Pavlov.</source>
-        <translation>Rakenduse eeskujuks on Juri Pavlovi poolt Androidi jaoks tehtud Minidoro.</translation>
+        <translation>此应用是模仿 Yury Pavlov 的 Minidoro for Android 设计的。</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="133"/>
         <source>Development</source>
-        <translation>Arendus</translation>
+        <translation>开发</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="136"/>
         <source>Programming</source>
-        <translation>Arendus</translation>
+        <translation>编程</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="140"/>
         <source>Icon Design</source>
-        <translation>Ikooni kujundus</translation>
+        <translation>图标设计</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="146"/>
         <source>Translations</source>
-        <translation>Tõlked</translation>
+        <translation>翻译</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="149"/>
         <source>English</source>
-        <translation>inglise keel</translation>
+        <translation>英语</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="153"/>
         <source>German</source>
-        <translation>saksa keel</translation>
+        <translation>德语</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="157"/>
         <source>Swedish</source>
-        <translation>rootsi keel</translation>
+        <translation>瑞典语</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="113"/>
         <source>Counters</source>
-        <translation>Loendurid</translation>
+        <translation>计数器</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="114"/>
         <source>There are two counters at the bottom of the main page. For example, you can use the left counter (star) to count external interruptions, i.e. someone interrupting you. Then use the right counter (circle) to count internal interruptions, i.e. how often you interrupt yourself. You can also use one counter to keep track of ideas you have while working that are not relevant for your current task. In the break, you can then take a note for each idea you counted.</source>
-        <translation>Põhivaate allosas on kaks loendurit. Näiteks võid kasutada vasakut loendurit (tärni) väliste katkestuste loendamiseks, st keegi segab sind. Siis kasuta paremat loendurit (ring), et loendada enda katkestusi, st kui sageli sa katkestad oma tegevust ise. Võid kasutada ka ühte loendurit, et loendada ideid, mis sul töötamise ajal tekkisid ja mis ei ole sinu praeguse ülesande jaoks olulised. Vaheajal, võid kõik loendatud ideed üles märkida.</translation>
+        <translation>主页面底部有两个计数器。举个例子，你可以用左侧计数器（星星）记下外部干扰，比如其他人打断你时。然后用右侧计数器（圆圈）记下内源干扰，比如自我干扰。你也可以用一个计数器跟踪与工作不相关的内心想法。在休息时，你可以为每个记下的想法做个笔记。</translation>
     </message>
 </context>
 <context>
@@ -84,7 +84,7 @@
     <message>
         <location filename="../qml/modules/Opal/About/private/LicenseListPart.qml" line="119"/>
         <source>License text</source>
-        <translation>Litsentsi tekst</translation>
+        <translation>许可证文本</translation>
     </message>
 </context>
 <context>
@@ -92,27 +92,27 @@
     <message>
         <location filename="../qml/pages/MainPage.qml" line="20"/>
         <source>About</source>
-        <translation>Rakenduse teave</translation>
+        <translation>关于</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="24"/>
         <source>Settings</source>
-        <translation>Seadistused</translation>
+        <translation>设置</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="28"/>
         <source>Reset</source>
-        <translation>Lähtesta</translation>
+        <translation>重置</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="31"/>
         <source>Reset all progress</source>
-        <translation>Lähtesta kõik tegevused</translation>
+        <translation>重置所有进度</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="42"/>
         <source>Start</source>
-        <translation>Alusta</translation>
+        <translation>开始</translation>
     </message>
 </context>
 <context>
@@ -120,35 +120,35 @@
     <message>
         <location filename="../qml/modules/Opal/About/InfoSection.qml" line="15"/>
         <source>show details</source>
-        <translation>näita üksikasju</translation>
+        <translation>显示详情</translation>
     </message>
     <message>
         <location filename="../qml/modules/Opal/About/private/ContributorsPage.qml" line="21"/>
         <source>Contributors</source>
-        <translation>Kaasautorid</translation>
+        <translation>贡献者</translation>
     </message>
     <message>
         <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="100"/>
         <location filename="../qml/modules/Opal/About/private/ContributorsPage.qml" line="22"/>
         <location filename="../qml/modules/Opal/About/private/ContributorsPage.qml" line="31"/>
         <source>Development</source>
-        <translation>Arendus</translation>
+        <translation>开发</translation>
     </message>
     <message>
         <location filename="../qml/modules/Opal/About/private/ContributorsPage.qml" line="37"/>
         <source>Acknowledgements</source>
-        <translation>Tänuavaldused</translation>
+        <translation>致谢</translation>
     </message>
     <message>
         <location filename="../qml/modules/Opal/About/private/ContributorsPage.qml" line="44"/>
         <source>Thank you!</source>
-        <translation>Täname!</translation>
+        <translation>谢谢！</translation>
     </message>
     <message>
         <location filename="../qml/modules/Opal/About/private/ContributorsPage.qml" line="48"/>
         <location filename="../qml/modules/Opal/About/private/LicensePage.qml" line="31"/>
         <source>Details</source>
-        <translation>Üksikasjad</translation>
+        <translation>详情</translation>
     </message>
     <message>
         <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="114"/>
@@ -156,7 +156,7 @@
         <location filename="../qml/modules/Opal/About/private/ContributorsPage.qml" line="58"/>
         <location filename="../qml/modules/Opal/About/private/LicenseListPart.qml" line="50"/>
         <source>Source Code</source>
-        <translation>Lähtekood</translation>
+        <translation>源代码</translation>
     </message>
     <message>
         <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="105"/>
@@ -164,104 +164,102 @@
         <location filename="../qml/modules/Opal/About/private/ContributorsPage.qml" line="57"/>
         <location filename="../qml/modules/Opal/About/private/LicenseListPart.qml" line="47"/>
         <source>Homepage</source>
-        <translation>Koduleht</translation>
+        <translation>主页</translation>
     </message>
     <message>
         <location filename="../qml/modules/Opal/About/private/ExternalUrlPage.qml" line="15"/>
         <source>External Link</source>
-        <translation>Väline link</translation>
+        <translation>外部链接</translation>
     </message>
     <message>
         <location filename="../qml/modules/Opal/About/private/ExternalUrlPage.qml" line="32"/>
         <source>Open in browser</source>
-        <translation>Ava brauseris</translation>
+        <translation>在浏览器中打开</translation>
     </message>
     <message>
         <location filename="../qml/modules/Opal/About/private/ExternalUrlPage.qml" line="36"/>
         <source>Copied to clipboard: %1</source>
-        <translation>Kopeeritud lõikelauale: %1</translation>
+        <translation>已复制到剪贴板：%1</translation>
     </message>
     <message>
         <location filename="../qml/modules/Opal/About/private/ExternalUrlPage.qml" line="41"/>
         <source>Copy to clipboard</source>
-        <translation>Kopeeri lõikelauale</translation>
+        <translation>复制到剪贴板</translation>
     </message>
     <message>
         <location filename="../qml/modules/Opal/About/private/LicensePage.qml" line="25"/>
         <source>Download license texts</source>
-        <translation>Laadi alla litsentside tekstid</translation>
+        <translation>下载许可证文本</translation>
     </message>
     <message numerus="yes">
         <location filename="../qml/modules/Opal/About/private/LicensePage.qml" line="31"/>
         <source>License(s)</source>
         <translation>
-            <numerusform>Litsents</numerusform>
-            <numerusform>Litsentsid</numerusform>
+            <numerusform>许可证</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../qml/modules/Opal/About/private/LicensePage.qml" line="41"/>
         <source>Note: please check the source code for most accurate information.</source>
-        <translation>Märkus: kõige täpsema teabe saamiseks palun vaata lähtekoodi.</translation>
+        <translation>注：请查看源代码以获取更准确的信息。</translation>
     </message>
     <message>
         <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="55"/>
         <source>About</source>
-        <translation>Rakenduse teave</translation>
+        <translation>关于</translation>
     </message>
     <message>
         <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="84"/>
         <source>Version %1</source>
-        <translation>Versioon %1</translation>
+        <translation>版本 %1</translation>
     </message>
     <message>
         <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="103"/>
         <source>show contributors</source>
-        <translation>näita kaasautoreid</translation>
+        <translation>显示贡献者</translation>
     </message>
     <message>
         <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="111"/>
         <source>Translations</source>
-        <translation>Tõlked</translation>
+        <translation>翻译</translation>
     </message>
     <message>
         <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="123"/>
         <source>Donations</source>
-        <translation>Rahalised toetused</translation>
+        <translation>捐赠</translation>
     </message>
     <message>
         <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="129"/>
         <source>License</source>
-        <translation>Litsents</translation>
+        <translation>许可证</translation>
     </message>
     <message numerus="yes">
         <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="134"/>
         <source>show license(s)</source>
         <translation>
-            <numerusform>näita litsentsi</numerusform>
-            <numerusform>näita litsentse</numerusform>
+            <numerusform>显示许可证</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="108"/>
         <location filename="../qml/modules/Opal/About/private/ChangelogPage.qml" line="16"/>
         <source>Changelog</source>
-        <translation>Muudatuste logi</translation>
+        <translation>更新日志</translation>
     </message>
     <message>
         <location filename="../qml/modules/Opal/About/ChangelogNews.qml" line="60"/>
         <source>News</source>
-        <translation>Uudised</translation>
+        <translation>新闻</translation>
     </message>
     <message>
         <location filename="../qml/modules/Opal/About/ChangelogNews.qml" line="61"/>
         <source>Changes since version %1</source>
-        <translation>Muudatused alates versioonist %1</translation>
+        <translation>自版本 %1 的变化</translation>
     </message>
     <message>
         <location filename="../qml/modules/Opal/About/private/LicenseListPart.qml" line="120"/>
         <source>Please refer to &lt;a href=&quot;%1&quot;&gt;%1&lt;/a&gt;</source>
-        <translation>Palun vaata siia: &lt;a href=&quot;%1&quot;&gt;%1&lt;/a&gt;</translation>
+        <translation>请参见 &lt;a href=&quot;%1&quot;&gt;%1&lt;/a&gt;</translation>
     </message>
 </context>
 <context>
@@ -269,17 +267,17 @@
     <message>
         <location filename="../qml/modules/Opal/About/private/DonationsGroup.qml" line="7"/>
         <source>If you want to support my work, you can buy me a cup of coffee.</source>
-        <translation>Kui sa soovid mu tööd toetada, võid mulle tassi kohvi osta.</translation>
+        <translation>如果你想支持我的工作，可以给我买一杯咖啡。</translation>
     </message>
     <message>
         <location filename="../qml/modules/Opal/About/private/DonationsGroup.qml" line="8"/>
         <source>You can support this project by contributing, or by donating using any of these services.</source>
-        <translation>Sa saad seda arendusprojekti toetada kas kaastööd tehes või toetades rahaliselt järgmiste makseteenuste abil.</translation>
+        <translation>你可以做出贡献来支持此项目，也可以使用下列任一服务捐赠。</translation>
     </message>
     <message>
         <location filename="../qml/modules/Opal/About/private/DonationsGroup.qml" line="9"/>
         <source>Your contributions to translations or code would be most welcome.</source>
-        <translation>Sinu panus tõlgete või rakenduse koodi näol oleks väga teretulnud.</translation>
+        <translation>非常欢迎你对翻译或代码做出贡献。</translation>
     </message>
 </context>
 <context>
@@ -287,27 +285,27 @@
     <message>
         <location filename="../qml/modules/Opal/LinkHandler/private/ExternalUrlPage.qml" line="15"/>
         <source>External Link</source>
-        <translation>Väline link</translation>
+        <translation>外部链接</translation>
     </message>
     <message>
         <location filename="../qml/modules/Opal/LinkHandler/private/ExternalUrlPage.qml" line="32"/>
         <source>Open in browser</source>
-        <translation>Ava veebibrauseris</translation>
+        <translation>在浏览器中打开</translation>
     </message>
     <message>
         <location filename="../qml/modules/Opal/LinkHandler/private/ExternalUrlPage.qml" line="32"/>
         <source>Open externally</source>
-        <translation>Ava välise rakendusega</translation>
+        <translation>用外部应用打开</translation>
     </message>
     <message>
         <location filename="../qml/modules/Opal/LinkHandler/private/ExternalUrlPage.qml" line="36"/>
         <source>Copied to clipboard: %1</source>
-        <translation>Kopeeritud lõikelauale: %1</translation>
+        <translation>已复制到剪贴板：%1</translation>
     </message>
     <message>
         <location filename="../qml/modules/Opal/LinkHandler/private/ExternalUrlPage.qml" line="41"/>
         <source>Copy to clipboard</source>
-        <translation>Kopeeri lõikelauale</translation>
+        <translation>复制到剪贴板</translation>
     </message>
 </context>
 <context>
@@ -315,110 +313,109 @@
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="28"/>
         <source>Settings</source>
-        <translation>Seadistused</translation>
+        <translation>设置</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="32"/>
         <source>Intervals</source>
-        <translation>Ajavahemikud</translation>
+        <translation>区间</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="60"/>
         <source>Work duration</source>
-        <translation>Töö kestus</translation>
+        <translation>工作时长</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="76"/>
         <source>Break duration</source>
-        <translation>Puhkehetke kestus</translation>
+        <translation>休息时长</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="92"/>
         <source>Long break duration</source>
-        <translation>Pikema puhkuse kestus</translation>
+        <translation>长休息时长</translation>
     </message>
     <message numerus="yes">
         <location filename="../qml/pages/SettingsPage.qml" line="108"/>
         <source>Long break after %n interval(s)</source>
         <translation>
-            <numerusform>Pikem puhkus peale %n töölõiku</numerusform>
-            <numerusform>Pikem puhkus peale %n töölõiku</numerusform>
+            <numerusform>在 %n 个区间后进行长休息</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="119"/>
         <source>Notifications</source>
-        <translation>Teavitused</translation>
+        <translation>通知</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="123"/>
         <source>Enable notifications</source>
-        <translation>Võta teavitused kasutusele</translation>
+        <translation>启用通知</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="124"/>
         <source>Show notifications when the current interval is finished and you may start the next interval.</source>
-        <translation>Näita teavitust, kui praegune ajavahemik on läbi saanud ja võid uuega alustada.</translation>
+        <translation>在当前区间结束时发送通知，此时你可以开始下一个区间。</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="132"/>
         <source>Enable sounds</source>
-        <translation>Kasuta helilist märguannet</translation>
+        <translation>启用声音</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="133"/>
         <source>Play an alarm sound when the current interval is finished.</source>
-        <translation>Anna heliga märku, kui praegune ajavahemik on läbi saanud.</translation>
+        <translation>当前区间结束时播放闹钟声音。</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="143"/>
         <source>Enable vibrations</source>
-        <translation>Kasuta värinaalarmi</translation>
+        <translation>启用振动</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="144"/>
         <source>Vibrate the device when an interval starts or the current interval is finished.</source>
-        <translation>Anna vibratsiooniga märku, kui ajavahemik algab või praegune ajavahemik on läbi saanud.</translation>
+        <translation>区间开始或结束时发出振动。</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="153"/>
         <source>Vibrations intensity</source>
-        <translation>Värina tugevus</translation>
+        <translation>振动强度</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="162"/>
         <source>It is advised to choose a low setting in quiet areas. The medium setting is intended for busy environments and concentrated work.</source>
-        <translation>Soovitame, et vaikses ümbruskonnas kasutad kõige lahjemat seadistust. Värina keskmine tugevus on mõeldud lärmaka ümbruse ja keskendunud tööolude jaoks.</translation>
+        <translation>建议在安静的场合选择较低强度。中等强度用于嘈杂环境与专注工作。</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="217"/>
         <source>General</source>
-        <translation>Üldised seadistused</translation>
+        <translation>通用</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="221"/>
         <source>Keep the display on</source>
-        <translation>Hoia ekraan sisselülitatuna</translation>
+        <translation>屏幕常亮</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="222"/>
         <source>Make sure the display does not turn off while you are working.</source>
-        <translation>Sellega tagad, et nutiseadme ekraan ei lülitu töö ajal välja.</translation>
+        <translation>确保在工作时屏幕不会关闭。</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="229"/>
         <source>Use color icons</source>
-        <translation>Kasuta värvilisi ikoone</translation>
+        <translation>使用彩色图标</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="230"/>
         <source>Disable this option if you prefer icons that fit more into the system ambience.</source>
-        <translation>Kui eelistad kasutajaliidesega sobituvaid ikoone, siis lülita see eelistus välja.</translation>
+        <translation>如果你更希望图标与系统主题相配，可禁用此设置。</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="178"/>
         <source>Quiet</source>
-        <translation>Vaikne</translation>
+        <translation>静默</translation>
     </message>
     <message numerus="yes">
         <location filename="../qml/pages/SettingsPage.qml" line="58"/>
@@ -427,44 +424,43 @@
         <source>%n min</source>
         <comment>as in “x minutes”</comment>
         <translation>
-            <numerusform>%n min</numerusform>
-            <numerusform>%n min</numerusform>
+            <numerusform>%n 分钟</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="179"/>
         <source>Modest</source>
-        <translation>Mõõdukas</translation>
+        <translation>轻微</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="180"/>
         <source>Medium</source>
-        <translation>Keskmine</translation>
+        <translation>中等</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="181"/>
         <source>Strong</source>
-        <translation>Tugev</translation>
+        <translation>强</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="210"/>
         <source>Note: the haptic feedback module could not be initialized. This should not happen and most probably is a bug. Please report this problem to the author.</source>
-        <translation>Märkus: haptilise tagasiside moodulit ei õnnestu käivitada. Seda ei tohiks juhtuda ning ilmselt on tegemist veaga. Palun teata sellest veast arendajatele.</translation>
+        <translation>注意：无法初始化触觉反馈模块。这不应该发生，很有可能是个 bug。请将此问题报告给作者。</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="135"/>
         <source>Note: make sure the device is not set to “mute”.</source>
-        <translation>Märkus: palun kontrolli, et seda pole seatud „vaiksesse“ olekusse.</translation>
+        <translation>注意：请确保设备未设置为“静音”模式。</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="192"/>
         <source>Note: since SailfishOS 4.3, vibrations only work if the “Touchscreen vibration” setting in the system settings is enabled. This is a &lt;a href=&quot;%1&quot;&gt;known bug&lt;/a&gt; and should hopefully be fixed in the next version after SailfishOS 4.5.</source>
-        <translation>Märkus: alates SailfishOS&apos;i versioonist 4.3 värinaalarm toimib vaid siis, kui süsteemi seadistustest „Helid ja tagasiside - Vibratsioon“ valikus vibratsioon on sisse lülitatud. See on &lt;a href=&quot;%1&quot;&gt;teadaolev viga&lt;/a&gt; ja saab loodetavasti parandatud järgmise versiooniga peale SailfishOS 4.5&apos;te.</translation>
+        <translation>注意：从 SailfishOS 4.3 起，振动功能仅在系统设置中的“触摸屏振动”启用时才有效。这是一个&lt;a href=&quot;%1&quot;&gt;已知缺陷&lt;/a&gt;，应当有望在 SailfishOS 4.5 以后的版本中解决。</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="201"/>
         <source>Bug report</source>
-        <translation>Veateated</translation>
+        <translation>缺陷报告</translation>
     </message>
 </context>
 <context>
@@ -477,49 +473,47 @@
     <message>
         <location filename="../qml/harbour-minidoro.qml" line="216"/>
         <source>Work</source>
-        <translation>Töö</translation>
+        <translation>工作</translation>
     </message>
     <message>
         <location filename="../qml/harbour-minidoro.qml" line="107"/>
         <source>h:mm</source>
         <comment>time format, as in “10:15” without “o&apos;clock”</comment>
-        <translation>hh:mm</translation>
+        <translation>h:mm</translation>
     </message>
     <message numerus="yes">
         <location filename="../qml/harbour-minidoro.qml" line="151"/>
         <source>%n minute(s) break</source>
         <translation>
-            <numerusform>%n minut puhkust</numerusform>
-            <numerusform>%n minutit puhkust</numerusform>
+            <numerusform>%n 分钟休息</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../qml/harbour-minidoro.qml" line="153"/>
         <source>Take a break until %1 o&apos;clock.</source>
-        <translation>Puhka kuni %1.</translation>
+        <translation>休息到 %1 点钟。</translation>
     </message>
     <message numerus="yes">
         <location filename="../qml/harbour-minidoro.qml" line="156"/>
         <source>%n minute(s) of work</source>
         <translation>
-            <numerusform>%n minut tööd</numerusform>
-            <numerusform>%n minutit tööd</numerusform>
+            <numerusform>%n 分钟工作</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../qml/harbour-minidoro.qml" line="158"/>
         <source>Work until %1 o&apos;clock.</source>
-        <translation>Tööta kuni %1.</translation>
+        <translation>工作到 %1 点钟。</translation>
     </message>
     <message>
         <location filename="../qml/harbour-minidoro.qml" line="217"/>
         <source>Break</source>
-        <translation>Puhkehetk</translation>
+        <translation>休息</translation>
     </message>
     <message>
         <location filename="../qml/harbour-minidoro.qml" line="218"/>
         <source>Long Break</source>
-        <translation>Pikem puhkus</translation>
+        <translation>长休息</translation>
     </message>
 </context>
 </TS>
