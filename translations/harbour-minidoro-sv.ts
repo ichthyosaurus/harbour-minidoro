@@ -4,79 +4,125 @@
 <context>
     <name>AboutPage</name>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="53"/>
+        <location filename="../qml/pages/AboutPage.qml" line="45"/>
         <source>Minidoro is a minimalist Pomodoro® Technique timer helping to get things done.</source>
         <translation>Minidoro är ett minimalistiskt Pomodoro®-tekniktidur som hjälper till att få saker gjorda.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="84"/>
+        <location filename="../qml/pages/AboutPage.qml" line="75"/>
         <source>How it works</source>
         <translation>Hur det fungerar</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="85"/>
+        <location filename="../qml/pages/AboutPage.qml" line="76"/>
         <source>The Pomodoro® Technique is an extremely simple but efficient time management technique developed by Francesco Cirillo. The basic idea is it&apos;s simpler to concentrate on work for a relatively short period, keeping in mind you can take a rest or switch to another activity afterwards.&lt;br&gt;&lt;li&gt;· Split your work for 25 minute intervals, separated by short break periods.&lt;/li&gt;&lt;li&gt;· In these 25 minute intervals try to focus on your work as much as possible, try to not distract yourself and to avoid other distractions.&lt;/li&gt;&lt;li&gt;· After a 25 minute interval take a 5 minute break. During this break do any other activities except for the previous work.&lt;/li&gt;&lt;li&gt;· Return to the work after the break.&lt;/li&gt;&lt;li&gt;· Take a long break of about 10–30 minutes after every 4 work intervals.&lt;/li&gt;&lt;br&gt;</source>
         <translation>Pomodoro®-tekniken är en extremt enkel men effektiv tidshanteringsteknik utvecklad av Francesco Cirillo. Grundtanken är att det är enklare att koncentrera sig på arbetet under en relativt kort period, med tanke på att du kan vila eller byta till en annan aktivitet efteråt. &lt;br&gt;&lt;li&gt;· Dela upp ditt arbete i 25-minutersintervall, åtskilda av korta pausperioder.&lt;/li&gt; &lt;li&gt;· Försök att fokusera på ditt arbete så mycket som möjligt i dessa 25-minutersintervall och försök att inte distrahera dig själv och att undvika andra distraktioner.&lt;/li&gt; &lt;li&gt;· Efter ett 25-minutersintervall tar du en 5-minuters paus. Under denna paus ägnar du dig åt andra aktiviteter utanför det tidigare arbetet.&lt;/li&gt; &lt;li&gt;· Återgå till arbetet efter pausen.&lt;/li&gt; &lt;li&gt;· Ta en lång paus på ca 10–30 minuter efter var fjärde arbetsintervall.&lt;/li&gt; &lt;br&gt;</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="105"/>
+        <location filename="../qml/pages/AboutPage.qml" line="96"/>
         <source>Website</source>
         <translation>Webbsida</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="125"/>
+        <location filename="../qml/pages/AboutPage.qml" line="116"/>
         <source>Acknowledgments</source>
         <translation>Bekräftelser</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="126"/>
+        <location filename="../qml/pages/AboutPage.qml" line="117"/>
         <source>This app is modelled after Minidoro for Android by Yury Pavlov.</source>
         <translation>Denna app är modellerad efter Minidoro för Android, av Yury Pavlov.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="133"/>
+        <location filename="../qml/pages/AboutPage.qml" line="124"/>
         <source>Development</source>
         <translation>Utveckling</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="136"/>
+        <location filename="../qml/pages/AboutPage.qml" line="127"/>
         <source>Programming</source>
         <translation>Programmering</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="140"/>
+        <location filename="../qml/pages/AboutPage.qml" line="131"/>
         <source>Icon Design</source>
         <translation>Ikondesign</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="146"/>
+        <location filename="../qml/pages/AboutPage.qml" line="139"/>
         <source>Translations</source>
         <translation>Översättningar</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="149"/>
+        <location filename="../qml/pages/AboutPage.qml" line="142"/>
+        <source>Ukrainian</source>
+        <translation>Ukrainska</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AboutPage.qml" line="155"/>
+        <source>Russian</source>
+        <translation>Ryska</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AboutPage.qml" line="167"/>
+        <source>Estonian</source>
+        <translation>Estniska</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AboutPage.qml" line="173"/>
+        <source>English (Developer)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AboutPage.qml" line="179"/>
         <source>English</source>
         <translation>Engelska</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="153"/>
+        <location filename="../qml/pages/AboutPage.qml" line="185"/>
+        <source>Chinese</source>
+        <translation>Kinesiska</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AboutPage.qml" line="161"/>
         <source>German</source>
         <translation>Tyska</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="157"/>
+        <location filename="../qml/pages/AboutPage.qml" line="148"/>
         <source>Swedish</source>
         <translation>Svenska</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="113"/>
+        <location filename="../qml/pages/AboutPage.qml" line="104"/>
         <source>Counters</source>
         <translation>Räkneverk</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="114"/>
+        <location filename="../qml/pages/AboutPage.qml" line="105"/>
         <source>There are two counters at the bottom of the main page. For example, you can use the left counter (star) to count external interruptions, i.e. someone interrupting you. Then use the right counter (circle) to count internal interruptions, i.e. how often you interrupt yourself. You can also use one counter to keep track of ideas you have while working that are not relevant for your current task. In the break, you can then take a note for each idea you counted.</source>
         <translation>Det finns två räkneverk längst ned på huvudsidan. Du kan till exempel använda vänster räkneverk (stjärna) för att räkna externa avbrott, dvs. någon som avbryter dig. Använd sedan höger räkneverk (cirkel) för att räkna interna avbrott, dvs. hur ofta du avbryter dig själv. Du kan också använda ett räkneverk för att hålla reda på idéer du har när du arbetar som inte är relevanta för din aktuella uppgift. I pausen kan du sedan anteckna varje idé du räknade.</translation>
+    </message>
+</context>
+<context>
+    <name>AskForSupport</name>
+    <message>
+        <location filename="../qml/modules/Opal/SupportMe/AskForSupport.qml" line="11"/>
+        <source>Please take a moment to consider if you can contribute to this project in one way or another.</source>
+        <translation>Överväg om du kan bidra till det här projektet på ett eller annat sätt.</translation>
+    </message>
+</context>
+<context>
+    <name>DetailsDrawer</name>
+    <message>
+        <location filename="../qml/modules/Opal/SupportMe/DetailsDrawer.qml" line="53"/>
+        <source>show less</source>
+        <translation>visa mindre</translation>
+    </message>
+    <message>
+        <location filename="../qml/modules/Opal/SupportMe/DetailsDrawer.qml" line="53"/>
+        <source>show more</source>
+        <translation>visa mer</translation>
     </message>
 </context>
 <context>
@@ -116,6 +162,69 @@
     </message>
 </context>
 <context>
+    <name>MySupportDialog</name>
+    <message>
+        <location filename="../qml/MySupportDialog.qml" line="14"/>
+        <source>Donate on Liberapay</source>
+        <translation>Donera på Liberapay</translation>
+    </message>
+    <message>
+        <location filename="../qml/MySupportDialog.qml" line="15"/>
+        <source>Pay the amount of a cup of coffee, a slice of pizza, or a ticket to the theater.</source>
+        <translation>Betala för kaffe, en bit pizza eller en biljett till teatern.</translation>
+    </message>
+    <message>
+        <location filename="../qml/MySupportDialog.qml" line="22"/>
+        <source>Translate on Weblate</source>
+        <translation>Översätt på Weblate</translation>
+    </message>
+    <message>
+        <location filename="../qml/MySupportDialog.qml" line="23"/>
+        <source>Help with translating this app in as many languages as possible.</source>
+        <translation>Hjälp till med att översätta denna app på så många språk som möjligt.</translation>
+    </message>
+    <message>
+        <location filename="../qml/MySupportDialog.qml" line="30"/>
+        <source>Develop on Github</source>
+        <translation>Utveckla på Github</translation>
+    </message>
+    <message>
+        <location filename="../qml/MySupportDialog.qml" line="31"/>
+        <source>Support with maintenance and packaging, write code, or provide valuable bug reports.</source>
+        <translation>Stöd underhåll och paketering, skriv kod eller lämna värdefulla felrapporter.</translation>
+    </message>
+    <message>
+        <location filename="../qml/MySupportDialog.qml" line="37"/>
+        <source>Why should you care?</source>
+        <translation>Varför ska du bry dig?</translation>
+    </message>
+    <message>
+        <location filename="../qml/MySupportDialog.qml" line="40"/>
+        <source>This project is built with love and passion by a single developer in their spare time, and is provided to you free of charge.</source>
+        <translation>Detta projekt är byggt med kärlek och passion av en enda utvecklare på fritiden, och ges till dig helt gratis.</translation>
+    </message>
+    <message>
+        <location filename="../qml/MySupportDialog.qml" line="46"/>
+        <source>I develop Free Software because I am convinced that it is the ethical thing to do - and it is a fun hobby. However, developing software takes a lot of time and effort. As Sailfish and living in general costs money, I need your support to be able to spend time on non-paying projects like this.</source>
+        <translation>Jag utvecklar fri programvara eftersom jag är övertygad om att det är det etiska rätta att göra - och det är en rolig hobby. Men att utveckla programvara tar mycket tid och ansträngning. Som Sailfish och levnadskostnader i allmänhet kostar pengar, behöver jag ditt stöd för att kunna spendera tid på icke-betalande projekt som detta.</translation>
+    </message>
+    <message>
+        <location filename="../qml/MySupportDialog.qml" line="56"/>
+        <source>Why donate?</source>
+        <translation>Varför donera?</translation>
+    </message>
+    <message>
+        <location filename="../qml/MySupportDialog.qml" line="59"/>
+        <source>Jolla raised prices and is trying to force developers (who work for free) to pay rent for Sailfish.</source>
+        <translation>Jolla höjde priserna och försöker tvinga utvecklare (som arbetar gratis) att betala hyra för Sailfish.</translation>
+    </message>
+    <message>
+        <location filename="../qml/MySupportDialog.qml" line="64"/>
+        <source>If you can afford it, donating is the easiest way to ensure that I can continue working on apps for Sailfish. Any amount is appreciated, be it a cup of coffee, a slice of pizza, or more.</source>
+        <translation>Om du har råd med det är donation det enklaste sättet att se till att jag kan fortsätta arbeta med appar för Sailfish. Varje summa uppskattas, vare sig det är en kopp kaffe, en bit pizza eller mer.</translation>
+    </message>
+</context>
+<context>
     <name>Opal.About</name>
     <message>
         <location filename="../qml/modules/Opal/About/InfoSection.qml" line="15"/>
@@ -123,45 +232,45 @@
         <translation>visa detaljerat</translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/About/private/ContributorsPage.qml" line="21"/>
+        <location filename="../qml/modules/Opal/About/private/ContributorsPage.qml" line="23"/>
         <source>Contributors</source>
         <translation>Medverkande</translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="100"/>
-        <location filename="../qml/modules/Opal/About/private/ContributorsPage.qml" line="22"/>
-        <location filename="../qml/modules/Opal/About/private/ContributorsPage.qml" line="31"/>
+        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="101"/>
+        <location filename="../qml/modules/Opal/About/private/ContributorsPage.qml" line="24"/>
+        <location filename="../qml/modules/Opal/About/private/ContributorsPage.qml" line="33"/>
         <source>Development</source>
         <translation>Utveckling</translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/About/private/ContributorsPage.qml" line="37"/>
+        <location filename="../qml/modules/Opal/About/private/ContributorsPage.qml" line="39"/>
         <source>Acknowledgements</source>
         <translation>Bekräftelser</translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/About/private/ContributorsPage.qml" line="44"/>
+        <location filename="../qml/modules/Opal/About/private/ContributorsAttributionRepeater.qml" line="11"/>
         <source>Thank you!</source>
         <translation>Tack!</translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/About/private/ContributorsPage.qml" line="48"/>
-        <location filename="../qml/modules/Opal/About/private/LicensePage.qml" line="31"/>
+        <location filename="../qml/modules/Opal/About/private/ContributorsAttributionRepeater.qml" line="15"/>
+        <location filename="../qml/modules/Opal/About/private/LicensePage.qml" line="34"/>
         <source>Details</source>
         <translation>Detaljerat</translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="114"/>
-        <location filename="../qml/modules/Opal/About/private/ContributorsPage.qml" line="50"/>
-        <location filename="../qml/modules/Opal/About/private/ContributorsPage.qml" line="58"/>
+        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="115"/>
+        <location filename="../qml/modules/Opal/About/private/ContributorsAttributionRepeater.qml" line="17"/>
+        <location filename="../qml/modules/Opal/About/private/ContributorsAttributionRepeater.qml" line="25"/>
         <location filename="../qml/modules/Opal/About/private/LicenseListPart.qml" line="50"/>
         <source>Source Code</source>
         <translation>Källkod</translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="105"/>
-        <location filename="../qml/modules/Opal/About/private/ContributorsPage.qml" line="51"/>
-        <location filename="../qml/modules/Opal/About/private/ContributorsPage.qml" line="57"/>
+        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="106"/>
+        <location filename="../qml/modules/Opal/About/private/ContributorsAttributionRepeater.qml" line="18"/>
+        <location filename="../qml/modules/Opal/About/private/ContributorsAttributionRepeater.qml" line="24"/>
         <location filename="../qml/modules/Opal/About/private/LicenseListPart.qml" line="47"/>
         <source>Homepage</source>
         <translation>Hemsida</translation>
@@ -187,12 +296,12 @@
         <translation>Kopiera till urklipp</translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/About/private/LicensePage.qml" line="25"/>
+        <location filename="../qml/modules/Opal/About/private/LicensePage.qml" line="28"/>
         <source>Download license texts</source>
         <translation>Ladda ner licenstexter</translation>
     </message>
     <message numerus="yes">
-        <location filename="../qml/modules/Opal/About/private/LicensePage.qml" line="31"/>
+        <location filename="../qml/modules/Opal/About/private/LicensePage.qml" line="34"/>
         <source>License(s)</source>
         <translation>
             <numerusform>Licens</numerusform>
@@ -200,48 +309,48 @@
         </translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/About/private/LicensePage.qml" line="41"/>
+        <location filename="../qml/modules/Opal/About/private/LicensePage.qml" line="44"/>
         <source>Note: please check the source code for most accurate information.</source>
         <translation>Notis: Kontrollera källkoden för mest korrekt information.</translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="55"/>
+        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="56"/>
         <source>About</source>
         <translation>Om</translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="84"/>
+        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="85"/>
         <source>Version %1</source>
         <translation>Version %1</translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="108"/>
+        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="109"/>
         <location filename="../qml/modules/Opal/About/private/ChangelogPage.qml" line="16"/>
         <source>Changelog</source>
         <translation>Ändringslogg</translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="103"/>
+        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="104"/>
         <source>show contributors</source>
         <translation>visa medverkande</translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="111"/>
+        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="112"/>
         <source>Translations</source>
         <translation>Översättning</translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="123"/>
+        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="124"/>
         <source>Donations</source>
         <translation>Donationer</translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="129"/>
+        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="130"/>
         <source>License</source>
         <translation>Licens</translation>
     </message>
     <message numerus="yes">
-        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="134"/>
+        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="135"/>
         <source>show license(s)</source>
         <translation>
             <numerusform>visa licens</numerusform>
@@ -254,12 +363,12 @@
         <translation>Se &lt;a href=&quot;%1&quot;&gt;%1&lt;/a&gt;</translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/About/ChangelogNews.qml" line="60"/>
+        <location filename="../qml/modules/Opal/About/ChangelogNews.qml" line="61"/>
         <source>News</source>
         <translation>Nyheter</translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/About/ChangelogNews.qml" line="61"/>
+        <location filename="../qml/modules/Opal/About/ChangelogNews.qml" line="62"/>
         <source>Changes since version %1</source>
         <translation>Ändrat sedan version %1</translation>
     </message>
@@ -286,26 +395,31 @@
     <name>Opal.LinkHandler</name>
     <message>
         <location filename="../qml/modules/Opal/LinkHandler/private/ExternalUrlPage.qml" line="15"/>
+        <location filename="../qml/modules/Opal/SupportMe/private/LinkHandler/private/ExternalUrlPage.qml" line="15"/>
         <source>External Link</source>
         <translation>Extern länk</translation>
     </message>
     <message>
         <location filename="../qml/modules/Opal/LinkHandler/private/ExternalUrlPage.qml" line="32"/>
+        <location filename="../qml/modules/Opal/SupportMe/private/LinkHandler/private/ExternalUrlPage.qml" line="32"/>
         <source>Open in browser</source>
         <translation>Öppna i webbläsare</translation>
     </message>
     <message>
         <location filename="../qml/modules/Opal/LinkHandler/private/ExternalUrlPage.qml" line="32"/>
+        <location filename="../qml/modules/Opal/SupportMe/private/LinkHandler/private/ExternalUrlPage.qml" line="32"/>
         <source>Open externally</source>
         <translation>Öppna externt</translation>
     </message>
     <message>
         <location filename="../qml/modules/Opal/LinkHandler/private/ExternalUrlPage.qml" line="36"/>
+        <location filename="../qml/modules/Opal/SupportMe/private/LinkHandler/private/ExternalUrlPage.qml" line="36"/>
         <source>Copied to clipboard: %1</source>
         <translation>Kopierat till urklipp: %1</translation>
     </message>
     <message>
         <location filename="../qml/modules/Opal/LinkHandler/private/ExternalUrlPage.qml" line="41"/>
+        <location filename="../qml/modules/Opal/SupportMe/private/LinkHandler/private/ExternalUrlPage.qml" line="41"/>
         <source>Copy to clipboard</source>
         <translation>Kopiera till urklipp</translation>
     </message>
@@ -321,10 +435,6 @@
         <location filename="../qml/pages/SettingsPage.qml" line="32"/>
         <source>Intervals</source>
         <translation>Intervall</translation>
-    </message>
-    <message>
-        <source>%1 min</source>
-        <translation type="vanished">%1 min</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="60"/>
@@ -466,35 +576,59 @@
         <translation>Starkt</translation>
     </message>
     <message>
-        <source>Long break after %1 intervals</source>
-        <translation type="vanished">Långrast efter %1 intervall</translation>
-    </message>
-    <message>
         <location filename="../qml/pages/SettingsPage.qml" line="210"/>
         <source>Note: the haptic feedback module could not be initialized. This should not happen and most probably is a bug. Please report this problem to the author.</source>
         <translation>Det gick inte att initiera den haptiska återkopplingsmodulen. Detta bör inte hända och är förmodligen ett fel. Rapportera gärna det här problemet till utvecklaren.</translation>
     </message>
 </context>
 <context>
+    <name>SupportDialog</name>
+    <message>
+        <location filename="../qml/modules/Opal/SupportMe/SupportDialog.qml" line="9"/>
+        <source>Hi there!</source>
+        <translation>Hallå där!</translation>
+    </message>
+    <message>
+        <location filename="../qml/modules/Opal/SupportMe/SupportDialog.qml" line="10"/>
+        <source>Thank you for using my little app! Maybe you can contribute back?</source>
+        <translation>Tack för att du använder min lilla app! Kanske kan du bidra tillbaka?</translation>
+    </message>
+    <message>
+        <location filename="../qml/modules/Opal/SupportMe/SupportDialog.qml" line="11"/>
+        <source>Thank you for your support!</source>
+        <translation>Tack för ditt stöd!</translation>
+    </message>
+    <message>
+        <location filename="../qml/modules/Opal/SupportMe/SupportDialog.qml" line="55"/>
+        <source>Remind me later</source>
+        <translation>Påminn mig senare</translation>
+    </message>
+    <message>
+        <location filename="../qml/modules/Opal/SupportMe/SupportDialog.qml" line="57"/>
+        <source>Don&apos;t ask me again</source>
+        <translation>Fråga mig inte igen</translation>
+    </message>
+</context>
+<context>
     <name>harbour-minidoro</name>
     <message>
-        <location filename="../qml/harbour-minidoro.qml" line="236"/>
+        <location filename="../qml/harbour-minidoro.qml" line="238"/>
         <source>Minidoro</source>
         <translation>Minidoro</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-minidoro.qml" line="216"/>
+        <location filename="../qml/harbour-minidoro.qml" line="218"/>
         <source>Work</source>
         <translation>Arbete</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-minidoro.qml" line="107"/>
+        <location filename="../qml/harbour-minidoro.qml" line="109"/>
         <source>h:mm</source>
         <comment>time format, as in “10:15” without “o&apos;clock”</comment>
         <translation>t:mm</translation>
     </message>
     <message numerus="yes">
-        <location filename="../qml/harbour-minidoro.qml" line="151"/>
+        <location filename="../qml/harbour-minidoro.qml" line="153"/>
         <source>%n minute(s) break</source>
         <translation>
             <numerusform>%n minut paus</numerusform>
@@ -502,12 +636,12 @@
         </translation>
     </message>
     <message>
-        <location filename="../qml/harbour-minidoro.qml" line="153"/>
+        <location filename="../qml/harbour-minidoro.qml" line="155"/>
         <source>Take a break until %1 o&apos;clock.</source>
         <translation>Ta en paus till klockan %1.</translation>
     </message>
     <message numerus="yes">
-        <location filename="../qml/harbour-minidoro.qml" line="156"/>
+        <location filename="../qml/harbour-minidoro.qml" line="158"/>
         <source>%n minute(s) of work</source>
         <translation>
             <numerusform>%n minut av jobb</numerusform>
@@ -515,17 +649,17 @@
         </translation>
     </message>
     <message>
-        <location filename="../qml/harbour-minidoro.qml" line="158"/>
+        <location filename="../qml/harbour-minidoro.qml" line="160"/>
         <source>Work until %1 o&apos;clock.</source>
         <translation>Jobba till klockan %1.</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-minidoro.qml" line="217"/>
+        <location filename="../qml/harbour-minidoro.qml" line="219"/>
         <source>Break</source>
         <translation>Paus</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-minidoro.qml" line="218"/>
+        <location filename="../qml/harbour-minidoro.qml" line="220"/>
         <source>Long Break</source>
         <translation>Långrast</translation>
     </message>
