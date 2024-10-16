@@ -10,8 +10,10 @@ import Nemo.Configuration 1.0
 import Nemo.Notifications 1.0
 import Nemo.KeepAlive 1.2
 import QtMultimedia 5.0
-import Opal.About 1.0 as A
 import "pages"
+
+import Opal.About 1.0 as A
+import Opal.SupportMe 1.0 as M
 
 ApplicationWindow {
     id: appWindow
@@ -292,6 +294,12 @@ ApplicationWindow {
 
     A.ChangelogNews {
         changelogList: Qt.resolvedUrl("Changelog.qml")
+    }
+
+    M.AskForSupport {
+        contents: Component {
+            MySupportDialog {}
+        }
     }
 
     Component.onCompleted: {
