@@ -1,4 +1,48 @@
 {
+  "weblate": [
+    {
+      "language": "Chinese",
+      "entries": [
+        "复予"
+      ]
+    },
+    {
+      "language": "English (Developer)",
+      "entries": [
+        "Priit Jõerüüt"
+      ]
+    },
+    {
+      "language": "Estonian",
+      "entries": [
+        "Priit Jõerüüt"
+      ]
+    },
+    {
+      "language": "German",
+      "entries": [
+        "Mirian Margiani"
+      ]
+    },
+    {
+      "language": "Russian",
+      "entries": [
+        "Nikolai Sinyov"
+      ]
+    },
+    {
+      "language": "Swedish",
+      "entries": [
+        "Luna Jernberg"
+      ]
+    },
+    {
+      "language": "Ukrainian",
+      "entries": [
+        "Dan"
+      ]
+    }
+  ],
   "extra": [
     {
       "language": "English",
