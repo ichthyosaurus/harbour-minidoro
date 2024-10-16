@@ -18,7 +18,6 @@
 import QtQuick 2.0
 import Sailfish.Silica 1.0 as S
 import Opal.About 1.0 as A
-import "../modules/Opal/Attributions"
 
 A.AboutPageBase {
     id: root
@@ -46,6 +45,7 @@ A.AboutPageBase {
     description: qsTr("Minidoro is a minimalist Pomodoro® Technique " +
                       "timer helping to get things done.")
     mainAttributions: ["2022-2023 Mirian Margiani"]
+    autoAddOpalAttributions: true
 
     attributions: [
         A.Attribution {
@@ -67,9 +67,7 @@ A.AboutPageBase {
             entries: ["Google", "tomato icon adapted by Mirian Margiani"]
             licenses: A.License { spdxId: "OFL-1.1" }
             homepage: "https://fonts.google.com/noto/specimen/Noto+Emoji"
-        },
-        OpalLinkHandlerAttribution {},
-        OpalAboutAttribution {}
+        }
     ]
 
     extraSections: [
