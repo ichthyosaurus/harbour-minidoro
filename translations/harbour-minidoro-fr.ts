@@ -56,35 +56,35 @@
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="142"/>
         <source>Ukrainian</source>
-        <translation type="unfinished"></translation>
+        <translation>Ukrainien</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="155"/>
+        <location filename="../qml/pages/AboutPage.qml" line="156"/>
         <source>Russian</source>
         <translation>russe</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="167"/>
+        <location filename="../qml/pages/AboutPage.qml" line="168"/>
         <source>Estonian</source>
         <translation>estonien</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="173"/>
+        <location filename="../qml/pages/AboutPage.qml" line="174"/>
         <source>English (Developer)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="179"/>
+        <location filename="../qml/pages/AboutPage.qml" line="180"/>
         <source>English</source>
         <translation>anglais</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="185"/>
+        <location filename="../qml/pages/AboutPage.qml" line="186"/>
         <source>Chinese</source>
         <translation>chinois</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="161"/>
+        <location filename="../qml/pages/AboutPage.qml" line="162"/>
         <source>German</source>
         <translation>allemand</translation>
     </message>
@@ -109,7 +109,7 @@
     <message>
         <location filename="../qml/modules/Opal/SupportMe/AskForSupport.qml" line="11"/>
         <source>Please take a moment to consider if you can contribute to this project in one way or another.</source>
-        <translation type="unfinished"></translation>
+        <translation>Merci de prendre le temps d&apos;envisager si vous pouvez contribuer à ce projet d&apos;une manière ou d&apos;une autre.</translation>
     </message>
 </context>
 <context>

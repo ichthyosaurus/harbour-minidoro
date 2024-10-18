@@ -59,32 +59,32 @@
         <translation>Ukrainska</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="155"/>
+        <location filename="../qml/pages/AboutPage.qml" line="156"/>
         <source>Russian</source>
         <translation>Ryska</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="167"/>
+        <location filename="../qml/pages/AboutPage.qml" line="168"/>
         <source>Estonian</source>
         <translation>Estniska</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="173"/>
+        <location filename="../qml/pages/AboutPage.qml" line="174"/>
         <source>English (Developer)</source>
         <translation>Engelska (Utvecklare)</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="179"/>
+        <location filename="../qml/pages/AboutPage.qml" line="180"/>
         <source>English</source>
         <translation>Engelska</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="185"/>
+        <location filename="../qml/pages/AboutPage.qml" line="186"/>
         <source>Chinese</source>
         <translation>Kinesiska</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="161"/>
+        <location filename="../qml/pages/AboutPage.qml" line="162"/>
         <source>German</source>
         <translation>Tyska</translation>
     </message>

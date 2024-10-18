@@ -59,32 +59,32 @@
         <translation>乌克兰语</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="155"/>
+        <location filename="../qml/pages/AboutPage.qml" line="156"/>
         <source>Russian</source>
         <translation>俄语</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="167"/>
+        <location filename="../qml/pages/AboutPage.qml" line="168"/>
         <source>Estonian</source>
         <translation>爱沙尼亚语</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="173"/>
+        <location filename="../qml/pages/AboutPage.qml" line="174"/>
         <source>English (Developer)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="179"/>
+        <location filename="../qml/pages/AboutPage.qml" line="180"/>
         <source>English</source>
         <translation>英语</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="185"/>
+        <location filename="../qml/pages/AboutPage.qml" line="186"/>
         <source>Chinese</source>
         <translation>汉语</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="161"/>
+        <location filename="../qml/pages/AboutPage.qml" line="162"/>
         <source>German</source>
         <translation>德语</translation>
     </message>
