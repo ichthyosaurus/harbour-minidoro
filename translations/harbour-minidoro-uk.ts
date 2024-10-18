@@ -71,7 +71,7 @@
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="173"/>
         <source>English (Developer)</source>
-        <translation type="unfinished"></translation>
+        <translation>Англійська (Розробник)</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="179"/>

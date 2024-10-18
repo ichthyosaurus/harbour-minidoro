@@ -56,22 +56,22 @@
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="142"/>
         <source>Ukrainian</source>
-        <translation>ukraina</translation>
+        <translation>ukraina keel</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="155"/>
         <source>Russian</source>
-        <translation>vene</translation>
+        <translation>vene keel</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="167"/>
         <source>Estonian</source>
-        <translation>eesti</translation>
+        <translation>eesti keel</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="173"/>
         <source>English (Developer)</source>
-        <translation type="unfinished"></translation>
+        <translation>inglise keel (arendajatele)</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="179"/>
@@ -81,7 +81,7 @@
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="185"/>
         <source>Chinese</source>
-        <translation>hiina</translation>
+        <translation>hiina keel</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="161"/>
