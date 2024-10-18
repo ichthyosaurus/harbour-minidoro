@@ -148,6 +148,7 @@ A.AboutPageBase {
                     title: qsTr("Swedish")
                     entries: [
                         "Luna Jernberg",
+                        "bittin1ddc447d824349b2",
                         "Åke Engelbrektson"
                     ]
                 },
