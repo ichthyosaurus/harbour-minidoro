@@ -6,5 +6,18 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
+* Fri Oct 18 2024 Mirian Margiani <mixosaurus+ichthyo@pm.me> 1.1.0-1
+- Updated translations: Chinese (Simplified), Estonian, German, Russian, Swedish, Ukrainian
+- Added a shiny support page asking for donations and contributions, and an in-app changelog
+- Added a new sailfishy tomato icon with an option to choose either a monochrome or colorful version
+- Added notifications telling you when you should take a break
+- Added a remorse timer when choosing "reset" from the pulley menu
+- Added a note explaining broken vibration settings which may or may not work again with Sailfish 4.6
+- Fixed missing translations so that all available translations are actually shippped!
+- Fixed time in interval descriptions
+- Fixed negative interval times that could happen after changing the interval while the timer was running
+- Improved settings descriptions
+- Updated Opal modules, packaging stuff, and general maintenance
+
 * Wed Mar 30 2022 Mirian Margiani <mixosaurus+ichthyo@pm.me> 1.0.0-1
 - initial release
