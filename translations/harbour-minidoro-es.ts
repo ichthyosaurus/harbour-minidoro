@@ -6,32 +6,32 @@
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="45"/>
         <source>Minidoro is a minimalist Pomodoro® Technique timer helping to get things done.</source>
-        <translation type="unfinished"></translation>
+        <translation>Minidoro es un temporizador minimalista de la Técnica Pomodoro® que ayuda a hacer las cosas.</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="75"/>
         <source>How it works</source>
-        <translation type="unfinished"></translation>
+        <translation>¿Cómo funciona?</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="76"/>
         <source>The Pomodoro® Technique is an extremely simple but efficient time management technique developed by Francesco Cirillo. The basic idea is it&apos;s simpler to concentrate on work for a relatively short period, keeping in mind you can take a rest or switch to another activity afterwards.&lt;br&gt;&lt;li&gt;· Split your work for 25 minute intervals, separated by short break periods.&lt;/li&gt;&lt;li&gt;· In these 25 minute intervals try to focus on your work as much as possible, try to not distract yourself and to avoid other distractions.&lt;/li&gt;&lt;li&gt;· After a 25 minute interval take a 5 minute break. During this break do any other activities except for the previous work.&lt;/li&gt;&lt;li&gt;· Return to the work after the break.&lt;/li&gt;&lt;li&gt;· Take a long break of about 10–30 minutes after every 4 work intervals.&lt;/li&gt;&lt;br&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>La técnica Pomodoro® es una técnica de gestión del tiempo extremadamente simple pero eficiente desarrollada por Francesco Cirillo. La idea básica es que es más simple concentrarse en el trabajo por un período relativamente corto, teniendo en cuenta que puede tomar un descanso o cambiar a otra actividad después. &lt;br&gt;&lt;li&gt; Divide tu trabajo en intervalos de 25 minutos, separados por períodos cortos de descanso. &lt;/li&gt;&lt;li&gt; En estos intervalos de 25 minutos, intente concentrarse en su trabajo tanto como sea posible, trate de no distraerse y evitar otras distracciones. &lt;/li&gt;&lt;li&gt; Después de un intervalo de 25 minutos, tómese un descanso de 5 minutos. Durante este descanso realice cualquier otra actividad excepto el trabajo anterior. &lt;/li&gt;&lt;li&gt; Vuelve al trabajo después del descanso. &lt;/li&gt;&lt;li&gt; Tómate un descanso largo de unos 10-30 minutos cada 4 intervalos de trabajo. &lt;/li&gt;&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="96"/>
         <source>Website</source>
-        <translation type="unfinished"></translation>
+        <translation>Página web</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="116"/>
         <source>Acknowledgments</source>
-        <translation type="unfinished"></translation>
+        <translation>Agradecimientos</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="117"/>
         <source>This app is modelled after Minidoro for Android by Yury Pavlov.</source>
-        <translation type="unfinished"></translation>
+        <translation>Esta aplicación está basada en Minidoro para Android por Yury Pavlov.</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="124"/>
@@ -71,7 +71,7 @@
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="174"/>
         <source>English (Developer)</source>
-        <translation type="unfinished"></translation>
+        <translation>Inglés (desarrollador)</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="180"/>
@@ -96,12 +96,12 @@
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="104"/>
         <source>Counters</source>
-        <translation type="unfinished"></translation>
+        <translation>Contadores</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="105"/>
         <source>There are two counters at the bottom of the main page. For example, you can use the left counter (star) to count external interruptions, i.e. someone interrupting you. Then use the right counter (circle) to count internal interruptions, i.e. how often you interrupt yourself. You can also use one counter to keep track of ideas you have while working that are not relevant for your current task. In the break, you can then take a note for each idea you counted.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hay dos contadores en la parte inferior de la página principal. Por ejemplo, puedes utilizar el contador de la izquierda (estrella) para contar las interrupciones externas, es decir, cuando alguien te interrumpe. Y el de la derecha (círculo) para contar las interrupciones internas, es decir, la frecuencia con la que te interrumpes a ti mismo. También puedes utilizar un contador para llevar la cuenta de las ideas que se te ocurren mientras trabajas y que no son relevantes para la tarea actual. En la pausa, puedes tomar nota de cada idea que hayas contado.</translation>
     </message>
 </context>
 <context>
@@ -143,22 +143,22 @@
     <message>
         <location filename="../qml/pages/MainPage.qml" line="24"/>
         <source>Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Ajustes</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="28"/>
         <source>Reset</source>
-        <translation type="unfinished"></translation>
+        <translation>Restablecer</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="31"/>
         <source>Reset all progress</source>
-        <translation type="unfinished"></translation>
+        <translation>Restablecer todos los progresos</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="42"/>
         <source>Start</source>
-        <translation type="unfinished"></translation>
+        <translation>Iniciar</translation>
     </message>
 </context>
 <context>
@@ -273,7 +273,7 @@
         <location filename="../qml/modules/Opal/About/private/ContributorsAttributionRepeater.qml" line="24"/>
         <location filename="../qml/modules/Opal/About/private/LicenseListPart.qml" line="47"/>
         <source>Homepage</source>
-        <translation>Página web</translation>
+        <translation>Página de inicio</translation>
     </message>
     <message>
         <location filename="../qml/modules/Opal/About/private/ExternalUrlPage.qml" line="15"/>
@@ -429,110 +429,110 @@
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="28"/>
         <source>Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Ajustes</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="32"/>
         <source>Intervals</source>
-        <translation type="unfinished"></translation>
+        <translation>Intervalos</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="60"/>
         <source>Work duration</source>
-        <translation type="unfinished"></translation>
+        <translation>Duración del trabajo</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="76"/>
         <source>Break duration</source>
-        <translation type="unfinished"></translation>
+        <translation>Duración del descanso</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="92"/>
         <source>Long break duration</source>
-        <translation type="unfinished"></translation>
+        <translation>Descanso de larga duración</translation>
     </message>
     <message numerus="yes">
         <location filename="../qml/pages/SettingsPage.qml" line="108"/>
         <source>Long break after %n interval(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>Pausa larga después de %n intervalo</numerusform>
+            <numerusform>Pausa larga después de %n intervalos</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="119"/>
         <source>Notifications</source>
-        <translation type="unfinished"></translation>
+        <translation>Notificaciones</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="123"/>
         <source>Enable notifications</source>
-        <translation type="unfinished"></translation>
+        <translation>Activar notificaciones</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="124"/>
         <source>Show notifications when the current interval is finished and you may start the next interval.</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostrar notificaciones cuando el intervalo actual ha terminado y puede comenzar el siguiente intervalo.</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="132"/>
         <source>Enable sounds</source>
-        <translation type="unfinished"></translation>
+        <translation>Activar sonidos</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="133"/>
         <source>Play an alarm sound when the current interval is finished.</source>
-        <translation type="unfinished"></translation>
+        <translation>Reproducir un sonido de alarma cuando finalice el intervalo actual.</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="143"/>
         <source>Enable vibrations</source>
-        <translation type="unfinished"></translation>
+        <translation>Activar vibración</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="144"/>
         <source>Vibrate the device when an interval starts or the current interval is finished.</source>
-        <translation type="unfinished"></translation>
+        <translation>Haz vibrar el dispositivo cuando comience un intervalo o finalice el intervalo actual.</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="153"/>
         <source>Vibrations intensity</source>
-        <translation type="unfinished"></translation>
+        <translation>Intensidad de la vibración</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="162"/>
         <source>It is advised to choose a low setting in quiet areas. The medium setting is intended for busy environments and concentrated work.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se aconseja elegir un ajuste bajo en zonas tranquilas. El ajuste medio está pensado para entornos concurridos y trabajos concentrados.</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="217"/>
         <source>General</source>
-        <translation type="unfinished"></translation>
+        <translation>General</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="221"/>
         <source>Keep the display on</source>
-        <translation type="unfinished"></translation>
+        <translation>Mantener encendida la pantalla</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="222"/>
         <source>Make sure the display does not turn off while you are working.</source>
-        <translation type="unfinished"></translation>
+        <translation>Asegúrate de que la pantalla no se apaga mientras trabajas.</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="229"/>
         <source>Use color icons</source>
-        <translation type="unfinished"></translation>
+        <translation>Usar iconos de colores</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="230"/>
         <source>Disable this option if you prefer icons that fit more into the system ambience.</source>
-        <translation type="unfinished"></translation>
+        <translation>Si prefiere que los iconos coincidan con el tema del sistema, puede desactivar esta configuración.</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="178"/>
         <source>Quiet</source>
-        <translation type="unfinished"></translation>
+        <translation>Silencio</translation>
     </message>
     <message numerus="yes">
         <location filename="../qml/pages/SettingsPage.qml" line="58"/>
@@ -540,45 +540,45 @@
         <location filename="../qml/pages/SettingsPage.qml" line="90"/>
         <source>%n min</source>
         <comment>as in “x minutes”</comment>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n min</numerusform>
+            <numerusform>%n min</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="179"/>
         <source>Modest</source>
-        <translation type="unfinished"></translation>
+        <translation>Moderado</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="180"/>
         <source>Medium</source>
-        <translation type="unfinished"></translation>
+        <translation>Medio</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="181"/>
         <source>Strong</source>
-        <translation type="unfinished"></translation>
+        <translation>Fuerte</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="210"/>
         <source>Note: the haptic feedback module could not be initialized. This should not happen and most probably is a bug. Please report this problem to the author.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nota: no se pudo inicializar el módulo de respuesta háptica. Esto no debería suceder y lo más probable es que se trate de un error. Informe de este problema al autor.</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="135"/>
         <source>Note: make sure the device is not set to “mute”.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nota: asegúrate de que el dispositivo no esté &quot;silenciado&quot;.</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="192"/>
         <source>Note: since SailfishOS 4.3, vibrations only work if the “Touchscreen vibration” setting in the system settings is enabled. This is a &lt;a href=&quot;%1&quot;&gt;known bug&lt;/a&gt; and should hopefully be fixed in the next version after SailfishOS 4.5.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nota: desde SailfishOS 4.3, las vibraciones solo funcionan si la configuración &quot;Vibración de pantalla táctil&quot; está activada en la configuración del sistema. Este es un &lt;a href=&quot;%1&quot;&gt;error conocido&lt;/a&gt; y esperamos que sea corregido en la próxima versión después de SailfishOS 4.5.</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="201"/>
         <source>Bug report</source>
-        <translation type="unfinished"></translation>
+        <translation>Informe de errores</translation>
     </message>
 </context>
 <context>
@@ -614,54 +614,54 @@
     <message>
         <location filename="../qml/harbour-minidoro.qml" line="238"/>
         <source>Minidoro</source>
-        <translation type="unfinished"></translation>
+        <translation>Minidoro</translation>
     </message>
     <message>
         <location filename="../qml/harbour-minidoro.qml" line="218"/>
         <source>Work</source>
-        <translation type="unfinished"></translation>
+        <translation>Trabajar</translation>
     </message>
     <message>
         <location filename="../qml/harbour-minidoro.qml" line="109"/>
         <source>h:mm</source>
         <comment>time format, as in “10:15” without “o&apos;clock”</comment>
-        <translation type="unfinished"></translation>
+        <translation>h:mm</translation>
     </message>
     <message numerus="yes">
         <location filename="../qml/harbour-minidoro.qml" line="153"/>
         <source>%n minute(s) break</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n minuto de descanso</numerusform>
+            <numerusform>%n minutos de descanso</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../qml/harbour-minidoro.qml" line="155"/>
         <source>Take a break until %1 o&apos;clock.</source>
-        <translation type="unfinished"></translation>
+        <translation>Toma un descanso hasta %1 en punto.</translation>
     </message>
     <message numerus="yes">
         <location filename="../qml/harbour-minidoro.qml" line="158"/>
         <source>%n minute(s) of work</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n minuto de trabajo</numerusform>
+            <numerusform>%n minutos de trabajo</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../qml/harbour-minidoro.qml" line="160"/>
         <source>Work until %1 o&apos;clock.</source>
-        <translation type="unfinished"></translation>
+        <translation>Trabajar hasta %1 en punto.</translation>
     </message>
     <message>
         <location filename="../qml/harbour-minidoro.qml" line="219"/>
         <source>Break</source>
-        <translation type="unfinished"></translation>
+        <translation>Descanso</translation>
     </message>
     <message>
         <location filename="../qml/harbour-minidoro.qml" line="220"/>
         <source>Long Break</source>
-        <translation type="unfinished"></translation>
+        <translation>Descanso largo</translation>
     </message>
 </context>
 </TS>
