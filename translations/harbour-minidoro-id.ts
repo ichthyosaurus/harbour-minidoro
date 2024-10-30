@@ -6,32 +6,32 @@
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="45"/>
         <source>Minidoro is a minimalist Pomodoro® Technique timer helping to get things done.</source>
-        <translation type="unfinished"></translation>
+        <translation>Minidoro adalah pengatur waktu Teknik Pomodoro® minimalis yang membantu menyelesaikan pekerjaan.</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="75"/>
         <source>How it works</source>
-        <translation type="unfinished"></translation>
+        <translation>Cara kerjanya</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="76"/>
         <source>The Pomodoro® Technique is an extremely simple but efficient time management technique developed by Francesco Cirillo. The basic idea is it&apos;s simpler to concentrate on work for a relatively short period, keeping in mind you can take a rest or switch to another activity afterwards.&lt;br&gt;&lt;li&gt;· Split your work for 25 minute intervals, separated by short break periods.&lt;/li&gt;&lt;li&gt;· In these 25 minute intervals try to focus on your work as much as possible, try to not distract yourself and to avoid other distractions.&lt;/li&gt;&lt;li&gt;· After a 25 minute interval take a 5 minute break. During this break do any other activities except for the previous work.&lt;/li&gt;&lt;li&gt;· Return to the work after the break.&lt;/li&gt;&lt;li&gt;· Take a long break of about 10–30 minutes after every 4 work intervals.&lt;/li&gt;&lt;br&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Teknik Pomodoro® adalah teknik manajemen waktu yang sangat sederhana namun efisien yang dikembangkan oleh Francesco Cirillo. Ide dasarnya adalah lebih mudah untuk berkonsentrasi pada pekerjaan dalam waktu yang relatif singkat, dengan mengingat bahwa Anda dapat beristirahat atau beralih ke aktivitas lain setelahnya.&lt;br&gt;&lt;li&gt;- Bagilah pekerjaan Anda dalam interval 25 menit, yang dipisahkan dengan waktu istirahat yang singkat.&lt;/li&gt;&lt;li&gt;- Dalam interval 25 menit ini cobalah untuk fokus pada pekerjaan Anda semaksimal mungkin, cobalah untuk tidak mengalihkan perhatian Anda dan hindari gangguan lainnya.&lt;/li&gt;&lt;li&gt;- Setelah interval 25 menit, istirahatlah&lt;/li&gt;&lt;li&gt;selama&lt;/li&gt; 5 menit&lt;li&gt;.&lt;/li&gt; Selama istirahat ini, lakukan kegiatan lain kecuali pekerjaan sebelumnya.&lt;li&gt;- Kembali ke pekerjaan setelah istirahat.&lt;/li&gt;&lt;li&gt;- Beristirahatlah dalam waktu yang lama sekitar 10-30 menit setelah setiap 4 interval kerja&lt;/li&gt;.&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="96"/>
         <source>Website</source>
-        <translation type="unfinished"></translation>
+        <translation>Situs web</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="116"/>
         <source>Acknowledgments</source>
-        <translation type="unfinished"></translation>
+        <translation>Ucapan terima kasih</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="117"/>
         <source>This app is modelled after Minidoro for Android by Yury Pavlov.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aplikasi ini dimodelkan setelah Minidoro untuk Android oleh Yury Pavlov.</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="124"/>
@@ -56,7 +56,7 @@
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="142"/>
         <source>Ukrainian</source>
-        <translation type="unfinished"></translation>
+        <translation>Ukraina</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="156"/>
@@ -71,7 +71,7 @@
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="174"/>
         <source>English (Developer)</source>
-        <translation type="unfinished"></translation>
+        <translation>Bahasa Inggris (Pengembang)</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="180"/>
@@ -96,12 +96,12 @@
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="104"/>
         <source>Counters</source>
-        <translation type="unfinished"></translation>
+        <translation>Penghitung</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="105"/>
         <source>There are two counters at the bottom of the main page. For example, you can use the left counter (star) to count external interruptions, i.e. someone interrupting you. Then use the right counter (circle) to count internal interruptions, i.e. how often you interrupt yourself. You can also use one counter to keep track of ideas you have while working that are not relevant for your current task. In the break, you can then take a note for each idea you counted.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ada dua penghitung di bagian bawah halaman utama. Misalnya, Anda dapat menggunakan penghitung kiri (bintang) untuk menghitung interupsi eksternal, yaitu seseorang yang menginterupsi Anda. Kemudian gunakan penghitung kanan (lingkaran) untuk menghitung interupsi internal, yaitu seberapa sering Anda menginterupsi diri sendiri. Anda juga dapat menggunakan satu penghitung untuk melacak ide-ide yang Anda miliki saat bekerja yang tidak relevan dengan tugas Anda saat ini. Saat istirahat, Anda dapat membuat catatan untuk setiap ide yang telah Anda hitung.</translation>
     </message>
 </context>
 <context>
@@ -117,7 +117,7 @@
     <message>
         <location filename="../qml/modules/Opal/SupportMe/DetailsDrawer.qml" line="53"/>
         <source>show less</source>
-        <translation type="unfinished"></translation>
+        <translation>Tampilkan sedikit</translation>
     </message>
     <message>
         <location filename="../qml/modules/Opal/SupportMe/DetailsDrawer.qml" line="53"/>
