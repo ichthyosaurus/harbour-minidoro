@@ -31,6 +31,19 @@ Page {
                 text: qsTr("Intervals")
             }
 
+            Label {
+                visible: appWindow.isRunning
+                x: Theme.horizontalPageMargin
+                width: page.width - 2*x
+                wrapMode: Text.Wrap
+                font.pixelSize: Theme.fontSizeExtraSmall
+                text: qsTr("Wait for the current interval to finish to " +
+                           "change interval durations.",
+                           "This is a reminder that some settings are disabled " +
+                           "while timers are running.")
+                color: Theme.secondaryHighlightColor
+            }
+
             // -- NOTE: although it would be more fitting to use a time picker for
             //          picking times, it is unfeasible because Silica's picker does
             //          not support picking only minutes or minutes with seconds.
@@ -51,6 +64,9 @@ Page {
             // }
 
             Slider {
+                enabled: !appWindow.isRunning
+                opacity: enabled ? 1.0 : Theme.opacityHigh
+
                 width: parent.width
                 minimumValue: 1.0
                 maximumValue: 60.0
@@ -67,6 +83,9 @@ Page {
             }
 
             Slider {
+                enabled: !appWindow.isRunning
+                opacity: enabled ? 1.0 : Theme.opacityHigh
+
                 width: parent.width
                 minimumValue: 1.0
                 maximumValue: 30.0
@@ -83,6 +102,9 @@ Page {
             }
 
             Slider {
+                enabled: !appWindow.isRunning
+                opacity: enabled ? 1.0 : Theme.opacityHigh
+
                 width: parent.width
                 minimumValue: 1.0
                 maximumValue: 60.0
@@ -99,6 +121,9 @@ Page {
             }
 
             Slider {
+                enabled: !appWindow.isRunning
+                opacity: enabled ? 1.0 : Theme.opacityHigh
+
                 width: parent.width
                 minimumValue: 1.0
                 maximumValue: 10.0
