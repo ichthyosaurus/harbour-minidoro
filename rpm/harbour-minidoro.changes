@@ -6,6 +6,23 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
+* Sun Aug 17 2025 Mirian Margiani <mixosaurus+ichthyo@pm.me> 1.2.0-1
+- Added translations: Portuguese (Brazil)
+- Updated translations: Indonesian, Spanish, Turkish, Ukrainian
+- Note: the app now needs the "Audio" permission to play sound effects
+- Added a new timer that reminds you to start the next interval (note: change interval durations if you e.g. find yourself always needing a longer break)
+- Added a sound effect when an interval is started so you can start an interval without looking at the screen
+- Added a new sound effect when an interval is finished
+- Fixed inverted portrait orientation
+- Fixed missing whitespace next to counters
+- Fixed interval settings not being blocked while an interval is running
+- Fixed reset menu entry showing up when there is nothing to reset
+- Fixed start menu entry missing in the top menu (you can tap, pull up, or pull down to start an interval)
+- Fixed formatting negative time intervals (e.g. when working longer than planned)
+- Fixed haptic feedback on interval start/finish on Sailfish 4.6
+- Fixed note about broken haptic feedback on Sailfish 4.3 to 4.5 (fixed on 4.6)
+- Updated Opal modules and many translations
+
 * Fri Oct 18 2024 Mirian Margiani <mixosaurus+ichthyo@pm.me> 1.1.0-1
 - Updated translations: Chinese (Simplified), Estonian, German, Russian, Swedish, Ukrainian
 - Added a shiny support page asking for donations and contributions, and an in-app changelog
