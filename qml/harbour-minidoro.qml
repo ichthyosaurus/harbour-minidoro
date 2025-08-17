@@ -87,7 +87,9 @@ ApplicationWindow {
     }
 
     function formatRemainingTime() {
-        if (appWindow.currentInterval - appWindow.timer.elapsed < 0) {
+        // this is only needed if it is possible the change intervals while
+        // timers are running
+        /*if (appWindow.currentInterval - appWindow.timer.elapsed < 0) {
             // WARNING side effect!
             // TODO BUG the current interval is stopped correctly but
             // the next interval has the new duration of the current
@@ -95,7 +97,7 @@ ApplicationWindow {
             appWindow.timer.elapsed = 0
             _supervisor.stop()
             _supervisor.triggered()
-        }
+        }*/
 
         return formatTime(appWindow.currentInterval - appWindow.timer.elapsed)
     }
