@@ -153,7 +153,14 @@ A.AboutPageBase {
                 A.ContributionGroup {
                     title: qsTr("Ukrainian")
                     entries: [
-                        "Dan"
+                        "Dan",
+                        "Максим Горпиніч"
+                    ]
+                },
+                A.ContributionGroup {
+                    title: qsTr("Turkish")
+                    entries: [
+                        "Burak Hüseyin Ekseli"
                     ]
                 },
                 A.ContributionGroup {
@@ -171,6 +178,12 @@ A.AboutPageBase {
                     ]
                 },
                 A.ContributionGroup {
+                    title: qsTr("Indonesian")
+                    entries: [
+                        "Reza Almanda"
+                    ]
+                },
+                A.ContributionGroup {
                     title: qsTr("German")
                     entries: [
                         "Mirian Margiani"
@@ -178,12 +191,6 @@ A.AboutPageBase {
                 },
                 A.ContributionGroup {
                     title: qsTr("Estonian")
-                    entries: [
-                        "Priit Jõerüüt"
-                    ]
-                },
-                A.ContributionGroup {
-                    title: qsTr("English (Developer)")
                     entries: [
                         "Priit Jõerüüt"
                     ]
