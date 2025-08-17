@@ -1,6 +1,6 @@
 /*
  * This file is part of harbour-minidoro.
- * SPDX-FileCopyrightText: 2022 Mirian Margiani
+ * SPDX-FileCopyrightText: 2022-2025 Mirian Margiani
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
@@ -25,6 +25,7 @@ Page {
                 onClicked: pageStack.animatorPush(Qt.resolvedUrl("SettingsPage.qml"))
             }
             MenuItem {
+                visible: appWindow.isRunning
                 text: qsTr("Reset")
                 onDelayedClick: {
                     var app = appWindow
