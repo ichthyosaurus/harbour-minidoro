@@ -71,7 +71,9 @@ ApplicationWindow {
     }
 
     function formatTime(millis) {
-        var seconds = Math.round(millis/1000)
+        var prefix = millis < 0 ? "-" : ""
+        var absoluteMillis = Math.abs(millis)
+        var seconds = Math.round(absoluteMillis/1000)
         var minutes = Math.floor(seconds/60)
         seconds = seconds % 60
 
@@ -81,7 +83,7 @@ ApplicationWindow {
         if (minutes < 10) minutes = "0%1".arg(minutes)
         else minutes = String(minutes)
 
-        return "%1:%2".arg(minutes).arg(seconds)
+        return "%1%2:%3".arg(prefix).arg(minutes).arg(seconds)
     }
 
     function formatRemainingTime() {
