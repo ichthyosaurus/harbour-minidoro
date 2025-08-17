@@ -1,107 +1,112 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="en">
+<TS version="2.1" language="en_US">
 <context>
     <name>AboutPage</name>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="45"/>
         <source>Minidoro is a minimalist Pomodoro® Technique timer helping to get things done.</source>
-        <translation type="unfinished"></translation>
+        <translation>Minidoro is a minimalist Pomodoro® Technique timer helping to get things done.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="75"/>
+        <location filename="../qml/pages/AboutPage.qml" line="87"/>
         <source>How it works</source>
-        <translation type="unfinished"></translation>
+        <translation>How it works</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="76"/>
+        <location filename="../qml/pages/AboutPage.qml" line="88"/>
         <source>The Pomodoro® Technique is an extremely simple but efficient time management technique developed by Francesco Cirillo. The basic idea is it&apos;s simpler to concentrate on work for a relatively short period, keeping in mind you can take a rest or switch to another activity afterwards.&lt;br&gt;&lt;li&gt;· Split your work for 25 minute intervals, separated by short break periods.&lt;/li&gt;&lt;li&gt;· In these 25 minute intervals try to focus on your work as much as possible, try to not distract yourself and to avoid other distractions.&lt;/li&gt;&lt;li&gt;· After a 25 minute interval take a 5 minute break. During this break do any other activities except for the previous work.&lt;/li&gt;&lt;li&gt;· Return to the work after the break.&lt;/li&gt;&lt;li&gt;· Take a long break of about 10–30 minutes after every 4 work intervals.&lt;/li&gt;&lt;br&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>The Pomodoro® Technique is an extremely simple but efficient time management technique developed by Francesco Cirillo. The basic idea is it&apos;s simpler to concentrate on work for a relatively short period, keeping in mind you can take a rest or switch to another activity afterwards.&lt;br&gt;&lt;li&gt;· Split your work for 25 minute intervals, separated by short break periods.&lt;/li&gt;&lt;li&gt;· In these 25 minute intervals try to focus on your work as much as possible, try to not distract yourself and to avoid other distractions.&lt;/li&gt;&lt;li&gt;· After a 25 minute interval take a 5 minute break. During this break do any other activities except for the previous work.&lt;/li&gt;&lt;li&gt;· Return to the work after the break.&lt;/li&gt;&lt;li&gt;· Take a long break of about 10–30 minutes after every 4 work intervals.&lt;/li&gt;&lt;br&gt;</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="96"/>
+        <location filename="../qml/pages/AboutPage.qml" line="108"/>
         <source>Website</source>
-        <translation type="unfinished"></translation>
+        <translation>Website</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="116"/>
+        <location filename="../qml/pages/AboutPage.qml" line="128"/>
         <source>Acknowledgments</source>
-        <translation type="unfinished"></translation>
+        <translation>Acknowledgments</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="117"/>
+        <location filename="../qml/pages/AboutPage.qml" line="129"/>
         <source>This app is modelled after Minidoro for Android by Yury Pavlov.</source>
-        <translation type="unfinished"></translation>
+        <translation>This app is modelled after Minidoro for Android by Yury Pavlov.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="124"/>
+        <location filename="../qml/pages/AboutPage.qml" line="136"/>
         <source>Development</source>
         <translation>Development</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="127"/>
+        <location filename="../qml/pages/AboutPage.qml" line="139"/>
         <source>Programming</source>
         <translation>Programming</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="131"/>
+        <location filename="../qml/pages/AboutPage.qml" line="143"/>
         <source>Icon Design</source>
         <translation>Icon Design</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="139"/>
+        <location filename="../qml/pages/AboutPage.qml" line="151"/>
         <source>Translations</source>
         <translation>Translations</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="142"/>
+        <location filename="../qml/pages/AboutPage.qml" line="154"/>
         <source>Ukrainian</source>
         <translation>Ukrainian</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="156"/>
+        <location filename="../qml/pages/AboutPage.qml" line="161"/>
+        <source>Turkish</source>
+        <translation>Turkish</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AboutPage.qml" line="175"/>
         <source>Russian</source>
         <translation>Russian</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="168"/>
+        <location filename="../qml/pages/AboutPage.qml" line="181"/>
+        <source>Indonesian</source>
+        <translation>Indonesian</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AboutPage.qml" line="193"/>
         <source>Estonian</source>
         <translation>Estonian</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="174"/>
-        <source>English (Developer)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/AboutPage.qml" line="180"/>
+        <location filename="../qml/pages/AboutPage.qml" line="199"/>
         <source>English</source>
         <translation>English</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="186"/>
+        <location filename="../qml/pages/AboutPage.qml" line="205"/>
         <source>Chinese</source>
         <translation>Chinese</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="162"/>
+        <location filename="../qml/pages/AboutPage.qml" line="187"/>
         <source>German</source>
         <translation>German</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="148"/>
+        <location filename="../qml/pages/AboutPage.qml" line="167"/>
         <source>Swedish</source>
         <translation>Swedish</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="104"/>
+        <location filename="../qml/pages/AboutPage.qml" line="116"/>
         <source>Counters</source>
-        <translation type="unfinished"></translation>
+        <translation>Counters</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="105"/>
+        <location filename="../qml/pages/AboutPage.qml" line="117"/>
         <source>There are two counters at the bottom of the main page. For example, you can use the left counter (star) to count external interruptions, i.e. someone interrupting you. Then use the right counter (circle) to count internal interruptions, i.e. how often you interrupt yourself. You can also use one counter to keep track of ideas you have while working that are not relevant for your current task. In the break, you can then take a note for each idea you counted.</source>
-        <translation type="unfinished"></translation>
+        <translation>There are two counters at the bottom of the main page. For example, you can use the left counter (star) to count external interruptions, i.e. someone interrupting you. Then use the right counter (circle) to count internal interruptions, i.e. how often you interrupt yourself. You can also use one counter to keep track of ideas you have while working that are not relevant for your current task. In the break, you can then take a note for each idea you counted.</translation>
     </message>
 </context>
 <context>
@@ -143,22 +148,23 @@
     <message>
         <location filename="../qml/pages/MainPage.qml" line="24"/>
         <source>Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Settings</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="28"/>
+        <location filename="../qml/pages/MainPage.qml" line="29"/>
         <source>Reset</source>
-        <translation type="unfinished"></translation>
+        <translation>Reset</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="31"/>
+        <location filename="../qml/pages/MainPage.qml" line="32"/>
         <source>Reset all progress</source>
-        <translation type="unfinished"></translation>
+        <translation>Reset all progress</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="42"/>
+        <location filename="../qml/pages/MainPage.qml" line="38"/>
+        <location filename="../qml/pages/MainPage.qml" line="49"/>
         <source>Start</source>
-        <translation type="unfinished"></translation>
+        <translation>Start</translation>
     </message>
 </context>
 <context>
@@ -417,158 +423,159 @@
 <context>
     <name>SettingsPage</name>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="28"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="27"/>
         <source>Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Settings</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="32"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="31"/>
         <source>Intervals</source>
-        <translation type="unfinished"></translation>
+        <translation>Intervals</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="60"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="40"/>
+        <source>Wait for the current interval to finish to change interval durations.</source>
+        <comment>This is a reminder that some settings are disabled while timers are running.</comment>
+        <translation>Wait for the current interval to finish to change interval durations.</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="75"/>
         <source>Work duration</source>
-        <translation type="unfinished"></translation>
+        <translation>Work duration</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="76"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="94"/>
         <source>Break duration</source>
-        <translation type="unfinished"></translation>
+        <translation>Break duration</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="92"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="113"/>
         <source>Long break duration</source>
-        <translation type="unfinished"></translation>
+        <translation>Long break duration</translation>
     </message>
     <message numerus="yes">
-        <location filename="../qml/pages/SettingsPage.qml" line="108"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="132"/>
         <source>Long break after %n interval(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>Long break after %n interval(s)</numerusform>
             <numerusform></numerusform>
         </translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="119"/>
-        <source>Notifications</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="123"/>
-        <source>Enable notifications</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="124"/>
-        <source>Show notifications when the current interval is finished and you may start the next interval.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="132"/>
-        <source>Enable sounds</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="133"/>
-        <source>Play an alarm sound when the current interval is finished.</source>
-        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="143"/>
+        <source>Notifications</source>
+        <translation>Notifications</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="147"/>
+        <source>Enable notifications</source>
+        <translation>Enable notifications</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="148"/>
+        <source>Show notifications when the current interval is finished and you may start the next interval.</source>
+        <translation>Show notifications when the current interval is finished and you may start the next interval.</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="156"/>
+        <source>Enable sounds</source>
+        <translation>Enable sounds</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="157"/>
+        <source>Play an alarm sound when the current interval is finished.</source>
+        <translation>Play an alarm sound when the current interval is finished.</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="167"/>
         <source>Enable vibrations</source>
-        <translation type="unfinished"></translation>
+        <translation>Enable vibrations</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="144"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="168"/>
         <source>Vibrate the device when an interval starts or the current interval is finished.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vibrate the device when an interval starts or the current interval is finished.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="153"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="177"/>
         <source>Vibrations intensity</source>
-        <translation type="unfinished"></translation>
+        <translation>Vibrations intensity</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="162"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="186"/>
         <source>It is advised to choose a low setting in quiet areas. The medium setting is intended for busy environments and concentrated work.</source>
-        <translation type="unfinished"></translation>
+        <translation>It is advised to choose a low setting in quiet areas. The medium setting is intended for busy environments and concentrated work.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="217"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="216"/>
+        <source>Note: on SailfishOS 4.3 to 4.5, vibrations only work if the “Touchscreen vibration” setting in the system settings is enabled. This is fixed in SailfishOS 4.6.</source>
+        <translation>Note: on SailfishOS 4.3 to 4.5, vibrations only work if the “Touchscreen vibration” setting in the system settings is enabled. This is fixed in SailfishOS 4.6.</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="235"/>
         <source>General</source>
-        <translation type="unfinished"></translation>
+        <translation>General</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="221"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="239"/>
         <source>Keep the display on</source>
-        <translation type="unfinished"></translation>
+        <translation>Keep the display on</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="222"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="240"/>
         <source>Make sure the display does not turn off while you are working.</source>
-        <translation type="unfinished"></translation>
+        <translation>Make sure the display does not turn off while you are working.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="229"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="247"/>
         <source>Use color icons</source>
-        <translation type="unfinished"></translation>
+        <translation>Use color icons</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="230"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="248"/>
         <source>Disable this option if you prefer icons that fit more into the system ambience.</source>
-        <translation type="unfinished"></translation>
+        <translation>Disable this option if you prefer icons that fit more into the system ambience.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="178"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="202"/>
         <source>Quiet</source>
-        <translation type="unfinished"></translation>
+        <translation>Quiet</translation>
     </message>
     <message numerus="yes">
-        <location filename="../qml/pages/SettingsPage.qml" line="58"/>
-        <location filename="../qml/pages/SettingsPage.qml" line="74"/>
-        <location filename="../qml/pages/SettingsPage.qml" line="90"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="73"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="92"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="111"/>
         <source>%n min</source>
         <comment>as in “x minutes”</comment>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n min</numerusform>
+            <numerusform>%n min</numerusform>
         </translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="179"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="203"/>
         <source>Modest</source>
-        <translation type="unfinished"></translation>
+        <translation>Modest</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="180"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="204"/>
         <source>Medium</source>
-        <translation type="unfinished"></translation>
+        <translation>Medium</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="181"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="205"/>
         <source>Strong</source>
-        <translation type="unfinished"></translation>
+        <translation>Strong</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="210"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="228"/>
         <source>Note: the haptic feedback module could not be initialized. This should not happen and most probably is a bug. Please report this problem to the author.</source>
-        <translation type="unfinished"></translation>
+        <translation>Note: the haptic feedback module could not be initialized. This should not happen and most probably is a bug. Please report this problem to the author.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="135"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="159"/>
         <source>Note: make sure the device is not set to “mute”.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="192"/>
-        <source>Note: since SailfishOS 4.3, vibrations only work if the “Touchscreen vibration” setting in the system settings is enabled. This is a &lt;a href=&quot;%1&quot;&gt;known bug&lt;/a&gt; and should hopefully be fixed in the next version after SailfishOS 4.5.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="201"/>
-        <source>Bug report</source>
-        <translation type="unfinished"></translation>
+        <translation>Note: make sure the device is not set to “mute”.</translation>
     </message>
 </context>
 <context>
@@ -602,56 +609,56 @@
 <context>
     <name>harbour-minidoro</name>
     <message>
-        <location filename="../qml/harbour-minidoro.qml" line="238"/>
+        <location filename="../qml/harbour-minidoro.qml" line="248"/>
         <source>Minidoro</source>
-        <translation type="unfinished"></translation>
+        <translation>Minidoro</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-minidoro.qml" line="218"/>
+        <location filename="../qml/harbour-minidoro.qml" line="228"/>
         <source>Work</source>
-        <translation type="unfinished"></translation>
+        <translation>Work</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-minidoro.qml" line="109"/>
+        <location filename="../qml/harbour-minidoro.qml" line="118"/>
         <source>h:mm</source>
         <comment>time format, as in “10:15” without “o&apos;clock”</comment>
-        <translation type="unfinished"></translation>
+        <translation>h:mm</translation>
     </message>
     <message numerus="yes">
-        <location filename="../qml/harbour-minidoro.qml" line="153"/>
+        <location filename="../qml/harbour-minidoro.qml" line="162"/>
         <source>%n minute(s) break</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n minute break</numerusform>
+            <numerusform>%n minutes break</numerusform>
         </translation>
     </message>
     <message>
-        <location filename="../qml/harbour-minidoro.qml" line="155"/>
+        <location filename="../qml/harbour-minidoro.qml" line="164"/>
         <source>Take a break until %1 o&apos;clock.</source>
-        <translation type="unfinished"></translation>
+        <translation>Take a break until %1 o&apos;clock.</translation>
     </message>
     <message numerus="yes">
-        <location filename="../qml/harbour-minidoro.qml" line="158"/>
+        <location filename="../qml/harbour-minidoro.qml" line="167"/>
         <source>%n minute(s) of work</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n minute of work</numerusform>
+            <numerusform>%n minutes of work</numerusform>
         </translation>
     </message>
     <message>
-        <location filename="../qml/harbour-minidoro.qml" line="160"/>
+        <location filename="../qml/harbour-minidoro.qml" line="169"/>
         <source>Work until %1 o&apos;clock.</source>
-        <translation type="unfinished"></translation>
+        <translation>Work until %1 o&apos;clock.</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-minidoro.qml" line="219"/>
+        <location filename="../qml/harbour-minidoro.qml" line="229"/>
         <source>Break</source>
-        <translation type="unfinished"></translation>
+        <translation>Break</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-minidoro.qml" line="220"/>
+        <location filename="../qml/harbour-minidoro.qml" line="230"/>
         <source>Long Break</source>
-        <translation type="unfinished"></translation>
+        <translation>Long Break</translation>
     </message>
 </context>
 </TS>

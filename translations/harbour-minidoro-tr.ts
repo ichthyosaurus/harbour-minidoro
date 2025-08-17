@@ -9,97 +9,102 @@
         <translation>Minidoro, işlerinizi halletmenize yardımcı olan minimalist bir Pomodoro® Tekniği zamanlayıcısıdır.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="75"/>
+        <location filename="../qml/pages/AboutPage.qml" line="87"/>
         <source>How it works</source>
         <translation>Nasıl çalışır?</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="76"/>
+        <location filename="../qml/pages/AboutPage.qml" line="88"/>
         <source>The Pomodoro® Technique is an extremely simple but efficient time management technique developed by Francesco Cirillo. The basic idea is it&apos;s simpler to concentrate on work for a relatively short period, keeping in mind you can take a rest or switch to another activity afterwards.&lt;br&gt;&lt;li&gt;· Split your work for 25 minute intervals, separated by short break periods.&lt;/li&gt;&lt;li&gt;· In these 25 minute intervals try to focus on your work as much as possible, try to not distract yourself and to avoid other distractions.&lt;/li&gt;&lt;li&gt;· After a 25 minute interval take a 5 minute break. During this break do any other activities except for the previous work.&lt;/li&gt;&lt;li&gt;· Return to the work after the break.&lt;/li&gt;&lt;li&gt;· Take a long break of about 10–30 minutes after every 4 work intervals.&lt;/li&gt;&lt;br&gt;</source>
         <translation>The Pomodoro® tekniği, Francesco Cirillo tarafından geliştirilen, oldukça basit ve etkin bir zaman yönetimi tekniğidir. Temel fikir, daha sonra dinlenebileceğinizi veya başka bir faaliyete geçebileceğinizi akılda tutarak nispeten kısa bir süre için işe konsantre olmanın daha kolay olmasıdır.&lt;br&gt;&lt;li&gt;· Çalışmanızı kısa molalarla ayırdığınız 25 dakikalık aralıklara bölün.&lt;/li&gt;&lt;li&gt;· Bu 25 dakikalık aralıklarda mümkün olduğunca işinize odaklanmaya çalışın, dikkatinizi dağıtmamaya ve diğer dikkat dağıtıcı unsurlardan kaçınmaya çalışın.&lt;/li&gt;&lt;li&gt;· 25 dakikalık bir aradan sonra 5 dakikalık bir mola verin. Bu mola sırasında önceki çalışma dışında herhangi bir faaliyette bulunmayın.&lt;/li&gt;&lt;li&gt;· Moladan sonra işe geri dönün.&lt;/li&gt;&lt;li&gt;· 4 iş intervalinden sınra 10-30 dakikalık uzun bir mola verin.&lt;/li&gt;&lt;br&gt;</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="96"/>
+        <location filename="../qml/pages/AboutPage.qml" line="108"/>
         <source>Website</source>
         <translation>İnternet sayfası</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="116"/>
+        <location filename="../qml/pages/AboutPage.qml" line="128"/>
         <source>Acknowledgments</source>
         <translation>Teşekkürler</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="117"/>
+        <location filename="../qml/pages/AboutPage.qml" line="129"/>
         <source>This app is modelled after Minidoro for Android by Yury Pavlov.</source>
         <translation>Bu uygulama Yury Pavlov&apos;un Android için Minidoro&apos;sundan esinlenerek tasarlanmıştır.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="124"/>
+        <location filename="../qml/pages/AboutPage.qml" line="136"/>
         <source>Development</source>
         <translation>Geliştirme</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="127"/>
+        <location filename="../qml/pages/AboutPage.qml" line="139"/>
         <source>Programming</source>
         <translation>Programlama</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="131"/>
+        <location filename="../qml/pages/AboutPage.qml" line="143"/>
         <source>Icon Design</source>
         <translation>Simge Tasarımı</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="139"/>
+        <location filename="../qml/pages/AboutPage.qml" line="151"/>
         <source>Translations</source>
         <translation>Çeviriler</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="142"/>
+        <location filename="../qml/pages/AboutPage.qml" line="154"/>
         <source>Ukrainian</source>
         <translation>Ukraynaca</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="156"/>
+        <location filename="../qml/pages/AboutPage.qml" line="161"/>
+        <source>Turkish</source>
+        <translation>Türkçe</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AboutPage.qml" line="175"/>
         <source>Russian</source>
         <translation>Rusça</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="168"/>
+        <location filename="../qml/pages/AboutPage.qml" line="181"/>
+        <source>Indonesian</source>
+        <translation>Endonezce</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AboutPage.qml" line="193"/>
         <source>Estonian</source>
         <translation>Estonca</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="174"/>
-        <source>English (Developer)</source>
-        <translation>İngilizce (Geliştirici)</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/AboutPage.qml" line="180"/>
+        <location filename="../qml/pages/AboutPage.qml" line="199"/>
         <source>English</source>
         <translation>İngilizce</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="186"/>
+        <location filename="../qml/pages/AboutPage.qml" line="205"/>
         <source>Chinese</source>
         <translation>Çince</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="162"/>
+        <location filename="../qml/pages/AboutPage.qml" line="187"/>
         <source>German</source>
         <translation>Almanca</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="148"/>
+        <location filename="../qml/pages/AboutPage.qml" line="167"/>
         <source>Swedish</source>
         <translation>İsveççe</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="104"/>
+        <location filename="../qml/pages/AboutPage.qml" line="116"/>
         <source>Counters</source>
         <translation>Sayaçlar</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="105"/>
+        <location filename="../qml/pages/AboutPage.qml" line="117"/>
         <source>There are two counters at the bottom of the main page. For example, you can use the left counter (star) to count external interruptions, i.e. someone interrupting you. Then use the right counter (circle) to count internal interruptions, i.e. how often you interrupt yourself. You can also use one counter to keep track of ideas you have while working that are not relevant for your current task. In the break, you can then take a note for each idea you counted.</source>
         <translation>Ana sayfanın altında iki sayaç vardır. Örneğin, soldaki sayacı (yıldız) dış kesintileri, yani birisinin sözünüzü kesmesini saymak için kullanabilirsiniz. Ardından sağdaki sayacı (daire) iç kesintileri, yani kendi sözünüzü ne sıklıkta kestiğinizi saymak için kullanabilirsiniz. Bir sayacı, çalışırken aklınıza gelen ve mevcut görevinizle ilgili olmayan fikirleri takip etmek için de kullanabilirsiniz. Ara verdiğinizde, saydığınız her fikir için bir not alabilirsiniz.</translation>
     </message>
@@ -146,17 +151,18 @@
         <translation>Ayarlar</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="28"/>
+        <location filename="../qml/pages/MainPage.qml" line="29"/>
         <source>Reset</source>
         <translation>Sıfırla</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="31"/>
+        <location filename="../qml/pages/MainPage.qml" line="32"/>
         <source>Reset all progress</source>
         <translation>İlerlemeyi sıfırla</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="42"/>
+        <location filename="../qml/pages/MainPage.qml" line="38"/>
+        <location filename="../qml/pages/MainPage.qml" line="49"/>
         <source>Start</source>
         <translation>Başlat</translation>
     </message>
@@ -415,116 +421,127 @@
 <context>
     <name>SettingsPage</name>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="28"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="27"/>
         <source>Settings</source>
         <translation>Ayarlar</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="32"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="31"/>
         <source>Intervals</source>
         <translation>Aralıklar</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="60"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="40"/>
+        <source>Wait for the current interval to finish to change interval durations.</source>
+        <comment>This is a reminder that some settings are disabled while timers are running.</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="75"/>
         <source>Work duration</source>
         <translation>Çalışma süresi</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="76"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="94"/>
         <source>Break duration</source>
         <translation>Mola süresi</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="92"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="113"/>
         <source>Long break duration</source>
         <translation>Uzun mola süresi</translation>
     </message>
     <message numerus="yes">
-        <location filename="../qml/pages/SettingsPage.qml" line="108"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="132"/>
         <source>Long break after %n interval(s)</source>
         <translation>
             <numerusform>Uzun mola %n kadar aralıktan sonra</numerusform>
         </translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="119"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="143"/>
         <source>Notifications</source>
         <translation>Bildirimler</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="123"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="147"/>
         <source>Enable notifications</source>
         <translation>Bildirimleri aç</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="124"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="148"/>
         <source>Show notifications when the current interval is finished and you may start the next interval.</source>
         <translation>Geçerli aralık bittiğinde bildirimleri gösterin ve bir sonraki aralığı başlatabilirsiniz.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="132"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="156"/>
         <source>Enable sounds</source>
         <translation>Sesi aç</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="133"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="157"/>
         <source>Play an alarm sound when the current interval is finished.</source>
         <translation>Geçerli aralık bittiğinde bir alarm sesi çalın.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="143"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="167"/>
         <source>Enable vibrations</source>
         <translation>Titreşimi etkinleştir</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="144"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="168"/>
         <source>Vibrate the device when an interval starts or the current interval is finished.</source>
         <translation>Bir aralık başladığında veya geçerli aralık bittiğinde cihazı titreştir.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="153"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="177"/>
         <source>Vibrations intensity</source>
         <translation>Titreşim gücü</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="162"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="186"/>
         <source>It is advised to choose a low setting in quiet areas. The medium setting is intended for busy environments and concentrated work.</source>
         <translation>Sessiz alanlarda düşük ayarın seçilmesi tavsiye edilir. Orta ayar, yoğun ortamlar ve konsantre çalışmalar için tasarlanmıştır.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="217"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="216"/>
+        <source>Note: on SailfishOS 4.3 to 4.5, vibrations only work if the “Touchscreen vibration” setting in the system settings is enabled. This is fixed in SailfishOS 4.6.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="235"/>
         <source>General</source>
         <translation>Genel</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="221"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="239"/>
         <source>Keep the display on</source>
         <translation>Ekranı açık tut</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="222"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="240"/>
         <source>Make sure the display does not turn off while you are working.</source>
         <translation>Çalışırken ekranın kapanmadığından emin olun.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="229"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="247"/>
         <source>Use color icons</source>
         <translation>Renkli simgeler kullan</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="230"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="248"/>
         <source>Disable this option if you prefer icons that fit more into the system ambience.</source>
         <translation>Sistem ambiyansına daha uygun simgeleri tercih ediyorsanız bu seçeneği devre dışı bırak.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="178"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="202"/>
         <source>Quiet</source>
         <translation>Sessiz</translation>
     </message>
     <message numerus="yes">
-        <location filename="../qml/pages/SettingsPage.qml" line="58"/>
-        <location filename="../qml/pages/SettingsPage.qml" line="74"/>
-        <location filename="../qml/pages/SettingsPage.qml" line="90"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="73"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="92"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="111"/>
         <source>%n min</source>
         <comment>as in “x minutes”</comment>
         <translation>
@@ -532,39 +549,29 @@
         </translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="179"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="203"/>
         <source>Modest</source>
         <translation>Makul</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="180"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="204"/>
         <source>Medium</source>
         <translation>Orta</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="181"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="205"/>
         <source>Strong</source>
         <translation>Güçlü</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="210"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="228"/>
         <source>Note: the haptic feedback module could not be initialized. This should not happen and most probably is a bug. Please report this problem to the author.</source>
         <translation>Not: Haptik geri bildirim modülü başlatılamadı. Bu olmamalıdır ve büyük olasılıkla bir hatadır. Lütfen bu sorunu yazara bildirin.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="135"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="159"/>
         <source>Note: make sure the device is not set to “mute”.</source>
         <translation>Not: cihazın &quot;sessiz&quot; olarak ayarlanmadığından emin olun.</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="192"/>
-        <source>Note: since SailfishOS 4.3, vibrations only work if the “Touchscreen vibration” setting in the system settings is enabled. This is a &lt;a href=&quot;%1&quot;&gt;known bug&lt;/a&gt; and should hopefully be fixed in the next version after SailfishOS 4.5.</source>
-        <translation>Not: SailfishOS 4.3 titreşimleri yalnızca”ekran titreşimi” seçeneği sistem ayarlarından etkin ise çalışır bu bilinen bir &lt;a href=&quot;%1&quot;&gt;bug’dır&lt;/a&gt; ve SailfishOS 4.5 güncellemesi ile düzeleceği umut edilmektedir.</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="201"/>
-        <source>Bug report</source>
-        <translation>Bug raporlama</translation>
     </message>
 </context>
 <context>
@@ -598,52 +605,52 @@
 <context>
     <name>harbour-minidoro</name>
     <message>
-        <location filename="../qml/harbour-minidoro.qml" line="238"/>
+        <location filename="../qml/harbour-minidoro.qml" line="248"/>
         <source>Minidoro</source>
         <translation>Minidoro</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-minidoro.qml" line="218"/>
+        <location filename="../qml/harbour-minidoro.qml" line="228"/>
         <source>Work</source>
         <translation>Çalışma</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-minidoro.qml" line="109"/>
+        <location filename="../qml/harbour-minidoro.qml" line="118"/>
         <source>h:mm</source>
         <comment>time format, as in “10:15” without “o&apos;clock”</comment>
         <translation>h:mm</translation>
     </message>
     <message numerus="yes">
-        <location filename="../qml/harbour-minidoro.qml" line="153"/>
+        <location filename="../qml/harbour-minidoro.qml" line="162"/>
         <source>%n minute(s) break</source>
         <translation>
             <numerusform>%n dakika mola</numerusform>
         </translation>
     </message>
     <message>
-        <location filename="../qml/harbour-minidoro.qml" line="155"/>
+        <location filename="../qml/harbour-minidoro.qml" line="164"/>
         <source>Take a break until %1 o&apos;clock.</source>
         <translation>Şu saate kadar mola ver %1 .</translation>
     </message>
     <message numerus="yes">
-        <location filename="../qml/harbour-minidoro.qml" line="158"/>
+        <location filename="../qml/harbour-minidoro.qml" line="167"/>
         <source>%n minute(s) of work</source>
         <translation>
             <numerusform>%n dakika çalışma</numerusform>
         </translation>
     </message>
     <message>
-        <location filename="../qml/harbour-minidoro.qml" line="160"/>
+        <location filename="../qml/harbour-minidoro.qml" line="169"/>
         <source>Work until %1 o&apos;clock.</source>
         <translation>Şu saate kadar çalış %1.</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-minidoro.qml" line="219"/>
+        <location filename="../qml/harbour-minidoro.qml" line="229"/>
         <source>Break</source>
         <translation>Mola</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-minidoro.qml" line="220"/>
+        <location filename="../qml/harbour-minidoro.qml" line="230"/>
         <source>Long Break</source>
         <translation>Uzun Mola</translation>
     </message>
