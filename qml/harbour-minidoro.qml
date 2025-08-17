@@ -1,6 +1,6 @@
 /*
  * This file is part of harbour-minidoro.
- * SPDX-FileCopyrightText: 2022 Mirian Margiani
+ * SPDX-FileCopyrightText: 2022-2025 Mirian Margiani
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
@@ -317,18 +317,37 @@ ApplicationWindow {
                 updateFrequency: WallClock.Minute
             }".arg("Nemo.Time"), appWindow, 'WallClock')
 
-        // As of 2022-03-13, QtFeedback is not declared stable but may be
-        // allowed in Harbour. Still, loading it dynamically may be safer because
-        // then breaking the API does not break the whole app.
-        // Cf. https://docs.sailfishos.org/Develop/Apps/Harbour/Allowed_APIs/#qtfeedback-hasnt-been-declared-stable-but-we-allow-a-restricted-part
-        if (config.enableHapticFeedback) {
-            _feedbackEffect = Qt.createQmlObject("
-                import QtQuick 2.0
-                import QtFeedback 5.0
-                ThemeEffect {
-                    effect: ThemeEffect.PressStrong
-                }", appWindow, 'ThemeEffect')
-        }
+        // QtFeedback is not declared stable but may be allowed in Harbour.
+        // Still, loading it dynamically may be safer because then breaking
+        // the API does not break the whole app.
+        // See: https://docs.sailfishos.org/Develop/Apps/Harbour/Allowed_APIs/#qtfeedback-hasnt-been-declared-stable-but-we-allow-a-restricted-part
+        // Checked: 2025-08-17, 2022-03-13
+
+        // This only works if "Touchscreen vibration" is enabled in system settings.
+        // Checked: Sailfish 4.6, 4.3
+        /*_feedbackEffect = Qt.createQmlObject("
+            import QtQuick 2.0
+            import QtFeedback 5.0
+            ThemeEffect {
+                effect: ThemeEffect.PressStrong
+            }", appWindow, 'ThemeEffect')*/
+
+        // This works even without "Touchscreen vibration" in system settings.
+        // Checked: Sailfish 4.6
+        _feedbackEffect = Qt.createQmlObject("
+            import QtQuick 2.0
+            import QtFeedback 5.0
+            HapticsEffect {
+                attackIntensity: 0.0
+                attackTime: 0
+                intensity: 1.0
+                duration: 50
+                fadeTime: 0
+                fadeIntensity: 0.0
+                period: 0
+
+                function play() { start() }
+            }", appWindow, 'RumbleEffect')
 
         _rumbleEffect = Qt.createQmlObject("
             import QtQuick 2.0
