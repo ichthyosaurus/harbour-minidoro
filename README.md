@@ -1,5 +1,5 @@
 <!--
-SPDX-FileCopyrightText: 2018-2024 Mirian Margiani
+SPDX-FileCopyrightText: 2018-2025 Mirian Margiani
 SPDX-License-Identifier: GFDL-1.3-or-later
 -->
 
@@ -20,6 +20,9 @@ Minidoro is a minimalist Pomodoro® Technique timer helping to get things done.
 This app is modelled after [Minidoro for Android](https://github.com/ympavlov/minidoro)
 by Yury Pavlov. You can get it [from F-Droid](https://f-droid.org/en/packages/com.github.ympavlov.minidoro/)
 if you are using Android.
+
+**Note:** Minidoro requires the “Audio” permission for playing sounds when
+intervals are started and finished.
 
 ## How it works
 
@@ -121,7 +124,7 @@ contributing to translations or code! See above how you can contribute 🎕.
 
 ## License
 
-> Copyright (C) 2022-2024  Mirian Margiani
+> Copyright (C) 2022-2025  Mirian Margiani
 
 Minidoro is Free Software released under the terms of the
 [GNU General Public License v3 (or later)](https://spdx.org/licenses/GPL-3.0-or-later.html).
