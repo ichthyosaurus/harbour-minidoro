@@ -33,6 +33,12 @@ Page {
                                         function(){ app.reset() })
                 }
             }
+            MenuItem {
+                visible: !appWindow.isRunning
+                text: qsTr("Start")
+                onClicked: appWindow.notifyStart()
+                onDelayedClick: appWindow.start(false)
+            }
         }
 
         PushUpMenu {
