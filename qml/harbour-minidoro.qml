@@ -46,8 +46,6 @@ ApplicationWindow {
         if (intensity > 1) count = 4
         else count = Math.round(intensity * 10 / 2.5)
 
-        if (count > 1 && haveFeedbackEffect) _feedbackEffect.play()
-
         if (haveRumbleEffect) {
             _multiTimer.laps = count
             _multiTimer.callback = function() { _rumbleEffect.start() }
