@@ -10,6 +10,9 @@ by Yury Pavlov. You can get it [from F-Droid](https://f-droid.org/en/packages/co
 if you are using Android.
 })dnl
 
+**Note:** __name requires the “Audio” permission for playing sounds when
+intervals are started and finished.
+
 ## How it works
 
 The Pomodoro® Technique is an extremely simple but efficient time management
