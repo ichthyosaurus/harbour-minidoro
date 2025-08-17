@@ -10,7 +10,7 @@ Name:       harbour-minidoro
 %define __provides_exclude_from ^%{_datadir}/.*$
 
 Summary:    Minimalist Pomodoro® Technique timer
-Version:    1.1.0
+Version:    1.2.0
 Release:    1
 Group:      Qt/Qt
 License:    GPL-3.0-or-later
