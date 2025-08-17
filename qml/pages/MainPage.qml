@@ -234,7 +234,7 @@ Page {
                     }
                     color: parent.enabled ? (highlighted ? palette.highlightColor : palette.primaryColor) : palette.secondaryHighlightColor
                     highlighted: parent.containsPress
-                    text: "✕%1".arg(appWindow.starsCounted)
+                    text: "✕ %1".arg(appWindow.starsCounted)
                 }
             }
 
