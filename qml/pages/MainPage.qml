@@ -124,32 +124,76 @@ Page {
             }
         }
 
-        Label {
-            id: timerLabel
-            wrapMode: Text.Wrap
-            horizontalAlignment: Text.AlignHCenter
+        Column {
+            y: page.height / 2 - timerLabel.height - 2*spacing
             x: Theme.horizontalPageMargin
-            y: page.height / 2 - height
             width: parent.width - 2*x
+            spacing: Theme.paddingLarge
 
-            highlighted: timerLabelMouse.containsPress
+            Label {
+                property int grace: 10000
+                property int millis: overdraftMilliseconds
+                onMillisChanged: {
+                    if (millis >= grace) text = formatTime(-millis)
+                }
 
-            color: {
-                if (highlighted && appWindow.timeStatus === appWindow.timeStatusType.work) palette.highlightColor
-                else if (highlighted) Qt.tint(palette.secondaryHighlightColor, appWindow.breakTintColor)
-                else if (!appWindow.isRunning && appWindow.timeStatus === appWindow.timeStatusType.work) palette.primaryColor
-                else if (!appWindow.isRunning) Qt.tint(palette.secondaryColor, appWindow.breakTintColor)
-                else if (appWindow.timeStatus === appWindow.timeStatusType.work) palette.highlightColor
-                else Qt.tint(palette.secondaryHighlightColor, appWindow.breakTintColor)
+                opacity: millis >= grace ? 1.0 : 0.0
+                Behavior on opacity { FadeAnimator {} }
+
+                text: " "
+                color: Theme.errorColor
+                width: parent.width
+                horizontalAlignment: Text.AlignHCenter
+                wrapMode: Text.Wrap
+
+                font {
+                    pixelSize: Theme.fontSizeHuge
+                    family: Theme.fontFamilyHeading
+                    bold: false
+                }
             }
 
-            font {
-                pixelSize: 2*Theme.fontSizeHuge
-                family: Theme.fontFamilyHeading
-                bold: true
+            Label {
+                id: timerLabel
+                wrapMode: Text.Wrap
+                horizontalAlignment: Text.AlignHCenter
+                width: parent.width
+
+                highlighted: timerLabelMouse.containsPress
+
+                color: {
+                    if (highlighted && appWindow.timeStatus === appWindow.timeStatusType.work) palette.highlightColor
+                    else if (highlighted) Qt.tint(palette.secondaryHighlightColor, appWindow.breakTintColor)
+                    else if (!appWindow.isRunning && appWindow.timeStatus === appWindow.timeStatusType.work) palette.primaryColor
+                    else if (!appWindow.isRunning) Qt.tint(palette.secondaryColor, appWindow.breakTintColor)
+                    else if (appWindow.timeStatus === appWindow.timeStatusType.work) palette.highlightColor
+                    else Qt.tint(palette.secondaryHighlightColor, appWindow.breakTintColor)
+                }
+
+                font {
+                    pixelSize: 2*Theme.fontSizeHuge
+                    family: Theme.fontFamilyHeading
+                    bold: true
+                }
+
+                text: formatRemainingTime()
             }
 
-            text: formatRemainingTime()
+            Label {
+                wrapMode: Text.Wrap
+                horizontalAlignment: Text.AlignHCenter
+                width: parent.width
+                color: appWindow.timeStatus === appWindow.timeStatusType.work ?
+                           palette.secondaryHighlightColor :
+                           Qt.tint(palette.secondaryHighlightColor, appWindow.breakTintColor)
+                font {
+                    pixelSize: Theme.fontSizeHuge
+                    family: Theme.fontFamilyHeading
+                    bold: false
+                }
+
+                text: appWindow.timeStatusText
+            }
         }
 
         MouseArea {
@@ -168,29 +212,6 @@ Page {
 
             onClicked: appWindow.start(true)
         }
-
-        Label {
-            id: statusTextLabel
-            wrapMode: Text.Wrap
-            horizontalAlignment: Text.AlignHCenter
-            x: Theme.horizontalPageMargin
-            width: parent.width - 2*x
-            anchors {
-                top: timerLabel.bottom
-                topMargin: Theme.paddingLarge
-            }
-            color: appWindow.timeStatus === appWindow.timeStatusType.work ?
-                       palette.secondaryHighlightColor :
-                       Qt.tint(palette.secondaryHighlightColor, appWindow.breakTintColor)
-            font {
-                pixelSize: Theme.fontSizeHuge
-                family: Theme.fontFamilyHeading
-                bold: false
-            }
-
-            text: appWindow.timeStatusText
-        }
-
 
         Item {
             id: counterRow

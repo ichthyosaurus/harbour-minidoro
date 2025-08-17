@@ -59,6 +59,7 @@ ApplicationWindow {
         }
 
         _supervisor.restart()
+        overdraftMilliseconds = 0
     }
 
     function reset() {
@@ -184,6 +185,7 @@ ApplicationWindow {
     property int _finishedSinceLastLongBreak: 0
     property int starsCounted: 0
     property int circlesCounted: 0
+    property int overdraftMilliseconds: 0
 
     property Timer timer: Timer {
         property int elapsed: 0
@@ -249,6 +251,14 @@ ApplicationWindow {
         running: false
         repeat: false
         onTriggered: _updateStatus()
+    }
+
+    Timer {
+        id: _overdraft
+        interval: 1000
+        running: !isRunning && finishedIntervals > 0
+        repeat: true
+        onTriggered: overdraftMilliseconds += interval
     }
 
     Timer {
