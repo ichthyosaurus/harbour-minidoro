@@ -61,3 +61,7 @@ Copyright: 2007 altemark
 License: CC-BY-4.0
 Comment: Found at https://freesound.org/s/35916.
 
+Files: audio-src/finish.aup3 qml/audio/finish-long.ogg qml/audio/finish-short.ogg
+Copyright: 2025 Free Sound Library, adapted by Mirian Margiani
+License: CC-BY-NC-SA-4.0
+Comment: OGG files are generated from the AUP3 project. Original source: https://www.freesoundslibrary.com/message-tone-sound

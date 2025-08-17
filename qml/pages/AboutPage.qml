@@ -69,6 +69,12 @@ A.AboutPageBase {
             homepage: "https://fonts.google.com/noto/specimen/Noto+Emoji"
         },
         A.Attribution {
+            name: "Finish sound"
+            entries: ["2025 Free Sound Library", "adapted for Minidoro"]
+            licenses: A.License { spdxId: "CC-BY-4.0" }
+            homepage: "https://www.freesoundslibrary.com/message-tone-sound/"
+        },
+        A.Attribution {
             name: "Start sound"
             entries: ["2007 altemark"]
             licenses: A.License { spdxId: "CC-BY-4.0" }

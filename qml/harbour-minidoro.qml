@@ -308,7 +308,9 @@ ApplicationWindow {
 
     Audio {
         id: alarm
-        source: "/usr/share/sounds/jolla-ringtones/stereo/jolla-calendar-alarm.ogg"
+        source: Qt.resolvedUrl("audio/finish-short.ogg")
+    }
+
     Audio {
         id: startPing
         source: Qt.resolvedUrl("audio/start.ogg")
