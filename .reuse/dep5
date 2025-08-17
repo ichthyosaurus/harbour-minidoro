@@ -55,3 +55,9 @@ Comment: https://unsplash.com/de/fotos/uefJ1ckCn94
 Files: TRANSLATORS.json
 Copyright: translations contributors
 License: GPL-3.0-or-later
+
+Files: qml/audio/start.ogg
+Copyright: 2007 altemark
+License: CC-BY-4.0
+Comment: Found at https://freesound.org/s/35916.
+

@@ -30,6 +30,7 @@ DISTFILES += qml/harbour-minidoro.qml \
     qml/pages/SettingsPage.qml \
     qml/pages/AboutPage.qml \
     qml/images/*.png \
+    qml/audio/*.ogg \
     qml/modules/Opal/About/*.qml \
     qml/modules/Opal/About/private/*.qml \
     qml/modules/Opal/About/private/*.js \

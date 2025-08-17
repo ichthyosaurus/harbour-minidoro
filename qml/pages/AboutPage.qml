@@ -67,6 +67,12 @@ A.AboutPageBase {
             entries: ["Google", "tomato icon adapted by Mirian Margiani"]
             licenses: A.License { spdxId: "OFL-1.1" }
             homepage: "https://fonts.google.com/noto/specimen/Noto+Emoji"
+        },
+        A.Attribution {
+            name: "Start sound"
+            entries: ["2007 altemark"]
+            licenses: A.License { spdxId: "CC-BY-4.0" }
+            homepage: "https://freesound.org/s/35916/"
         }
     ]
 

@@ -19,7 +19,13 @@ ApplicationWindow {
     id: appWindow
 
     function notifyStart() {
-        if (haveFeedbackEffect && _rumbleCount > 1) _feedbackEffect.play()
+        // If both kinds of feedback are enabled, prefer haptic
+        // feedback because volume might be zero.
+        if (haveFeedbackEffect && config.enableHapticFeedback) {
+            _feedbackEffect.play()
+        } else if (config.enableAudioFeedback) {
+            startPing.play()
+        }
     }
 
     function showMessage(msg, details, timeout) {
@@ -303,6 +309,9 @@ ApplicationWindow {
     Audio {
         id: alarm
         source: "/usr/share/sounds/jolla-ringtones/stereo/jolla-calendar-alarm.ogg"
+    Audio {
+        id: startPing
+        source: Qt.resolvedUrl("audio/start.ogg")
     }
 
     A.ChangelogNews {
