@@ -487,57 +487,80 @@
         <translation>Reproducir un sonido de alarma cuando finalice el intervalo actual.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="167"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="168"/>
+        <source>Repeat until next interval</source>
+        <comment>as in “repeat the alarm until the next interval starts” but as short as possible; there is a description explaining the button</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="171"/>
+        <source>Repeat the alarm sound until the next interval is started. Disable this to only play the alarm once.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="183"/>
+        <source>Stop</source>
+        <comment>as in “stop the alarm”</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="184"/>
+        <source>Preview</source>
+        <comment>as in “preview the alarm sound”</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="199"/>
         <source>Enable vibrations</source>
         <translation>Activar vibración</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="168"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="200"/>
         <source>Vibrate the device when an interval starts or the current interval is finished.</source>
         <translation>Haz vibrar el dispositivo cuando comience un intervalo o finalice el intervalo actual.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="177"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="209"/>
         <source>Vibrations intensity</source>
         <translation>Intensidad de la vibración</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="186"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="218"/>
         <source>It is advised to choose a low setting in quiet areas. The medium setting is intended for busy environments and concentrated work.</source>
         <translation>Se aconseja elegir un ajuste bajo en zonas tranquilas. El ajuste medio está pensado para entornos concurridos y trabajos concentrados.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="216"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="248"/>
         <source>Note: on SailfishOS 4.3 to 4.5, vibrations only work if the “Touchscreen vibration” setting in the system settings is enabled. This is fixed in SailfishOS 4.6.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="235"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="267"/>
         <source>General</source>
         <translation>General</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="239"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="271"/>
         <source>Keep the display on</source>
         <translation>Mantener encendida la pantalla</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="240"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="272"/>
         <source>Make sure the display does not turn off while you are working.</source>
         <translation>Asegúrate de que la pantalla no se apaga mientras trabajas.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="247"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="279"/>
         <source>Use color icons</source>
         <translation>Usar iconos de colores</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="248"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="280"/>
         <source>Disable this option if you prefer icons that fit more into the system ambience.</source>
         <translation>Si prefiere que los iconos coincidan con el tema del sistema, puede desactivar esta configuración.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="202"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="234"/>
         <source>Quiet</source>
         <translation>Silencio</translation>
     </message>
@@ -553,22 +576,22 @@
         </translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="203"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="235"/>
         <source>Modest</source>
         <translation>Moderado</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="204"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="236"/>
         <source>Medium</source>
         <translation>Medio</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="205"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="237"/>
         <source>Strong</source>
         <translation>Fuerte</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="228"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="260"/>
         <source>Note: the haptic feedback module could not be initialized. This should not happen and most probably is a bug. Please report this problem to the author.</source>
         <translation>Nota: no se pudo inicializar el módulo de respuesta háptica. Esto no debería suceder y lo más probable es que se trate de un error. Informe de este problema al autor.</translation>
     </message>
@@ -609,23 +632,23 @@
 <context>
     <name>harbour-minidoro</name>
     <message>
-        <location filename="../qml/harbour-minidoro.qml" line="248"/>
+        <location filename="../qml/harbour-minidoro.qml" line="262"/>
         <source>Minidoro</source>
         <translation>Minidoro</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-minidoro.qml" line="228"/>
+        <location filename="../qml/harbour-minidoro.qml" line="242"/>
         <source>Work</source>
         <translation>Trabajar</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-minidoro.qml" line="118"/>
+        <location filename="../qml/harbour-minidoro.qml" line="129"/>
         <source>h:mm</source>
         <comment>time format, as in “10:15” without “o&apos;clock”</comment>
         <translation>h:mm</translation>
     </message>
     <message numerus="yes">
-        <location filename="../qml/harbour-minidoro.qml" line="162"/>
+        <location filename="../qml/harbour-minidoro.qml" line="173"/>
         <source>%n minute(s) break</source>
         <translation>
             <numerusform>%n minuto de descanso</numerusform>
@@ -633,12 +656,12 @@
         </translation>
     </message>
     <message>
-        <location filename="../qml/harbour-minidoro.qml" line="164"/>
+        <location filename="../qml/harbour-minidoro.qml" line="175"/>
         <source>Take a break until %1 o&apos;clock.</source>
         <translation>Toma un descanso hasta %1 en punto.</translation>
     </message>
     <message numerus="yes">
-        <location filename="../qml/harbour-minidoro.qml" line="167"/>
+        <location filename="../qml/harbour-minidoro.qml" line="178"/>
         <source>%n minute(s) of work</source>
         <translation>
             <numerusform>%n minuto de trabajo</numerusform>
@@ -646,17 +669,17 @@
         </translation>
     </message>
     <message>
-        <location filename="../qml/harbour-minidoro.qml" line="169"/>
+        <location filename="../qml/harbour-minidoro.qml" line="180"/>
         <source>Work until %1 o&apos;clock.</source>
         <translation>Trabajar hasta %1 en punto.</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-minidoro.qml" line="229"/>
+        <location filename="../qml/harbour-minidoro.qml" line="243"/>
         <source>Break</source>
         <translation>Descanso</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-minidoro.qml" line="230"/>
+        <location filename="../qml/harbour-minidoro.qml" line="244"/>
         <source>Long Break</source>
         <translation>Descanso largo</translation>
     </message>

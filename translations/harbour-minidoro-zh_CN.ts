@@ -484,57 +484,80 @@
         <translation>当前区间结束时播放闹钟声音。</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="167"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="168"/>
+        <source>Repeat until next interval</source>
+        <comment>as in “repeat the alarm until the next interval starts” but as short as possible; there is a description explaining the button</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="171"/>
+        <source>Repeat the alarm sound until the next interval is started. Disable this to only play the alarm once.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="183"/>
+        <source>Stop</source>
+        <comment>as in “stop the alarm”</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="184"/>
+        <source>Preview</source>
+        <comment>as in “preview the alarm sound”</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="199"/>
         <source>Enable vibrations</source>
         <translation>启用振动</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="168"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="200"/>
         <source>Vibrate the device when an interval starts or the current interval is finished.</source>
         <translation>区间开始或结束时发出振动。</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="177"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="209"/>
         <source>Vibrations intensity</source>
         <translation>振动强度</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="186"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="218"/>
         <source>It is advised to choose a low setting in quiet areas. The medium setting is intended for busy environments and concentrated work.</source>
         <translation>建议在安静的场合选择较低强度。中等强度用于嘈杂环境与专注工作。</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="216"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="248"/>
         <source>Note: on SailfishOS 4.3 to 4.5, vibrations only work if the “Touchscreen vibration” setting in the system settings is enabled. This is fixed in SailfishOS 4.6.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="235"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="267"/>
         <source>General</source>
         <translation>通用</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="239"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="271"/>
         <source>Keep the display on</source>
         <translation>屏幕常亮</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="240"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="272"/>
         <source>Make sure the display does not turn off while you are working.</source>
         <translation>确保在工作时屏幕不会关闭。</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="247"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="279"/>
         <source>Use color icons</source>
         <translation>使用彩色图标</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="248"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="280"/>
         <source>Disable this option if you prefer icons that fit more into the system ambience.</source>
         <translation>如果你更希望图标与系统主题相配，可禁用此设置。</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="202"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="234"/>
         <source>Quiet</source>
         <translation>静默</translation>
     </message>
@@ -549,22 +572,22 @@
         </translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="203"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="235"/>
         <source>Modest</source>
         <translation>轻微</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="204"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="236"/>
         <source>Medium</source>
         <translation>中等</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="205"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="237"/>
         <source>Strong</source>
         <translation>强</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="228"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="260"/>
         <source>Note: the haptic feedback module could not be initialized. This should not happen and most probably is a bug. Please report this problem to the author.</source>
         <translation>注意：无法初始化触觉反馈模块。这不应该发生，很有可能是个 bug。请将此问题报告给作者。</translation>
     </message>
@@ -605,52 +628,52 @@
 <context>
     <name>harbour-minidoro</name>
     <message>
-        <location filename="../qml/harbour-minidoro.qml" line="248"/>
+        <location filename="../qml/harbour-minidoro.qml" line="262"/>
         <source>Minidoro</source>
         <translation>Minidoro</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-minidoro.qml" line="228"/>
+        <location filename="../qml/harbour-minidoro.qml" line="242"/>
         <source>Work</source>
         <translation>工作</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-minidoro.qml" line="118"/>
+        <location filename="../qml/harbour-minidoro.qml" line="129"/>
         <source>h:mm</source>
         <comment>time format, as in “10:15” without “o&apos;clock”</comment>
         <translation>h:mm</translation>
     </message>
     <message numerus="yes">
-        <location filename="../qml/harbour-minidoro.qml" line="162"/>
+        <location filename="../qml/harbour-minidoro.qml" line="173"/>
         <source>%n minute(s) break</source>
         <translation>
             <numerusform>%n 分钟休息</numerusform>
         </translation>
     </message>
     <message>
-        <location filename="../qml/harbour-minidoro.qml" line="164"/>
+        <location filename="../qml/harbour-minidoro.qml" line="175"/>
         <source>Take a break until %1 o&apos;clock.</source>
         <translation>休息到 %1 点钟。</translation>
     </message>
     <message numerus="yes">
-        <location filename="../qml/harbour-minidoro.qml" line="167"/>
+        <location filename="../qml/harbour-minidoro.qml" line="178"/>
         <source>%n minute(s) of work</source>
         <translation>
             <numerusform>%n 分钟工作</numerusform>
         </translation>
     </message>
     <message>
-        <location filename="../qml/harbour-minidoro.qml" line="169"/>
+        <location filename="../qml/harbour-minidoro.qml" line="180"/>
         <source>Work until %1 o&apos;clock.</source>
         <translation>工作到 %1 点钟。</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-minidoro.qml" line="229"/>
+        <location filename="../qml/harbour-minidoro.qml" line="243"/>
         <source>Break</source>
         <translation>休息</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-minidoro.qml" line="230"/>
+        <location filename="../qml/harbour-minidoro.qml" line="244"/>
         <source>Long Break</source>
         <translation>长休息</translation>
     </message>
