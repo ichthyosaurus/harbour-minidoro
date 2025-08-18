@@ -157,8 +157,40 @@ Page {
                 description: qsTr("Play an alarm sound when the current " +
                                   "interval is finished.") +
                              " " + qsTr("Note: make sure the device is not set to “mute”.")
+                automaticCheck: false
                 checked: appWindow.config.enableAudioFeedback
-                onCheckedChanged: appWindow.config.enableAudioFeedback = checked
+                onClicked: appWindow.config.enableAudioFeedback =
+                           !appWindow.config.enableAudioFeedback
+            }
+
+            TextSwitch {
+                enabled: appWindow.config.enableAudioFeedback
+                text: qsTr("Repeat until next interval",
+                           "as in “repeat the alarm until the next interval starts” " +
+                           "but as short as possible; there is a description explaining the button")
+                description: qsTr("Repeat the alarm sound until the next " +
+                                  "interval is started. Disable this to only " +
+                                  "play the alarm once.")
+                automaticCheck: false
+                checked: appWindow.config.loopAlarm
+                onClicked: appWindow.config.loopAlarm =
+                           !appWindow.config.loopAlarm
+            }
+
+            Button {
+                enabled: appWindow.config.enableAudioFeedback
+                text: appWindow.alarmPlaying ?
+                          qsTr("Stop", "as in “stop the alarm”") :
+                          qsTr("Preview", "as in “preview the alarm sound”")
+                anchors.horizontalCenter: parent.horizontalCenter
+                preferredWidth: Theme.buttonWidthLarge
+                onClicked: {
+                    if (appWindow.alarmPlaying) {
+                        appWindow.stopAlarm()
+                    } else {
+                        appWindow.alarmDemo()
+                    }
+                }
             }
 
             TextSwitch {
