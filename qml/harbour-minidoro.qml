@@ -191,7 +191,7 @@ ApplicationWindow {
         property int longBreakDuration: 15*60
         property int longBreakAfter: 3
         property bool enableAudioFeedback: true
-        property bool loopAlarm: false
+        property bool loopAlarm: true
         property bool enableHapticFeedback: true
         property bool enableNotifications: true
         property real hapticIntensity: 0.8
