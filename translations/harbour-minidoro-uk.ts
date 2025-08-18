@@ -490,12 +490,34 @@
         <translation>Пролунає звуковий сигнал, коли поточний інтервал завершиться.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="167"></location>
+        <location filename="../qml/pages/SettingsPage.qml" line="168"/>
+        <source>Repeat until next interval</source>
+        <comment>as in “repeat the alarm until the next interval starts” but as short as possible; there is a description explaining the button</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="171"/>
+        <source>Repeat the alarm sound until the next interval is started. Disable this to only play the alarm once.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="183"/>
+        <source>Stop</source>
+        <comment>as in “stop the alarm”</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="184"/>
+        <source>Preview</source>
+        <comment>as in “preview the alarm sound”</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="199"/>
         <source>Enable vibrations</source>
         <translation>Ввімкнути вібрацію</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="168"></location>
         <source>Vibrate the device when an interval starts or the current interval is finished.</source>
         <translation>Пристрій вібрує, коли починається інтервал або завершується поточний інтервал.</translation>
     </message>
@@ -505,42 +527,37 @@
         <translation>Інтенсивність вібрацій</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="186"></location>
         <source>It is advised to choose a low setting in quiet areas. The medium setting is intended for busy environments and concentrated work.</source>
         <translation>У тихих приміщеннях рекомендується вибирати низький рівень гучності. Середній рівень призначено для зайнятих середовищ та зосередженої роботи.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="216"></location>
+        <location filename="../qml/pages/SettingsPage.qml" line="248"/>
         <source>Note: on SailfishOS 4.3 to 4.5, vibrations only work if the “Touchscreen vibration” setting in the system settings is enabled. This is fixed in SailfishOS 4.6.</source>
         <translation>Примітка: у SailfishOS версій від 4.3 до 4.5 вібрація працює, лише якщо в системних налаштуваннях увімкнено параметр «Вібрація сенсорного екрана». Це виправлено в SailfishOS 4.6.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="235"></location>
+        <location filename="../qml/pages/SettingsPage.qml" line="267"/>
         <source>General</source>
         <translation>Загальні</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="239"></location>
         <source>Keep the display on</source>
         <translation>Тримайте дисплей ввімкненим</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="240"></location>
         <source>Make sure the display does not turn off while you are working.</source>
         <translation>Переконайтеся, що дисплей не вимикається під час роботи.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="247"></location>
         <source>Use color icons</source>
         <translation>Використовувати кольорові іконки</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="248"></location>
         <source>Disable this option if you prefer icons that fit more into the system ambience.</source>
         <translation>Вимкніть цей параметр, якщо ви віддаєте перевагу іконкам, які більше пасують до оточення системи.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="202"></location>
+        <location filename="../qml/pages/SettingsPage.qml" line="234"/>
         <source>Quiet</source>
         <translation>Тихо</translation>
     </message>
@@ -557,22 +574,22 @@
         </translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="203"></location>
+        <location filename="../qml/pages/SettingsPage.qml" line="235"/>
         <source>Modest</source>
         <translation>Спокійний</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="204"></location>
+        <location filename="../qml/pages/SettingsPage.qml" line="236"/>
         <source>Medium</source>
         <translation>Середній</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="205"></location>
+        <location filename="../qml/pages/SettingsPage.qml" line="237"/>
         <source>Strong</source>
         <translation>Сильний</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="228"></location>
+        <location filename="../qml/pages/SettingsPage.qml" line="260"/>
         <source>Note: the haptic feedback module could not be initialized. This should not happen and most probably is a bug. Please report this problem to the author.</source>
         <translation>Примітка: модуль тактильного зворотного зв&apos;язку не вдалося ініціалізувати. Такого не повинно відбуватися і, швидше за все, це баг. Будь ласка, повідомте про цю проблему автору.</translation>
     </message>
@@ -613,23 +630,23 @@
 <context>
     <name>harbour-minidoro</name>
     <message>
-        <location filename="../qml/harbour-minidoro.qml" line="248"></location>
+        <location filename="../qml/harbour-minidoro.qml" line="262"/>
         <source>Minidoro</source>
         <translation>Minidoro</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-minidoro.qml" line="228"></location>
+        <location filename="../qml/harbour-minidoro.qml" line="242"/>
         <source>Work</source>
         <translation>Робота</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-minidoro.qml" line="118"></location>
+        <location filename="../qml/harbour-minidoro.qml" line="129"/>
         <source>h:mm</source>
         <comment>time format, as in “10:15” without “o&apos;clock”</comment>
         <translation>h:mm</translation>
     </message>
     <message numerus="yes">
-        <location filename="../qml/harbour-minidoro.qml" line="162"></location>
+        <location filename="../qml/harbour-minidoro.qml" line="173"/>
         <source>%n minute(s) break</source>
         <translation>
             <numerusform>%n хвилинна перерва</numerusform>
@@ -638,12 +655,12 @@
         </translation>
     </message>
     <message>
-        <location filename="../qml/harbour-minidoro.qml" line="164"></location>
+        <location filename="../qml/harbour-minidoro.qml" line="175"/>
         <source>Take a break until %1 o&apos;clock.</source>
         <translation>Перерва до %1 години.</translation>
     </message>
     <message numerus="yes">
-        <location filename="../qml/harbour-minidoro.qml" line="167"></location>
+        <location filename="../qml/harbour-minidoro.qml" line="178"/>
         <source>%n minute(s) of work</source>
         <translation>
             <numerusform>%n хвилина роботи</numerusform>
@@ -652,17 +669,17 @@
         </translation>
     </message>
     <message>
-        <location filename="../qml/harbour-minidoro.qml" line="169"></location>
+        <location filename="../qml/harbour-minidoro.qml" line="180"/>
         <source>Work until %1 o&apos;clock.</source>
         <translation>Працювати до %1 години.</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-minidoro.qml" line="229"></location>
+        <location filename="../qml/harbour-minidoro.qml" line="243"/>
         <source>Break</source>
         <translation>Перерва</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-minidoro.qml" line="230"></location>
+        <location filename="../qml/harbour-minidoro.qml" line="244"/>
         <source>Long Break</source>
         <translation>Довга перерва</translation>
     </message>
