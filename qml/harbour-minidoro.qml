@@ -59,7 +59,17 @@ ApplicationWindow {
         }
     }
 
+    function alarmDemo() {
+        alarm.play()
+    }
+
+    function stopAlarm() {
+        alarm.stop()
+    }
+
     function start(notify) {
+        stopAlarm()
+
         if (!!notify) {
             notifyStart()
         }
@@ -70,6 +80,7 @@ ApplicationWindow {
 
     function reset() {
         _supervisor.stop()
+        stopAlarm()
         finishedIntervals = 0
         circlesCounted = 0
         starsCounted = 0
@@ -180,6 +191,7 @@ ApplicationWindow {
         property int longBreakDuration: 15*60
         property int longBreakAfter: 3
         property bool enableAudioFeedback: true
+        property bool loopAlarm: false
         property bool enableHapticFeedback: true
         property bool enableNotifications: true
         property real hapticIntensity: 0.8
@@ -206,6 +218,8 @@ ApplicationWindow {
     property color breakTintColor: "#6000ff00"
 
     property bool isRunning: _supervisor.running
+    property bool alarmPlaying: alarm.playbackState == Audio.PlayingState
+
     property bool haveWallClock: wallClock != null
     property bool haveFeedbackEffect: _feedbackEffect != null
     property bool haveRumbleEffect: _rumbleEffect != null
@@ -309,6 +323,7 @@ ApplicationWindow {
     Audio {
         id: alarm
         source: Qt.resolvedUrl("audio/finish-short.ogg")
+        loops: config.loopAlarm ? Audio.Infinite : 1
     }
 
     Audio {
