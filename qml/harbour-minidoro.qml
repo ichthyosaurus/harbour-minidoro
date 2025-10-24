@@ -9,7 +9,7 @@ import Sailfish.Silica 1.0
 import Nemo.Configuration 1.0
 import Nemo.Notifications 1.0
 import Nemo.KeepAlive 1.2
-import QtMultimedia 5.0
+import QtMultimedia 5.6
 import "pages"
 
 import Opal.About 1.0 as A
@@ -320,15 +320,15 @@ ApplicationWindow {
         enabled: true
     }
 
-    Audio {
+    SoundEffect {
         id: alarm
-        source: Qt.resolvedUrl("audio/finish-short.ogg")
-        loops: config.loopAlarm ? Audio.Infinite : 1
+        source: Qt.resolvedUrl("audio/finish.wav")
+        loops: config.loopAlarm ? SoundEffect.Infinite : 1
     }
 
-    Audio {
+    SoundEffect {
         id: startPing
-        source: Qt.resolvedUrl("audio/start.ogg")
+        source: Qt.resolvedUrl("audio/start.wav")
     }
 
     A.ChangelogNews {
