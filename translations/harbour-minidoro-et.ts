@@ -4,107 +4,107 @@
 <context>
     <name>AboutPage</name>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="45"></location>
+        <location filename="../qml/pages/AboutPage.qml" line="45"/>
         <source>Minidoro is a minimalist Pomodoro® Technique timer helping to get things done.</source>
         <translation>Minidoro lihtne Pomodoro® tehnikat kasutav taimer, mis aitab sul vajalikuid tegevused ära teha.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="87"></location>
+        <location filename="../qml/pages/AboutPage.qml" line="87"/>
         <source>How it works</source>
         <translation>Kuidas see töötab</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="88"></location>
+        <location filename="../qml/pages/AboutPage.qml" line="88"/>
         <source>The Pomodoro® Technique is an extremely simple but efficient time management technique developed by Francesco Cirillo. The basic idea is it&apos;s simpler to concentrate on work for a relatively short period, keeping in mind you can take a rest or switch to another activity afterwards.&lt;br&gt;&lt;li&gt;· Split your work for 25 minute intervals, separated by short break periods.&lt;/li&gt;&lt;li&gt;· In these 25 minute intervals try to focus on your work as much as possible, try to not distract yourself and to avoid other distractions.&lt;/li&gt;&lt;li&gt;· After a 25 minute interval take a 5 minute break. During this break do any other activities except for the previous work.&lt;/li&gt;&lt;li&gt;· Return to the work after the break.&lt;/li&gt;&lt;li&gt;· Take a long break of about 10–30 minutes after every 4 work intervals.&lt;/li&gt;&lt;br&gt;</source>
         <translation>Pomodoro® tehnika on äärmiselt lihtne, kuid tõhus ajajuhtimise tehnika, mille on välja töötanud Francesco Cirillo. Põhiidee on see, et on lihtsam keskenduda tööle suhteliselt lühikest aega, pidades silmas, et mõne aja pärast saad puhata või midagi muud ette võtta.&lt;br&gt;&lt;li&gt;· Jaota oma töö 25 minutilisteks lõikudeks, mida eraldavad lühikesed vaheajad.&lt;/li&gt;&lt;li&gt;· Nende 25 minuti jooksul püüa keskenduda oma tööle nii palju kui võimalik, väldi oma tähelepanu kõrvalejuhtimist nii enda, kui teiste poolt.&lt;/li&gt;&lt;li&gt;· Pärast 25-minutilist töölõiku tee 5-minutiline paus. Vaheaja kestel tee mida iganes muid, välja arvatud eelmine töö.&lt;/li&gt;&lt;li&gt;· Naase pärast vaheaega töö juurde.&lt;/li&gt;&lt;li&gt;· Võta umbes 10...30 minutit kestve pikem vaheaeg pärast iga 4 töölõiku.&lt;/li&gt;&lt;br&gt;</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="108"></location>
+        <location filename="../qml/pages/AboutPage.qml" line="108"/>
         <source>Website</source>
         <translation>Veebisait</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="128"></location>
+        <location filename="../qml/pages/AboutPage.qml" line="128"/>
         <source>Acknowledgments</source>
         <translation>Tänuavaldused</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="129"></location>
+        <location filename="../qml/pages/AboutPage.qml" line="129"/>
         <source>This app is modelled after Minidoro for Android by Yury Pavlov.</source>
         <translation>Rakenduse eeskujuks on Juri Pavlovi poolt Androidi jaoks tehtud Minidoro.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="136"></location>
+        <location filename="../qml/pages/AboutPage.qml" line="136"/>
         <source>Development</source>
         <translation>Arendus</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="139"></location>
+        <location filename="../qml/pages/AboutPage.qml" line="139"/>
         <source>Programming</source>
         <translation>Koodi kirjutamine</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="143"></location>
+        <location filename="../qml/pages/AboutPage.qml" line="143"/>
         <source>Icon Design</source>
         <translation>Ikooni kujundus</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="151"></location>
+        <location filename="../qml/pages/AboutPage.qml" line="151"/>
         <source>Translations</source>
         <translation>Tõlked</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="154"></location>
+        <location filename="../qml/pages/AboutPage.qml" line="154"/>
         <source>Ukrainian</source>
         <translation>ukraina keel</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="161"></location>
+        <location filename="../qml/pages/AboutPage.qml" line="161"/>
         <source>Turkish</source>
         <translation>türgi keel</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="175"></location>
+        <location filename="../qml/pages/AboutPage.qml" line="175"/>
         <source>Russian</source>
         <translation>vene keel</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="181"></location>
+        <location filename="../qml/pages/AboutPage.qml" line="181"/>
         <source>Indonesian</source>
         <translation>indoneesia keel</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="193"></location>
+        <location filename="../qml/pages/AboutPage.qml" line="193"/>
         <source>Estonian</source>
         <translation>eesti keel</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="199"></location>
+        <location filename="../qml/pages/AboutPage.qml" line="199"/>
         <source>English</source>
         <translation>inglise keel</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="205"></location>
+        <location filename="../qml/pages/AboutPage.qml" line="205"/>
         <source>Chinese</source>
         <translation>hiina keel</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="187"></location>
+        <location filename="../qml/pages/AboutPage.qml" line="187"/>
         <source>German</source>
         <translation>saksa keel</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="167"></location>
+        <location filename="../qml/pages/AboutPage.qml" line="167"/>
         <source>Swedish</source>
         <translation>rootsi keel</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="116"></location>
+        <location filename="../qml/pages/AboutPage.qml" line="116"/>
         <source>Counters</source>
         <translation>Loendurid</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="117"></location>
+        <location filename="../qml/pages/AboutPage.qml" line="117"/>
         <source>There are two counters at the bottom of the main page. For example, you can use the left counter (star) to count external interruptions, i.e. someone interrupting you. Then use the right counter (circle) to count internal interruptions, i.e. how often you interrupt yourself. You can also use one counter to keep track of ideas you have while working that are not relevant for your current task. In the break, you can then take a note for each idea you counted.</source>
         <translation>Põhivaate allosas on kaks loendurit. Näiteks võid kasutada vasakut loendurit (tärni) väliste katkestuste loendamiseks, st keegi segab sind. Siis kasuta paremat loendurit (ring), et loendada enda katkestusi, st kui sageli sa katkestad oma tegevust ise. Võid kasutada ka ühte loendurit, et loendada ideid, mis sul töötamise ajal tekkisid ja mis ei ole sinu praeguse ülesande jaoks olulised. Vaheajal, võid kõik loendatud ideed üles märkida.</translation>
     </message>
@@ -112,7 +112,7 @@
 <context>
     <name>AskForSupport</name>
     <message>
-        <location filename="../qml/modules/Opal/SupportMe/AskForSupport.qml" line="13"></location>
+        <location filename="../qml/modules/Opal/SupportMe/AskForSupport.qml" line="13"/>
         <source>Please take a moment to consider if you can contribute to this project in one way or another.</source>
         <translation>Palun kaalu hetkeks, kas sul on viisil või teisel võimalik seda arendusprojekti toetada.</translation>
     </message>
@@ -120,12 +120,12 @@
 <context>
     <name>DetailsDrawer</name>
     <message>
-        <location filename="../qml/modules/Opal/SupportMe/DetailsDrawer.qml" line="54"></location>
+        <location filename="../qml/modules/Opal/SupportMe/DetailsDrawer.qml" line="54"/>
         <source>show less</source>
         <translation>näita vähem</translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/SupportMe/DetailsDrawer.qml" line="54"></location>
+        <location filename="../qml/modules/Opal/SupportMe/DetailsDrawer.qml" line="54"/>
         <source>show more</source>
         <translation>näita rohkem</translation>
     </message>
@@ -133,7 +133,7 @@
 <context>
     <name>LicenseListPart</name>
     <message>
-        <location filename="../qml/modules/Opal/About/private/LicenseListPart.qml" line="119"></location>
+        <location filename="../qml/modules/Opal/About/private/LicenseListPart.qml" line="119"/>
         <source>License text</source>
         <translation>Litsentsi tekst</translation>
     </message>
@@ -141,28 +141,28 @@
 <context>
     <name>MainPage</name>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="20"></location>
+        <location filename="../qml/pages/MainPage.qml" line="20"/>
         <source>About</source>
         <translation>Rakenduse teave</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="24"></location>
+        <location filename="../qml/pages/MainPage.qml" line="24"/>
         <source>Settings</source>
         <translation>Seadistused</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="29"></location>
+        <location filename="../qml/pages/MainPage.qml" line="29"/>
         <source>Reset</source>
         <translation>Lähtesta</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="32"></location>
+        <location filename="../qml/pages/MainPage.qml" line="32"/>
         <source>Reset all progress</source>
         <translation>Lähtesta kõik tegevused</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="38"></location>
-        <location filename="../qml/pages/MainPage.qml" line="49"></location>
+        <location filename="../qml/pages/MainPage.qml" line="38"/>
+        <location filename="../qml/pages/MainPage.qml" line="49"/>
         <source>Start</source>
         <translation>Alusta</translation>
     </message>
@@ -170,62 +170,62 @@
 <context>
     <name>MySupportDialog</name>
     <message>
-        <location filename="../qml/MySupportDialog.qml" line="14"></location>
+        <location filename="../qml/MySupportDialog.qml" line="14"/>
         <source>Donate on Liberapay</source>
         <translation>Toeta meid Liberapay vahendusel</translation>
     </message>
     <message>
-        <location filename="../qml/MySupportDialog.qml" line="15"></location>
+        <location filename="../qml/MySupportDialog.qml" line="15"/>
         <source>Pay the amount of a cup of coffee, a slice of pizza, or a ticket to the theater.</source>
         <translation>Toetuseks sobib ka kohvitassi, pitsaviilu või teatripileti suurusjärgus summa.</translation>
     </message>
     <message>
-        <location filename="../qml/MySupportDialog.qml" line="22"></location>
+        <location filename="../qml/MySupportDialog.qml" line="22"/>
         <source>Translate on Weblate</source>
         <translation>Tõlgi Weblate&apos;i abil</translation>
     </message>
     <message>
-        <location filename="../qml/MySupportDialog.qml" line="23"></location>
+        <location filename="../qml/MySupportDialog.qml" line="23"/>
         <source>Help with translating this app in as many languages as possible.</source>
         <translation>Aita seda rakendust tõlkida nii paljudesse keeltesse, kui võimalik.</translation>
     </message>
     <message>
-        <location filename="../qml/MySupportDialog.qml" line="30"></location>
+        <location filename="../qml/MySupportDialog.qml" line="30"/>
         <source>Develop on Github</source>
         <translation>Osale arenduses GitHubi abil</translation>
     </message>
     <message>
-        <location filename="../qml/MySupportDialog.qml" line="31"></location>
+        <location filename="../qml/MySupportDialog.qml" line="31"/>
         <source>Support with maintenance and packaging, write code, or provide valuable bug reports.</source>
         <translation>Osale rakenduse haldamisel ja pakendamisel, uue lähtekoodi kirjutamisel või oluliste veateadete koostamisel.</translation>
     </message>
     <message>
-        <location filename="../qml/MySupportDialog.qml" line="37"></location>
+        <location filename="../qml/MySupportDialog.qml" line="37"/>
         <source>Why should you care?</source>
         <translation>Miks see peaks oluline olema?</translation>
     </message>
     <message>
-        <location filename="../qml/MySupportDialog.qml" line="40"></location>
+        <location filename="../qml/MySupportDialog.qml" line="40"/>
         <source>This project is built with love and passion by a single developer in their spare time, and is provided to you free of charge.</source>
         <translation>Seda tarkvara on hoole ja armastusega arendanud üks arendaja oma vabast ajast ning tulemus on sulle saadaval tasuta.</translation>
     </message>
     <message>
-        <location filename="../qml/MySupportDialog.qml" line="46"></location>
+        <location filename="../qml/MySupportDialog.qml" line="46"/>
         <source>I develop Free Software because I am convinced that it is the ethical thing to do - and it is a fun hobby. However, developing software takes a lot of time and effort. As Sailfish and living in general costs money, I need your support to be able to spend time on non-paying projects like this.</source>
         <translation>Ma arendan avatud lähtekoodiga tarkvara, sest selline tegevus on eetiline, aga samas ka suurepärane hobi. Kuid samas kulub selliseks arendustööks palju aega ja märgatavaid jõupingutusi. Kuna Sailfishi kasutamine ja igapäevaelu on seotud kuludega, siis ma vajan sinu abi, et oleks võimalik selliste mitteäriliste projektidega tegeleda.</translation>
     </message>
     <message>
-        <location filename="../qml/MySupportDialog.qml" line="56"></location>
+        <location filename="../qml/MySupportDialog.qml" line="56"/>
         <source>Why donate?</source>
         <translation>Miks peaksid rahaliselt toetama?</translation>
     </message>
     <message>
-        <location filename="../qml/MySupportDialog.qml" line="59"></location>
+        <location filename="../qml/MySupportDialog.qml" line="59"/>
         <source>Jolla raised prices and is trying to force developers (who work for free) to pay rent for Sailfish.</source>
         <translation>Jolla on tõstnud hindu ja proovib sundida (tasuta töötavaid) arendajaid maksma Sailfishi kasutamise eest tasu.</translation>
     </message>
     <message>
-        <location filename="../qml/MySupportDialog.qml" line="64"></location>
+        <location filename="../qml/MySupportDialog.qml" line="64"/>
         <source>If you can afford it, donating is the easiest way to ensure that I can continue working on apps for Sailfish. Any amount is appreciated, be it a cup of coffee, a slice of pizza, or more.</source>
         <translation>Kui see on sul võimalik, siis sinu rahaline toetus võimaldab mul jätkata rakenduste loomist ja arendamist Sailfishile. Igasugune summa on teretulnud, kas kohvitassi või pitsaviilu jagu, aga ka enamgi.</translation>
     </message>
@@ -233,61 +233,61 @@
 <context>
     <name>Opal.About</name>
     <message>
-        <location filename="../qml/modules/Opal/About/InfoSection.qml" line="16"></location>
+        <location filename="../qml/modules/Opal/About/InfoSection.qml" line="16"/>
         <source>show details</source>
         <translation>näita üksikasju</translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/About/private/ContributorsPage.qml" line="23"></location>
+        <location filename="../qml/modules/Opal/About/private/ContributorsPage.qml" line="23"/>
         <source>Contributors</source>
         <translation>Kaasautorid</translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="102"></location>
-        <location filename="../qml/modules/Opal/About/private/ContributorsPage.qml" line="24"></location>
-        <location filename="../qml/modules/Opal/About/private/ContributorsPage.qml" line="33"></location>
+        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="102"/>
+        <location filename="../qml/modules/Opal/About/private/ContributorsPage.qml" line="24"/>
+        <location filename="../qml/modules/Opal/About/private/ContributorsPage.qml" line="33"/>
         <source>Development</source>
         <translation>Arendus</translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/About/private/ContributorsPage.qml" line="39"></location>
+        <location filename="../qml/modules/Opal/About/private/ContributorsPage.qml" line="39"/>
         <source>Acknowledgements</source>
         <translation>Tänuavaldused</translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/About/private/ContributorsAttributionRepeater.qml" line="11"></location>
+        <location filename="../qml/modules/Opal/About/private/ContributorsAttributionRepeater.qml" line="11"/>
         <source>Thank you!</source>
         <translation>Täname!</translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/About/private/ContributorsAttributionRepeater.qml" line="15"></location>
-        <location filename="../qml/modules/Opal/About/private/LicensePage.qml" line="34"></location>
+        <location filename="../qml/modules/Opal/About/private/ContributorsAttributionRepeater.qml" line="15"/>
+        <location filename="../qml/modules/Opal/About/private/LicensePage.qml" line="34"/>
         <source>Details</source>
         <translation>Lisateave</translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="116"></location>
-        <location filename="../qml/modules/Opal/About/private/ContributorsAttributionRepeater.qml" line="17"></location>
-        <location filename="../qml/modules/Opal/About/private/ContributorsAttributionRepeater.qml" line="25"></location>
-        <location filename="../qml/modules/Opal/About/private/LicenseListPart.qml" line="50"></location>
+        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="116"/>
+        <location filename="../qml/modules/Opal/About/private/ContributorsAttributionRepeater.qml" line="17"/>
+        <location filename="../qml/modules/Opal/About/private/ContributorsAttributionRepeater.qml" line="25"/>
+        <location filename="../qml/modules/Opal/About/private/LicenseListPart.qml" line="50"/>
         <source>Source Code</source>
         <translation>Lähtekood</translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="107"></location>
-        <location filename="../qml/modules/Opal/About/private/ContributorsAttributionRepeater.qml" line="18"></location>
-        <location filename="../qml/modules/Opal/About/private/ContributorsAttributionRepeater.qml" line="24"></location>
-        <location filename="../qml/modules/Opal/About/private/LicenseListPart.qml" line="47"></location>
+        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="107"/>
+        <location filename="../qml/modules/Opal/About/private/ContributorsAttributionRepeater.qml" line="18"/>
+        <location filename="../qml/modules/Opal/About/private/ContributorsAttributionRepeater.qml" line="24"/>
+        <location filename="../qml/modules/Opal/About/private/LicenseListPart.qml" line="47"/>
         <source>Homepage</source>
         <translation>Avaleht</translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/About/private/LicensePage.qml" line="28"></location>
+        <location filename="../qml/modules/Opal/About/private/LicensePage.qml" line="28"/>
         <source>Download license texts</source>
         <translation>Laadi alla litsentside tekstid</translation>
     </message>
     <message numerus="yes">
-        <location filename="../qml/modules/Opal/About/private/LicensePage.qml" line="34"></location>
+        <location filename="../qml/modules/Opal/About/private/LicensePage.qml" line="34"/>
         <source>License(s)</source>
         <translation>
             <numerusform>Litsents</numerusform>
@@ -295,42 +295,42 @@
         </translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/About/private/LicensePage.qml" line="44"></location>
+        <location filename="../qml/modules/Opal/About/private/LicensePage.qml" line="44"/>
         <source>Note: please check the source code for most accurate information.</source>
         <translation>Märkus: kõige täpsema teabe saamiseks palun vaata lähtekoodi.</translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="57"></location>
+        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="57"/>
         <source>About</source>
         <translation>Rakenduse teave</translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="86"></location>
+        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="86"/>
         <source>Version %1</source>
         <translation>Versioon %1</translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="105"></location>
+        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="105"/>
         <source>show contributors</source>
         <translation>näita kaasautoreid</translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="113"></location>
+        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="113"/>
         <source>Translations</source>
         <translation>Tõlked</translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="125"></location>
+        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="125"/>
         <source>Donations</source>
         <translation>Rahalised toetused</translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="131"></location>
+        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="131"/>
         <source>License</source>
         <translation>Litsents</translation>
     </message>
     <message numerus="yes">
-        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="136"></location>
+        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="136"/>
         <source>show license(s)</source>
         <translation>
             <numerusform>näita litsentsi</numerusform>
@@ -338,23 +338,23 @@
         </translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="110"></location>
-        <location filename="../qml/modules/Opal/About/private/ChangelogPage.qml" line="16"></location>
+        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="110"/>
+        <location filename="../qml/modules/Opal/About/private/ChangelogPage.qml" line="16"/>
         <source>Changelog</source>
         <translation>Muudatuste logi</translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/About/ChangelogNews.qml" line="61"></location>
+        <location filename="../qml/modules/Opal/About/ChangelogNews.qml" line="61"/>
         <source>News</source>
         <translation>Uudised</translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/About/ChangelogNews.qml" line="62"></location>
+        <location filename="../qml/modules/Opal/About/ChangelogNews.qml" line="62"/>
         <source>Changes since version %1</source>
         <translation>Muudatused alates versioonist %1</translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/About/private/LicenseListPart.qml" line="120"></location>
+        <location filename="../qml/modules/Opal/About/private/LicenseListPart.qml" line="120"/>
         <source>Please refer to &lt;a href=&quot;%1&quot;&gt;%1&lt;/a&gt;</source>
         <translation>Palun vaata siia: &lt;a href=&quot;%1&quot;&gt;%1&lt;/a&gt;</translation>
     </message>
@@ -362,17 +362,17 @@
 <context>
     <name>Opal.About.Common</name>
     <message>
-        <location filename="../qml/modules/Opal/About/private/DonationsGroup.qml" line="7"></location>
+        <location filename="../qml/modules/Opal/About/private/DonationsGroup.qml" line="7"/>
         <source>If you want to support my work, you can buy me a cup of coffee.</source>
         <translation>Kui sa soovid mu tööd toetada, võid mulle tassi kohvi osta.</translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/About/private/DonationsGroup.qml" line="8"></location>
+        <location filename="../qml/modules/Opal/About/private/DonationsGroup.qml" line="8"/>
         <source>You can support this project by contributing, or by donating using any of these services.</source>
         <translation>Sa võid seda arendusprojekti toetada kas kaastööd tehes või toetada rahaliselt järgmiste teenuste abil.</translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/About/private/DonationsGroup.qml" line="9"></location>
+        <location filename="../qml/modules/Opal/About/private/DonationsGroup.qml" line="9"/>
         <source>Your contributions to translations or code would be most welcome.</source>
         <translation>Sinu panus tõlgete või rakenduse koodi näol oleks väga teretulnud.</translation>
     </message>
@@ -380,42 +380,42 @@
 <context>
     <name>Opal.LinkHandler</name>
     <message>
-        <location filename="../qml/modules/Opal/LinkHandler/private/ExternalUrlPage.qml" line="24"></location>
+        <location filename="../qml/modules/Opal/LinkHandler/private/ExternalUrlPage.qml" line="24"/>
         <source>External Link</source>
         <translation>Väline link</translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/LinkHandler/private/ExternalUrlPage.qml" line="44"></location>
+        <location filename="../qml/modules/Opal/LinkHandler/private/ExternalUrlPage.qml" line="44"/>
         <source>Copy text to clipboard</source>
         <translation>Kopeeri tekst lõikelauale</translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/LinkHandler/private/ExternalUrlPage.qml" line="55"></location>
+        <location filename="../qml/modules/Opal/LinkHandler/private/ExternalUrlPage.qml" line="55"/>
         <source>Share</source>
         <translation>Jaga</translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/LinkHandler/private/ExternalUrlPage.qml" line="60"></location>
+        <location filename="../qml/modules/Opal/LinkHandler/private/ExternalUrlPage.qml" line="60"/>
         <source>Open in browser</source>
         <translation>Ava veebibrauseris</translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/LinkHandler/private/ExternalUrlPage.qml" line="60"></location>
+        <location filename="../qml/modules/Opal/LinkHandler/private/ExternalUrlPage.qml" line="60"/>
         <source>Open externally</source>
         <translation>Ava välise rakendusega</translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/LinkHandler/private/ExternalUrlPage.qml" line="17"></location>
+        <location filename="../qml/modules/Opal/LinkHandler/private/ExternalUrlPage.qml" line="17"/>
         <source>Copied to clipboard: %1</source>
         <translation>Kopeerisin lõikelauale: %1</translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/LinkHandler/private/ExternalUrlPage.qml" line="15"></location>
+        <location filename="../qml/modules/Opal/LinkHandler/private/ExternalUrlPage.qml" line="15"/>
         <source>Share link</source>
         <translation>Jaga linki</translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/LinkHandler/private/ExternalUrlPage.qml" line="50"></location>
+        <location filename="../qml/modules/Opal/LinkHandler/private/ExternalUrlPage.qml" line="50"/>
         <source>Copy to clipboard</source>
         <translation>Kopeeri lõikelauale</translation>
     </message>
@@ -423,38 +423,38 @@
 <context>
     <name>SettingsPage</name>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="27"></location>
+        <location filename="../qml/pages/SettingsPage.qml" line="27"/>
         <source>Settings</source>
         <translation>Seadistused</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="31"></location>
+        <location filename="../qml/pages/SettingsPage.qml" line="31"/>
         <source>Intervals</source>
         <translation>Ajavahemikud</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="40"></location>
+        <location filename="../qml/pages/SettingsPage.qml" line="40"/>
         <source>Wait for the current interval to finish to change interval durations.</source>
         <comment>This is a reminder that some settings are disabled while timers are running.</comment>
         <translation>Ajavahemike kestuste muutmiseks palun oota, et käsilolev ajavahemik lõppeks.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="75"></location>
+        <location filename="../qml/pages/SettingsPage.qml" line="75"/>
         <source>Work duration</source>
         <translation>Töö kestus</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="94"></location>
+        <location filename="../qml/pages/SettingsPage.qml" line="94"/>
         <source>Break duration</source>
         <translation>Puhkehetke kestus</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="113"></location>
+        <location filename="../qml/pages/SettingsPage.qml" line="113"/>
         <source>Long break duration</source>
         <translation>Pikema puhkuse kestus</translation>
     </message>
     <message numerus="yes">
-        <location filename="../qml/pages/SettingsPage.qml" line="132"></location>
+        <location filename="../qml/pages/SettingsPage.qml" line="132"/>
         <source>Long break after %n interval(s)</source>
         <translation>
             <numerusform>Pikem puhkus peale %n töölõiku</numerusform>
@@ -462,32 +462,32 @@
         </translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="143"></location>
+        <location filename="../qml/pages/SettingsPage.qml" line="143"/>
         <source>Notifications</source>
         <translation>Teavitused</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="147"></location>
+        <location filename="../qml/pages/SettingsPage.qml" line="147"/>
         <source>Enable notifications</source>
         <translation>Võta teavitused kasutusele</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="148"></location>
+        <location filename="../qml/pages/SettingsPage.qml" line="148"/>
         <source>Show notifications when the current interval is finished and you may start the next interval.</source>
         <translation>Näita teavitust, kui praegune ajavahemik on läbi saanud ja võid uuega alustada.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="156"></location>
+        <location filename="../qml/pages/SettingsPage.qml" line="156"/>
         <source>Enable sounds</source>
         <translation>Kasuta helilist märguannet</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="157"></location>
+        <location filename="../qml/pages/SettingsPage.qml" line="157"/>
         <source>Play an alarm sound when the current interval is finished.</source>
         <translation>Anna heliga märku, kui praegune ajavahemik on läbi saanud.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="167"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="168"/>
         <source>Repeat until next interval</source>
         <comment>as in “repeat the alarm until the next interval starts” but as short as possible; there is a description explaining the button</comment>
         <translation type="unfinished"></translation>
@@ -565,9 +565,9 @@
         <translation>Vaikne</translation>
     </message>
     <message numerus="yes">
-        <location filename="../qml/pages/SettingsPage.qml" line="73"></location>
-        <location filename="../qml/pages/SettingsPage.qml" line="92"></location>
-        <location filename="../qml/pages/SettingsPage.qml" line="111"></location>
+        <location filename="../qml/pages/SettingsPage.qml" line="73"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="92"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="111"/>
         <source>%n min</source>
         <comment>as in “x minutes”</comment>
         <translation>
@@ -596,7 +596,7 @@
         <translation>Märkus: haptilise tagasiside moodulit ei õnnestu käivitada. Seda ei tohiks juhtuda ning ilmselt on tegemist veaga. Palun teata sellest veast arendajatele.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="159"></location>
+        <location filename="../qml/pages/SettingsPage.qml" line="159"/>
         <source>Note: make sure the device is not set to “mute”.</source>
         <translation>Märkus: palun kontrolli, et seda pole seatud „vaiksesse“ olekusse.</translation>
     </message>
@@ -604,27 +604,27 @@
 <context>
     <name>SupportDialog</name>
     <message>
-        <location filename="../qml/modules/Opal/SupportMe/SupportDialog.qml" line="9"></location>
+        <location filename="../qml/modules/Opal/SupportMe/SupportDialog.qml" line="9"/>
         <source>Hi there!</source>
         <translation>Hei!</translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/SupportMe/SupportDialog.qml" line="10"></location>
+        <location filename="../qml/modules/Opal/SupportMe/SupportDialog.qml" line="10"/>
         <source>Thank you for using my little app! Maybe you can contribute back?</source>
         <translation>Tänud, et kasutad minu pisikest rakendust! Kas sa sooviksid aidata?</translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/SupportMe/SupportDialog.qml" line="11"></location>
+        <location filename="../qml/modules/Opal/SupportMe/SupportDialog.qml" line="11"/>
         <source>Thank you for your support!</source>
         <translation>Tänan sind toetuse eest!</translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/SupportMe/SupportDialog.qml" line="57"></location>
+        <location filename="../qml/modules/Opal/SupportMe/SupportDialog.qml" line="57"/>
         <source>Remind me later</source>
         <translation>Tuleta mulle hiljem meelde</translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/SupportMe/SupportDialog.qml" line="59"></location>
+        <location filename="../qml/modules/Opal/SupportMe/SupportDialog.qml" line="59"/>
         <source>Don&apos;t ask me again</source>
         <translation>Ära enam küsi minult uuesti</translation>
     </message>
