@@ -438,7 +438,7 @@
         <location filename="../qml/pages/SettingsPage.qml" line="40"/>
         <source>Wait for the current interval to finish to change interval durations.</source>
         <comment>This is a reminder that some settings are disabled while timers are running.</comment>
-        <translation type="unfinished"></translation>
+        <translation>Зачекайте завершення поточного інтервалу, щоб змінити його тривалість.</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="75"/>
@@ -535,7 +535,7 @@
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="248"/>
         <source>Note: on SailfishOS 4.3 to 4.5, vibrations only work if the “Touchscreen vibration” setting in the system settings is enabled. This is fixed in SailfishOS 4.6.</source>
-        <translation type="unfinished"></translation>
+        <translation>Примітка: у SailfishOS версій від 4.3 до 4.5 вібрація працює, лише якщо в системних налаштуваннях увімкнено параметр «Вібрація сенсорного екрана». Це виправлено в SailfishOS 4.6.</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="267"/>

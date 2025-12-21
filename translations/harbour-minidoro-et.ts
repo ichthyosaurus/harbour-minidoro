@@ -436,7 +436,7 @@
         <location filename="../qml/pages/SettingsPage.qml" line="40"/>
         <source>Wait for the current interval to finish to change interval durations.</source>
         <comment>This is a reminder that some settings are disabled while timers are running.</comment>
-        <translation type="unfinished"></translation>
+        <translation>Ajavahemike kestuste muutmiseks palun oota, et käsilolev ajavahemik lõppeks.</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="75"/>
@@ -532,7 +532,7 @@
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="248"/>
         <source>Note: on SailfishOS 4.3 to 4.5, vibrations only work if the “Touchscreen vibration” setting in the system settings is enabled. This is fixed in SailfishOS 4.6.</source>
-        <translation type="unfinished"></translation>
+        <translation>Märkus: SailfishOS-i versioonides 4.3 kuni 4.5, värinaalarm toimib vaid siis, kui „Puuteekraani teavitus“ on süsteemi seadistustes sisse lülitatud. See on parandatud alates SailfishOS-i versioonist 4.6.</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="267"/>
