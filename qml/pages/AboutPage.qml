@@ -188,6 +188,12 @@ A.AboutPageBase {
                     ]
                 },
                 A.ContributionGroup {
+                    title: qsTr("Finnish")
+                    entries: [
+                        "Elmeri Länsiharju"
+                    ]
+                },
+                A.ContributionGroup {
                     title: qsTr("Estonian")
                     entries: [
                         "Priit Jõerüüt"
