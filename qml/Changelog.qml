@@ -9,6 +9,15 @@ import "modules/Opal/About"
 
 ChangelogList {
     ChangelogItem {
+        version: "1.3.0-1"
+        date: "2026-01-11"
+        paragraphs: [
+            "- Added translations: Chinese (Taiwan)<br>" +
+            "- Updated translations: Estonian, Finnish, Swedish, Ukrainian<br>" +
+            "- Added the option to play \"nagging\" alarms until the next interval is started"
+        ]
+    }
+    ChangelogItem {
         version: "1.2.0-1"
         date: "2025-08-17"
         paragraphs: [
@@ -33,7 +42,7 @@ ChangelogList {
         version: "1.1.0-1"
         date: "2024-10-18"
         paragraphs: [
-            "- Updated translations: Chinese (Simplified), Estonian, German, Russian, Swedish, Ukrainian<br>" +
+            "- Updated translations: Chinese (China), Estonian, German, Russian, Swedish, Ukrainian<br>" +
             "- Added a shiny support page asking for donations and contributions, and an in-app changelog<br>" +
             "- Added a new sailfishy tomato icon with an option to choose either a monochrome or colorful version<br>" +
             "- Added notifications telling you when you should take a break<br>" +

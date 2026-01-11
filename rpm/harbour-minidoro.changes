@@ -6,6 +6,11 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
+* Sun Jan 11 2026 Mirian Margiani <mixosaurus+ichthyo@pm.me> 1.3.0-1
+- Added translations: Chinese (Taiwan)
+- Updated translations: Estonian, Finnish, Swedish, Ukrainian
+- Added the option to play "nagging" alarms until the next interval is started
+
 * Sun Aug 17 2025 Mirian Margiani <mixosaurus+ichthyo@pm.me> 1.2.0-1
 - Added translations: Portuguese (Brazil)
 - Updated translations: Indonesian, Spanish, Turkish, Ukrainian
@@ -24,7 +29,7 @@
 - Updated Opal modules and many translations
 
 * Fri Oct 18 2024 Mirian Margiani <mixosaurus+ichthyo@pm.me> 1.1.0-1
-- Updated translations: Chinese (Simplified), Estonian, German, Russian, Swedish, Ukrainian
+- Updated translations: Chinese (China), Estonian, German, Russian, Swedish, Ukrainian
 - Added a shiny support page asking for donations and contributions, and an in-app changelog
 - Added a new sailfishy tomato icon with an option to choose either a monochrome or colorful version
 - Added notifications telling you when you should take a break
