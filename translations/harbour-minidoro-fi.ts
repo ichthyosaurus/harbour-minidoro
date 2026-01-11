@@ -6,32 +6,32 @@
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="45"/>
         <source>Minidoro is a minimalist Pomodoro® Technique timer helping to get things done.</source>
-        <translation type="unfinished"></translation>
+        <translation>Minidoro on minimalistinen Pomodoro®-tekniikka-ajastin, joka auttaa saamaan hommat hoidettua.</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="87"/>
         <source>How it works</source>
-        <translation type="unfinished"></translation>
+        <translation>Kuinka se toimii</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="88"/>
         <source>The Pomodoro® Technique is an extremely simple but efficient time management technique developed by Francesco Cirillo. The basic idea is it&apos;s simpler to concentrate on work for a relatively short period, keeping in mind you can take a rest or switch to another activity afterwards.&lt;br&gt;&lt;li&gt;· Split your work for 25 minute intervals, separated by short break periods.&lt;/li&gt;&lt;li&gt;· In these 25 minute intervals try to focus on your work as much as possible, try to not distract yourself and to avoid other distractions.&lt;/li&gt;&lt;li&gt;· After a 25 minute interval take a 5 minute break. During this break do any other activities except for the previous work.&lt;/li&gt;&lt;li&gt;· Return to the work after the break.&lt;/li&gt;&lt;li&gt;· Take a long break of about 10–30 minutes after every 4 work intervals.&lt;/li&gt;&lt;br&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Pomodoro®-tekniikka on Francesco Cirillon kehittämä äärimmäisen yksinkertainen, mutta tehokas ajanhallintamenetelmä. Perusajatus on se, että työhön on helpompi keskittyä suhteellisen lyhyen aikaa, kun tietää, että sen jälkeen voi levätä tai tehdä jotakin muuta.&lt;br&gt;&lt;li&gt;· Jaa työnteko 25 minuutin jaksoihin, joiden välissä pidät pienen tauon.&lt;/li&gt;&lt;li&gt;· Näiden 25 minuutin jaksojen aikana yrität keskittyä työhösi parhaasi mukaan, välttäen muita häiriötekijöitä.&lt;/li&gt;&lt;li&gt;· 25 minuutin jälkeen pidät 5 minuutin tauon. Tauon aikana saat tehdä mitä tahansa muuta, paitsi äsken tekemääsi työtä.&lt;/li&gt;&lt;li&gt;· Palaa työhön tauon jälkeen.&lt;/li&gt;&lt;li&gt; Pidä pidempi, noin 10-30 minuutin tauko aina neljän jakson jälkeen.&lt;/li&gt;&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="108"/>
         <source>Website</source>
-        <translation type="unfinished"></translation>
+        <translation>Verkkosivusto</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="128"/>
         <source>Acknowledgments</source>
-        <translation type="unfinished"></translation>
+        <translation>Tunnustukset</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="129"/>
         <source>This app is modelled after Minidoro for Android by Yury Pavlov.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sovellus on mallinnettu Yury Pavlovin kehittämän sovelluksen Minidoro for Androidin mukaan.</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="136"/>
@@ -101,12 +101,12 @@
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="116"/>
         <source>Counters</source>
-        <translation type="unfinished"></translation>
+        <translation>Ajastimet</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="117"/>
         <source>There are two counters at the bottom of the main page. For example, you can use the left counter (star) to count external interruptions, i.e. someone interrupting you. Then use the right counter (circle) to count internal interruptions, i.e. how often you interrupt yourself. You can also use one counter to keep track of ideas you have while working that are not relevant for your current task. In the break, you can then take a note for each idea you counted.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pääsivun alareunassa on kaksi laskuria. Voit käyttää vasemmanpuoleista laskuria (tähti) esimerkiksi ulkoisten häiriöiden laskentaan, kuten silloin, kun joku keskeyttää työntekosi. Oikeanpuoleisella laskurilla (ympyrä) voit laskea, montako kertaa keskittymisesi keskeytyy työnteon aikana. Voit käyttää laskuria myös pysyäksesi kartalla työskentelyn aikana syntyvistä uusista ideoista, jotka eivät liity nykyiseen tehtävääsi. Tauon aikana voit kirjoittaa ideasi ylös.</translation>
     </message>
 </context>
 <context>
@@ -148,23 +148,23 @@
     <message>
         <location filename="../qml/pages/MainPage.qml" line="24"/>
         <source>Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Asetukset</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="29"/>
         <source>Reset</source>
-        <translation type="unfinished"></translation>
+        <translation>Nollaus</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="32"/>
         <source>Reset all progress</source>
-        <translation type="unfinished"></translation>
+        <translation>Nollaa kaikki tiedot</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="38"/>
         <location filename="../qml/pages/MainPage.qml" line="49"/>
         <source>Start</source>
-        <translation type="unfinished"></translation>
+        <translation>Aloita</translation>
     </message>
 </context>
 <context>
@@ -417,7 +417,7 @@
     <message>
         <location filename="../qml/modules/Opal/LinkHandler/private/ExternalUrlPage.qml" line="50"/>
         <source>Copy to clipboard</source>
-        <translation>Kopioi leiikepöydälle</translation>
+        <translation>Kopioi leikepöydälle</translation>
     </message>
 </context>
 <context>
@@ -425,144 +425,144 @@
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="27"/>
         <source>Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Asetukset</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="31"/>
         <source>Intervals</source>
-        <translation type="unfinished"></translation>
+        <translation>Jaksot</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="40"/>
         <source>Wait for the current interval to finish to change interval durations.</source>
         <comment>This is a reminder that some settings are disabled while timers are running.</comment>
-        <translation type="unfinished"></translation>
+        <translation>Odota, että nykyinen jakso päättyy, ennen kuin muutat jakson kestoa.</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="75"/>
         <source>Work duration</source>
-        <translation type="unfinished"></translation>
+        <translation>Työnteon kesto</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="94"/>
         <source>Break duration</source>
-        <translation type="unfinished"></translation>
+        <translation>Tauon kesto</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="113"/>
         <source>Long break duration</source>
-        <translation type="unfinished"></translation>
+        <translation>Pitkän tauon kesto</translation>
     </message>
     <message numerus="yes">
         <location filename="../qml/pages/SettingsPage.qml" line="132"/>
         <source>Long break after %n interval(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>Pitkä tauko %n jakson jälkeen</numerusform>
+            <numerusform>Pitkä tauko %n jakson jälkeen</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="143"/>
         <source>Notifications</source>
-        <translation type="unfinished"></translation>
+        <translation>Ilmoitukset</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="147"/>
         <source>Enable notifications</source>
-        <translation type="unfinished"></translation>
+        <translation>Ota ilmoitukset käyttöön</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="148"/>
         <source>Show notifications when the current interval is finished and you may start the next interval.</source>
-        <translation type="unfinished"></translation>
+        <translation>Näytä ilmoitus, kun jakso päättyy ja voit aloittaa seuraavan jakson.</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="156"/>
         <source>Enable sounds</source>
-        <translation type="unfinished"></translation>
+        <translation>Ota äänet käyttöön</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="157"/>
         <source>Play an alarm sound when the current interval is finished.</source>
-        <translation type="unfinished"></translation>
+        <translation>Toista hälytys, kun jakso päättyy.</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="168"/>
         <source>Repeat until next interval</source>
         <comment>as in “repeat the alarm until the next interval starts” but as short as possible; there is a description explaining the button</comment>
-        <translation type="unfinished"></translation>
+        <translation>Toista seuraavaan jaksoon asti</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="171"/>
         <source>Repeat the alarm sound until the next interval is started. Disable this to only play the alarm once.</source>
-        <translation type="unfinished"></translation>
+        <translation>Toista hälytys seuraavan jakson alkuun asti. Hälytys toistetaan vain kerran, jos otat tämän pois käytöstä.</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="183"/>
         <source>Stop</source>
         <comment>as in “stop the alarm”</comment>
-        <translation type="unfinished"></translation>
+        <translation>Pysäytä</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="184"/>
         <source>Preview</source>
         <comment>as in “preview the alarm sound”</comment>
-        <translation type="unfinished"></translation>
+        <translation>Esikuuntele</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="199"/>
         <source>Enable vibrations</source>
-        <translation type="unfinished"></translation>
+        <translation>Ota värinä käyttöön</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="200"/>
         <source>Vibrate the device when an interval starts or the current interval is finished.</source>
-        <translation type="unfinished"></translation>
+        <translation>Laite värisee, kun jakso alkaa tai päättyy.</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="209"/>
         <source>Vibrations intensity</source>
-        <translation type="unfinished"></translation>
+        <translation>Värinän voimakkuus</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="218"/>
         <source>It is advised to choose a low setting in quiet areas. The medium setting is intended for busy environments and concentrated work.</source>
-        <translation type="unfinished"></translation>
+        <translation>On suositeltavaa valita alhainen asetus hiljaisilla paikoilla. Keskivertoasetus sopii hälyisiin ympäristöihin ja keskittyneeseen työntekoon.</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="248"/>
         <source>Note: on SailfishOS 4.3 to 4.5, vibrations only work if the “Touchscreen vibration” setting in the system settings is enabled. This is fixed in SailfishOS 4.6.</source>
-        <translation type="unfinished"></translation>
+        <translation>Huomaa: SailfishOS-versioissa 4.3-4.5 värinä toimii ainoastaan, jos &quot;Kosketusnäytön palaute&quot; on otettu käyttöön järjestelmäasetuksissa. Tämä on korjattu SailfishOS-versiossa 4.6.</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="267"/>
         <source>General</source>
-        <translation type="unfinished"></translation>
+        <translation>Yleiset</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="271"/>
         <source>Keep the display on</source>
-        <translation type="unfinished"></translation>
+        <translation>Pidä näyttö päällä</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="272"/>
         <source>Make sure the display does not turn off while you are working.</source>
-        <translation type="unfinished"></translation>
+        <translation>Varmistaa, ettei näytö sammu kesken työskentelyn.</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="279"/>
         <source>Use color icons</source>
-        <translation type="unfinished"></translation>
+        <translation>Käytä värillisiä kuvakkeita</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="280"/>
         <source>Disable this option if you prefer icons that fit more into the system ambience.</source>
-        <translation type="unfinished"></translation>
+        <translation>Poista tämä valinta, jos haluat mieluummin käyttää tunnelmaan sopivampia kuvakkeita.</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="234"/>
         <source>Quiet</source>
-        <translation type="unfinished"></translation>
+        <translation>Hiljainen</translation>
     </message>
     <message numerus="yes">
         <location filename="../qml/pages/SettingsPage.qml" line="73"/>
@@ -570,35 +570,35 @@
         <location filename="../qml/pages/SettingsPage.qml" line="111"/>
         <source>%n min</source>
         <comment>as in “x minutes”</comment>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n min</numerusform>
+            <numerusform>%n min</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="235"/>
         <source>Modest</source>
-        <translation type="unfinished"></translation>
+        <translation>Maltillinen</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="236"/>
         <source>Medium</source>
-        <translation type="unfinished"></translation>
+        <translation>Keskiverto</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="237"/>
         <source>Strong</source>
-        <translation type="unfinished"></translation>
+        <translation>Voimakas</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="260"/>
         <source>Note: the haptic feedback module could not be initialized. This should not happen and most probably is a bug. Please report this problem to the author.</source>
-        <translation type="unfinished"></translation>
+        <translation>Huomaa: kosketusnäytön palaute -moduulia ei voi alustaa. Näin ei tulisi käydä ja tämä on luultavimmin ohjelmistovirhe. Ilmoitathan tästä ohjelmiston kehittäjälle.</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="159"/>
         <source>Note: make sure the device is not set to “mute”.</source>
-        <translation type="unfinished"></translation>
+        <translation>Huomaa: varmista, ettei laitetta ole kytketty äänettömälle.</translation>
     </message>
 </context>
 <context>
@@ -634,12 +634,12 @@
     <message>
         <location filename="../qml/harbour-minidoro.qml" line="262"/>
         <source>Minidoro</source>
-        <translation type="unfinished"></translation>
+        <translation>Minidoro</translation>
     </message>
     <message>
         <location filename="../qml/harbour-minidoro.qml" line="242"/>
         <source>Work</source>
-        <translation type="unfinished"></translation>
+        <translation>Työ</translation>
     </message>
     <message>
         <location filename="../qml/harbour-minidoro.qml" line="129"/>
@@ -650,38 +650,38 @@
     <message numerus="yes">
         <location filename="../qml/harbour-minidoro.qml" line="173"/>
         <source>%n minute(s) break</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n minuutin tauko</numerusform>
+            <numerusform>%n minuutin tauko</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../qml/harbour-minidoro.qml" line="175"/>
         <source>Take a break until %1 o&apos;clock.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pidä taukoa kello %1 asti.</translation>
     </message>
     <message numerus="yes">
         <location filename="../qml/harbour-minidoro.qml" line="178"/>
         <source>%n minute(s) of work</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n minuutti työskentelyä</numerusform>
+            <numerusform>%n minuuttia työskentelyä</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../qml/harbour-minidoro.qml" line="180"/>
         <source>Work until %1 o&apos;clock.</source>
-        <translation type="unfinished"></translation>
+        <translation>Työskentele kello %1 asti.</translation>
     </message>
     <message>
         <location filename="../qml/harbour-minidoro.qml" line="243"/>
         <source>Break</source>
-        <translation type="unfinished"></translation>
+        <translation>Tauko</translation>
     </message>
     <message>
         <location filename="../qml/harbour-minidoro.qml" line="244"/>
         <source>Long Break</source>
-        <translation type="unfinished"></translation>
+        <translation>Pitkä tauko</translation>
     </message>
 </context>
 </TS>
