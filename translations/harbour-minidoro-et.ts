@@ -490,24 +490,24 @@
         <location filename="../qml/pages/SettingsPage.qml" line="168"/>
         <source>Repeat until next interval</source>
         <comment>as in “repeat the alarm until the next interval starts” but as short as possible; there is a description explaining the button</comment>
-        <translation type="unfinished"></translation>
+        <translation>Korda kuni järgmise välbani</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="171"/>
         <source>Repeat the alarm sound until the next interval is started. Disable this to only play the alarm once.</source>
-        <translation type="unfinished"></translation>
+        <translation>Korda äratust kuni järgmine välp algab. Kui tahad äratust kuulda vaid üks kord, siis lülita see eelistus välja.</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="183"/>
         <source>Stop</source>
         <comment>as in “stop the alarm”</comment>
-        <translation type="unfinished"></translation>
+        <translation>Lõpeta</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="184"/>
         <source>Preview</source>
         <comment>as in “preview the alarm sound”</comment>
-        <translation type="unfinished"></translation>
+        <translation>Eelvaade</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="199"/>
