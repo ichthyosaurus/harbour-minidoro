@@ -131,10 +131,11 @@ Page {
             spacing: Theme.paddingLarge
 
             Label {
-                property int grace: 10000
+                property int grace: 5000
                 property int millis: overdraftMilliseconds
                 onMillisChanged: {
                     if (millis >= grace) text = formatTime(-millis)
+                    else text = " "
                 }
 
                 opacity: millis >= grace ? 1.0 : 0.0
