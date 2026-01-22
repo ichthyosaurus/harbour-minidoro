@@ -210,7 +210,9 @@ Page {
                     id: postponeButtons
 
                     enabled: opacity > 0.0
-                    opacity: overdraftMilliseconds > 0 && postponedMilliseconds <= 0 ? 1.0 : 0.0
+                    opacity: config.enablePostpone &&
+                             overdraftMilliseconds > 0 &&
+                             postponedMilliseconds <= 0 ? 1.0 : 0.0
                     Behavior on opacity { FadeAnimator {} }
 
                     preferredWidth: Theme.buttonWidthTiny

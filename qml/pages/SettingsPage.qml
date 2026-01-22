@@ -139,6 +139,14 @@ Page {
                 }
             }
 
+            TextSwitch {
+                text: qsTr("Allow extending intervals")
+                description: qsTr("Allow delaying the alarm for the current " +
+                                  "interval by a few minutes.")
+                checked: appWindow.config.enablePostpone
+                onCheckedChanged: appWindow.config.enablePostpone = checked
+            }
+
             SectionHeader {
                 text: qsTr("Notifications")
             }
@@ -163,7 +171,7 @@ Page {
                            !appWindow.config.enableAudioFeedback
             }
 
-            TextSwitch {
+            TextSwitch {  // toggle nagging
                 enabled: appWindow.config.enableAudioFeedback
                 text: qsTr("Repeat until next interval",
                            "as in “repeat the alarm until the next interval starts” " +

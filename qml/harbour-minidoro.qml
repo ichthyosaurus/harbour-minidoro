@@ -205,6 +205,7 @@ ApplicationWindow {
         property int breakDuration: 5*60
         property int longBreakDuration: 15*60
         property int longBreakAfter: 3
+        property bool enablePostpone: true
         property bool enableAudioFeedback: true
         property bool loopAlarm: true
         property bool enableHapticFeedback: true
