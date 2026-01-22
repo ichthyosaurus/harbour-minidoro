@@ -156,7 +156,7 @@ ApplicationWindow {
             finishedIntervals += 1
             _finishedSinceLastLongBreak += 1
 
-            if (_finishedSinceLastLongBreak === 3) {
+            if (_finishedSinceLastLongBreak >= config.longBreakAfter) {
                 timeStatus = timeStatusType.longPause
             } else {
                 timeStatus = timeStatusType.pause
