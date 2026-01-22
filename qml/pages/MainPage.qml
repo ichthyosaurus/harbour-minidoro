@@ -125,12 +125,15 @@ Page {
         }
 
         Column {
+            id: timerColumn
             y: page.height / 2 - timerLabel.height - 2*spacing
             x: Theme.horizontalPageMargin
             width: parent.width - 2*x
             spacing: Theme.paddingLarge
 
             Label {
+                id: overdraftLabel
+
                 property int grace: 5000
                 property int millis: overdraftMilliseconds
                 onMillisChanged: {
@@ -195,6 +198,66 @@ Page {
 
                 text: appWindow.timeStatusText
             }
+
+            Item {
+                id: postponeRow
+
+                anchors.horizontalCenter: parent.horizontalCenter
+                width: parent.width + 2*parent.x
+                height: childrenRect.height
+
+                ButtonLayout {
+                    id: postponeButtons
+
+                    enabled: opacity > 0.0
+                    opacity: overdraftMilliseconds > 0 && postponedMilliseconds <= 0 ? 1.0 : 0.0
+                    Behavior on opacity { FadeAnimator {} }
+
+                    preferredWidth: Theme.buttonWidthTiny
+                    columnSpacing: Theme.paddingSmall
+
+                    Button {
+                        text: qsTr("%n min", "", 3)
+                        preferredWidth: Theme.buttonWidthTiny
+                        onClicked: postpone(3*60*1000)
+                    }
+
+                    Button {
+                        text: qsTr("%n min", "", 5)
+                        preferredWidth: Theme.buttonWidthTiny
+                        onClicked: postpone(5*60*1000)
+                    }
+
+                    Button {
+                        text: qsTr("%n min", "", 10)
+                        preferredWidth: Theme.buttonWidthTiny
+                        onClicked: postpone(10*60*1000)
+                    }
+                }
+
+                Label {
+                    property int millis: postponedMilliseconds
+                    onMillisChanged: {
+                        if (millis > 0) text = formatTime(millis)
+                        else text = " "
+                    }
+
+                    opacity: millis > 0 ? 1.0 : 0.0
+                    Behavior on opacity { FadeAnimator {} }
+
+                    text: " "
+                    color: Theme.primaryColor
+                    width: parent.width
+                    horizontalAlignment: Text.AlignHCenter
+                    wrapMode: Text.Wrap
+
+                    font {
+                        pixelSize: Theme.fontSizeHuge
+                        family: Theme.fontFamilyHeading
+                        bold: false
+                    }
+                }
+            }
         }
 
         MouseArea {
@@ -202,16 +265,22 @@ Page {
             // to start the timer but there is some distance to other interactive elements.
             id: timerLabelMouse
             enabled: !appWindow.isRunning
-            anchors {
-                top: column.top
-                topMargin: header.height * 2
-                bottom: counterRow.top
-                bottomMargin: counterRow.height
-                left: parent.left
-                right: parent.right
-            }
 
+            width: parent.width
+            y: timerColumn.y - header.height * 2
+            height: timerColumn.height - postponeRow.height + header.height * 2
             onClicked: appWindow.start(true)
+        }
+
+        MouseArea {
+            id: timerLabelMouseBottom
+            enabled: timerLabelMouse.enabled
+
+            width: parent.width
+            y: timerLabelMouse.y + timerLabelMouse.height +
+               (postponeButtons.opacity > 0 ? postponeRow.height : 0)
+            height: page.height - 2*counterRow.height - y
+            onClicked: timerLabelMouse.clicked(null)
         }
 
         Item {

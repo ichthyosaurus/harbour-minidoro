@@ -28,6 +28,18 @@ ApplicationWindow {
         }
     }
 
+    function notifyEnd() {
+        if (config.enableAudioFeedback && !alarmPlaying) {
+            alarm.play()
+        }
+
+        if (config.enableHapticFeedback && _rumbleEffect) {
+            _multiTimer.laps = _rumbleCount
+            _multiTimer.callback = function() { _rumbleEffect.start() }
+            _multiTimer.start()
+        }
+    }
+
     function showMessage(msg, details, timeout) {
         if (!!details) {
             notification.expireTimeout = (!!timeout ? timeout : 0)
@@ -76,16 +88,27 @@ ApplicationWindow {
 
         _supervisor.restart()
         overdraftMilliseconds = 0
+        postponedMilliseconds = 0
+    }
+
+    function postpone(milliseconds) {
+        stopAlarm()
+        notifyStart()
+        postponedMilliseconds = Math.abs(milliseconds)
+        _postponeTimer.start()
     }
 
     function reset() {
         _supervisor.stop()
+        _postponeTimer.stop()
         stopAlarm()
         finishedIntervals = 0
         circlesCounted = 0
         starsCounted = 0
         _finishedSinceLastLongBreak = 0
         timeStatus = timeStatusType.work
+        overdraftMilliseconds = 0
+        postponedMilliseconds = 0
     }
 
     function formatTime(millis) {
@@ -137,15 +160,7 @@ ApplicationWindow {
     }
 
     function _updateStatus() {
-        if (config.enableAudioFeedback) {
-            alarm.play()
-        }
-
-        if (config.enableHapticFeedback && _rumbleEffect) {
-            _multiTimer.laps = _rumbleCount
-            _multiTimer.callback = function() { _rumbleEffect.start() }
-            _multiTimer.start()
-        }
+        notifyEnd()
 
         if (timeStatus === timeStatusType.longPause) {
             _finishedSinceLastLongBreak = 0
@@ -204,6 +219,7 @@ ApplicationWindow {
     property int starsCounted: 0
     property int circlesCounted: 0
     property int overdraftMilliseconds: 0
+    property int postponedMilliseconds: 0
 
     property Timer timer: Timer {
         property int elapsed: 0
@@ -279,7 +295,33 @@ ApplicationWindow {
         interval: 1000
         running: !isRunning && finishedIntervals > 0
         repeat: true
-        onTriggered: overdraftMilliseconds += interval
+        onTriggered: {
+            overdraftMilliseconds += interval
+
+            if (overdraftMilliseconds % 60000 == 0
+                    && !_postponeTimer.running
+                    && config.loopAlarm
+                    && config.enableHapticFeedback
+                    && _rumbleEffect) {
+                _rumbleEffect.start()
+            }
+        }
+    }
+
+    Timer {
+        id: _postponeTimer
+        interval: 1000
+        running: !isRunning && postponedMilliseconds > 0
+        repeat: true
+        onTriggered: {
+            postponedMilliseconds -= interval
+
+            if (postponedMilliseconds <= 0) {
+                notifyEnd()
+                postponedMilliseconds = 0
+                stop()
+            }
+        }
     }
 
     Timer {
