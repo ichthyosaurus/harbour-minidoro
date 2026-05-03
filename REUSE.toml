@@ -1,0 +1,58 @@
+version = 1
+SPDX-PackageName = "harbour-minidoro"
+SPDX-PackageSupplier = "Mirian Margiani <mixosaurus+ichthyo@pm.me>"
+SPDX-PackageDownloadLocation = "https://codeberg.org/ichthyosaurus/harbour-minidoro"
+
+[[annotations]]
+path = "translations/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2013-2023 this project's translations contributors"
+SPDX-License-Identifier = "GPL-3.0-or-later"
+
+[[annotations]]
+path = "rpm/harbour-**.spec"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "Mirian Margiani"
+SPDX-License-Identifier = "GPL-3.0-or-later"
+SPDX-FileComment = "This file is generated from [this file's name].yaml and shares copyright with it."
+
+[[annotations]]
+path = ["icons/**", "qml/images/**", "dist/harbour-**.png"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "Mirian Margiani"
+SPDX-License-Identifier = "CC-BY-SA-4.0"
+SPDX-FileComment = "These files are generated from the sources at icon-src/*."
+
+[[annotations]]
+path = "icon-src/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "Mirian Margiani"
+SPDX-License-Identifier = "CC-BY-SA-4.0"
+SPDX-FileComment = "These files contain proper Dublin Core licensing metadata."
+
+[[annotations]]
+path = "icon-src/icon-tomato-**.svg"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "Google, adapted by Mirian Margiani"
+SPDX-License-Identifier = "OFL-1.1"
+SPDX-FileComment = "These files contain proper Dublin Core licensing metadata."
+
+[[annotations]]
+path = "TRANSLATORS.json"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "translations contributors"
+SPDX-License-Identifier = "GPL-3.0-or-later"
+
+[[annotations]]
+path = "qml/audio/start.wav"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2007 altemark"
+SPDX-License-Identifier = "CC-BY-4.0"
+SPDX-FileComment = "Found at https://freesound.org/s/35916."
+
+[[annotations]]
+path = ["audio-src/finish.aup3", "qml/audio/finish.wav"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2025 Free Sound Library, adapted by Mirian Margiani"
+SPDX-License-Identifier = "CC-BY-NC-SA-4.0"
+SPDX-FileComment = "WAV files are generated from the AUP3 project. Original source: https://www.freesoundslibrary.com/message-tone-sound"
