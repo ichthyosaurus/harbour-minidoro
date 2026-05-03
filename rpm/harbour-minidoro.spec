@@ -14,7 +14,7 @@ Version:    1.3.0
 Release:    1
 Group:      Qt/Qt
 License:    GPL-3.0-or-later
-URL:        https://github.com/ichthyosaurus/harbour-minidoro
+URL:        https://codeberg.org/ichthyosaurus/harbour-minidoro
 Source0:    %{name}-%{version}.tar.bz2
 Source100:  harbour-minidoro.yaml
 Requires:   sailfishsilica-qt5 >= 0.10.9
